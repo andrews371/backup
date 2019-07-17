@@ -8271,3 +8271,385 @@ console.error: BroadcastService:
 1563332720376	Marionette	INFO	Listening on port 39033
 1563332720477	Marionette	WARN	TLS certificate errors will be ignored for this session
 1563332760294	Marionette	INFO	Stopped listening on port 39033
+1563395501858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Bu7PEm9Majiv"
+1563395503505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563395503505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563395503506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563395503506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563395508575	Marionette	INFO	Listening on port 46468
+1563395508596	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:2751): dconf-WARNING **: 17:32:03.806: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1563395556218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UC1boNQeX0cZ"
+1563395557413	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563395557414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563395557414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563395557414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563395561580	Marionette	INFO	Listening on port 35096
+1563395561638	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563395595785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rbJ1XnSY30aA"
+1563395596986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563395596986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563395596987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563395596987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563395600981	Marionette	INFO	Stopped listening on port 35096
+1563395601652	Marionette	INFO	Listening on port 36570
+1563395601733	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3119): dconf-WARNING **: 17:33:33.238: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 2642, Gecko_IOThread] WARNING: pipe error (136): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1563395627603	Marionette	INFO	Stopped listening on port 46468
+1563395756597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZnYTA3ebDU8U"
+1563395757717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563395757717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563395757719	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563395757719	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563395762092	Marionette	INFO	Listening on port 38310
+1563395762116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563395902970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qjzfqzh715pJ"
+1563395904279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563395904279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563395904280	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563395904280	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563395908311	Marionette	INFO	Listening on port 41722
+1563395908399	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563396052080	Marionette	INFO	Stopped listening on port 41722
+[Parent 3421, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3421, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1563396053450	Marionette	INFO	Stopped listening on port 38310
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 3047, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3047, Gecko_IOThread] WARNING: pipe error (134): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3047, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1563396054951	Marionette	INFO	Stopped listening on port 36570
+1563396813236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2TnImPzlsOTe"
+*** You are running in headless mode.
+1563396814262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563396814262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563396814262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563396814263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563396818108	Marionette	INFO	Listening on port 45633
+1563396818159	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=51640B65EBB6460B684B8108ECBFBFBC?org_id=9ghwyvdk&session_id=266f1998-df49-491d-a424-4f57bccbe544&nonce=e302c32135c27c72, line 228: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:3954): dconf-WARNING **: 17:53:50.269: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563396840629	Marionette	INFO	Stopped listening on port 45633
+1563397012622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.32mo9E184owI"
+*** You are running in headless mode.
+1563397013678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563397013679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563397013679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563397013679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563397017453	Marionette	INFO	Listening on port 44579
+1563397017538	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=B5AF704A7F44AF42568F23B9DAA731F9?org_id=9ghwyvdk&session_id=c9b0072b-179f-4cbd-847a-8124cf0bf8ad&nonce=b7e32e6bf6d20573, line 64: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:4154): dconf-WARNING **: 17:57:06.950: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563397037778	Marionette	INFO	Stopped listening on port 44579
+1563397181237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rS1PUbwyway4"
+*** You are running in headless mode.
+1563397182276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563397182276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563397182276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563397182276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563397186090	Marionette	INFO	Listening on port 45949
+1563397186157	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=EA2C33236FCAB0A255F053040F1C90D6?org_id=9ghwyvdk&session_id=ccf0be47-8558-417b-b576-22a1b938b6d2&nonce=13e3e5255c273c13, line 94: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:4349): dconf-WARNING **: 17:59:56.098: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563397206628	Marionette	INFO	Stopped listening on port 45949
+1563397231493	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WVqiiCTzBYup"
+*** You are running in headless mode.
+1563397232454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563397232455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563397232455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563397232455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563397236138	Marionette	INFO	Listening on port 32791
+1563397236210	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=2251FBE68CFFB3DA0872F1DEA564509D?org_id=9ghwyvdk&session_id=9045eb18-77f2-4559-92c1-792844789300&nonce=f9241085c34bbf3f, line 397: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:4569): dconf-WARNING **: 18:00:47.466: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563397256192	Marionette	INFO	Stopped listening on port 32791
+1563398047267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LJejvIBLR7Gg"
+*** You are running in headless mode.
+1563398048240	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563398048240	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563398048240	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563398048241	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563398052095	Marionette	INFO	Listening on port 38495
+1563398052184	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=32178366B1895378D2E4C86AE57DA086?org_id=9ghwyvdk&session_id=5dfa3940-63f0-4b4d-a760-6c99a379d132&nonce=078f514e30f39b99, line 402: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:4805): dconf-WARNING **: 18:14:21.944: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563398072291	Marionette	INFO	Stopped listening on port 38495
+1563398094476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4dAwM0tunb8P"
+*** You are running in headless mode.
+1563398095464	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563398095465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563398095465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563398095465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563398099195	Marionette	INFO	Listening on port 42888
+1563398099292	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4D5BFA3EB1E40295E923A4068F831FFA?org_id=9ghwyvdk&session_id=52b427e1-ca88-4c3c-b34e-253d2309425b&nonce=b1300f22e8387dbe, line 127: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:4997): dconf-WARNING **: 18:15:09.363: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563398119862	Marionette	INFO	Stopped listening on port 42888
+1563398136899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Xoltni7e6Lka"
+*** You are running in headless mode.
+1563398137856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563398137856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563398137856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563398137857	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563398141951	Marionette	INFO	Listening on port 36220
+1563398142014	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=AF3363207FBAFB7581B417308F92BD56?org_id=9ghwyvdk&session_id=869c1804-d495-4a01-bc0a-56c0ccc594ab&nonce=6a0fde88a8eaff32, line 30: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:5182): dconf-WARNING **: 18:15:56.765: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563398166778	Marionette	INFO	Stopped listening on port 36220
+1563398186240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zlpEJi1upa5s"
+*** You are running in headless mode.
+1563398187276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563398187277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563398187277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563398187277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563398190991	Marionette	INFO	Listening on port 39471
+1563398191058	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=3B7AC249D637BACCBCE9E9D064842F9A?org_id=9ghwyvdk&session_id=046ec735-7b2a-42df-9935-2c72875edc19&nonce=64ee1e98deb19469, line 365: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:5366): dconf-WARNING **: 18:16:45.960: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563398214731	Marionette	INFO	Stopped listening on port 39471
+1563398354588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pPJ7cdzLomdg"
+1563398355753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563398355753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563398355754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563398355754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563398359535	Marionette	INFO	Listening on port 41899
+1563398359624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 601: TypeError: this.tablesData[table] is undefined
+1563398367664	Marionette	INFO	Stopped listening on port 41899
+1563398377655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DKFqGVBkLeRS"
+1563398378887	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563398378887	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563398378887	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563398378888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563398383041	Marionette	INFO	Listening on port 46236
+1563398383079	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5741): dconf-WARNING **: 18:19:57.171: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 5670, Gecko_IOThread] WARNING: pipe error (113): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1563398431542	Marionette	INFO	Stopped listening on port 46236
+1563398701270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b0udExCboQLR"
+*** You are running in headless mode.
+1563398702319	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563398702319	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563398702319	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563398702319	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563398706257	Marionette	INFO	Listening on port 41371
+1563398706286	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=D33F40DF9E349BFD6160984B6E456117?org_id=9ghwyvdk&session_id=90dd5536-b82a-4b94-a9a1-ef73ab088104&nonce=d0e6b97daf7b0f1d, line 151: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:5953): dconf-WARNING **: 18:25:18.694: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563392779611%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563398732570	Marionette	INFO	Stopped listening on port 41371
