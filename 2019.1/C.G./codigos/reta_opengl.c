@@ -1,12 +1,20 @@
 #include <stdio.h>
 #include <time.h>
-#include <GL/glut.h>
-#include <stdbool.h>
+
 /** Abaixo é para calcular os pontos, usando a Equação da Reta. */
+void calcularEQReta(float coordenadas[]){
+     float m = (coordenadas[3] - coordenadas[1])/(coordenadas[2] - coordenadas[0]);
+     float b = coordenadas[1] - (m * coordenadas[0]);
+     float aux = coordenadas[0], auy;
+     int p = 1;
+     while(aux <= coordenadas[2]){
+        auy = (m * aux) + b;
+        printf("\n\tPonto %d : (%.2f,%.2f)\n",p,aux,auy);
 
-
-	
-
+        ++p;
+        ++aux;
+     }
+}
 
 /** ALgoritmo DDA . http://webserver2.tecgraf.puc-rio.br/~mgattass/cg/pdf/06A_RasterizacaoPPT.pdf
 void calcularDDA(float coordenadas[]){
@@ -51,7 +59,7 @@ void calcularDDA(int coordenadas[]){
 }
 */
 
-/*int fabs(int d){
+int fabs(int d){
     if(d >= 0)
         return d;
     return (d * (-1));
@@ -95,37 +103,20 @@ void Bresenham(int x1,int y1, int x2, int y2)
     else { y++; p+=const2; }
     plotaponto(x,y);
 }
-}*/
-
-void init(void){
-  	glClearColor(1.0, 1.0, 1.0, 1.0);
-  	glOrtho (0, 256, 0, 256, -1 ,1);
 }
 
-  void calcularEQReta(){
-	glClear(GL_COLOR_BUFFER_BIT);
-  	glColor3f (0.0, 0.0, 0.0);
-  	glBegin(GL_LINES);
-    	glVertex2f(40,200);  glVertex2f(200,10);
-  	glEnd();
-  	glFlush();
-}
-
-int main(int argc, char** argv){
+int main(void){
     int coordenadas[] = {1,1,5,7};
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(256,256);
-    glutInitWindowPosition(100,100);
-    glutCreateWindow("OpenGL Reta");
-    init();
-    glutDisplayFunc(calcularEQReta);
-    glutMainLoop(); 
     //calcularEQReta(coordenadas); // Resultado : Funcionou.
     //calcularDDA(coordenadas);
     //lineDDA (1,5,1,7);
-  
+    clock_t t;
+    float sec;
+    t = clock();
+    calcularEQReta(coordenadas);
+    Bresenham(1,1,100,100);
+    t = clock() - t;
+    sec = ((float)t)/1000;
+    printf("\n\tTempo : %.2f segundo(s)",sec);
     return 0;
 }
-
-
