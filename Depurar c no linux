@@ -8,10 +8,10 @@ run ou r executa a linha ou trecho ou código
 next ou n-> próxima linha
 info local > mostra os valores das variáveis locais da função em questão
 print ou p variavel -> para assistir o valor da variável naquele momento
-break -> coloca um breakpoint nesta linha
+break número_da_linha_ou_nome_da_função -> coloca um breakpoint nesta linha
 step -> entra na função. Testar e ver a diferença para info
 down/up -> 
 finish ou fin -> sai da função que vc ta analisando
-quit -> sair
+quit ou q-> sair
 
 
