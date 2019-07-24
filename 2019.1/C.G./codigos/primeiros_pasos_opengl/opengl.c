@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<GL/glut.h>
-#include<time.h>
+#include<stdio.h>    
+#include<GL/glut.h> // biblioteca para usar o OpenGL
+#include<time.h>    // biblioteca para usar funções de tempo
 
 
 void init(){  
@@ -15,11 +15,26 @@ void retaOpengl(){
   glClear(GL_COLOR_BUFFER_BIT); // pinta os buffers indicados com a cor especificada em glClearColor
   glColor3f(0.0,0.0,0.0); // Cor usada para desenhar objetos (para ficar visível tem que ser diferente da usada para limpar a tela)
   glBegin(GL_LINES);
-    glVertex2f(-40,-40);
-    glVertex2f(-30,-20);
+    glVertex2f(-38,-38);
+    glVertex2f(-28,-18);
   glEnd();
+
+  int coordenadas[] = {-40,-40,-30,-20};
+  float m = 2;
+  float x = 0, y = 0;
+
+  y = m*(-40) + ((m*(-(-40)) + (-40)));
+
+  glBegin(GL_POINTS);
+    glVertex2i(coordenadas[0],coordenadas[1]);  
+    for(x = coordenadas[0] + 1; x <= coordenadas[2]; x++){
+      y = m*x + (m*(40) - 40); 
+      glVertex2i(x,y); 
+    }
+  glEnd();
+
   glFlush(); // imprime o conteúdo do buffer na tela
-}
+}   
 
 
 void eqReta(){
@@ -58,7 +73,7 @@ int main(int argc, char** argv){
 
   t = clock();
   for (cont = 0; cont <= 100000000; cont++){
-    glutDisplayFunc(eqReta);
+    glutDisplayFunc(retaOpengl);
   }
   t = clock() - t;
   tempo = (float)t/CLOCKS_PER_SEC;
