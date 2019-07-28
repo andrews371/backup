@@ -10463,3 +10463,66 @@ console.error: BroadcastService:
 
 [Parent 7853, Gecko_IOThread] WARNING: pipe error (125): Connection reset by peer: file /build/firefox-rz6OD5/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 1563502985591	Marionette	INFO	Stopped listening on port 38119
+1564177106097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rS32BOg2x3Pq"
+1564177107284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564177107285	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564177107285	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564177107285	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564177111557	Marionette	INFO	Listening on port 38509
+1564177111617	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564177133533	Marionette	INFO	Stopped listening on port 38509
+1564177177042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.r5UfeSCNxxRy"
+1564177178438	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564177178439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564177178439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564177178439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564177182586	Marionette	INFO	Listening on port 34788
+1564177182658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564177213424	Marionette	INFO	Stopped listening on port 34788
+1564177373977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zF80h7pArQ8j"
+1564177375461	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564177375462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564177375462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564177375462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564177379594	Marionette	INFO	Listening on port 33829
+1564177379609	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564177440141	Marionette	INFO	Stopped listening on port 33829
+1564177453065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vqTlnF7cQxcj"
+1564177454287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564177454287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564177454287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564177454288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564177458604	Marionette	INFO	Listening on port 45291
+1564177458691	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564177497773	Marionette	INFO	Stopped listening on port 45291
+1564178981886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wxBAqE7CA7wj"
+*** You are running in headless mode.
+1564178982980	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564178982981	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564178982981	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564178982981	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564178987138	Marionette	INFO	Listening on port 46101
+1564178987150	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=4BFF36A37CF6F3D8C0AFC60E0D1AFBCE?org_id=9ghwyvdk&session_id=dd6c4b0f-bb5f-4a0c-8531-e7d35530ab6b&nonce=78b08ddcda5fd36f, line 484: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:13902): dconf-WARNING **: 19:10:06.335: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564162743647%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1564179008924	Marionette	INFO	Stopped listening on port 46101
