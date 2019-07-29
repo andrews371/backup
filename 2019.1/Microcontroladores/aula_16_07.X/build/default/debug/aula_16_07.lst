@@ -1,4 +1,4 @@
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  1
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00041                                         ;USUÁRIO
   00000020            00042                 W_TEMP          ;REGISTRADORES TEMPORÁRIOS PARA USO
   00000021            00043                 STATUS_TEMP     ;JUNTO ÀS INTERRUPÇÕES
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  2
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -116,7 +116,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00094 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00095 ; AQUI SERÃO ESCRITAS AS ROTINAS DE RECONHECIMENTO E TRATAMENTO DAS
                       00096 ; INTERRUPÇÕES
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  3
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -175,7 +175,7 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
                       00144 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00145 ;*                     INICIALIZAÇÃO DAS VARIÁVEIS                 *
                       00146 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  4
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -211,7 +211,7 @@ Message[305]: Using default destination of 1 (file).
                       00173 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00174 
 3FA4                  00175         END
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  5
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  5
 
 
 SYMBOL TABLE
@@ -270,7 +270,7 @@ GO_DONE                           00000001
 GO_NOT_DONE                       00000001
 GP0                               00000000
 GP1                               00000001
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  6
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  6
 
 
 SYMBOL TABLE
@@ -329,7 +329,7 @@ PIE1                              0000008C
 PIR1                              0000000C
 PS0                               00000000
 PS1                               00000001
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  7
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  7
 
 
 SYMBOL TABLE
@@ -388,7 +388,7 @@ WPU1                              00000001
 WPU2                              00000002
 WPU4                              00000004
 WPU5                              00000005
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-18-2019  17:36:28         PAGE  8
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   7-28-2019  22:25:38         PAGE  8
 
 
 SYMBOL TABLE
