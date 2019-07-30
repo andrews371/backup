@@ -12,7 +12,11 @@ void init(){
 
 
 void retaOpengl(){
-  glClear(GL_COLOR_BUFFER_BIT); // pinta os buffers indicados com a cor especificada em glClearColor
+  
+  // "glClear(GL_COLOR_BUFFER_BIT);" Este comando pinta os buffers indicados com a cor especificada em glClearColor. 
+  // Colocar sempre na função que irá desenhar. Por exemplo aqui colocamos em "retaOpengl" que é nossa função que vai 
+  // desenhar
+  glClear(GL_COLOR_BUFFER_BIT); 
   glColor3f(0.0,0.0,0.0); // Cor usada para desenhar objetos (para ficar visível tem que ser diferente da usada para limpar a tela)
   glBegin(GL_LINES);
     glVertex2f(-38,-38);
