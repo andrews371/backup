@@ -5,9 +5,10 @@
 
 void init(){  
   glClearColor(1.0,1.0,1.0,1.0); // indica a cor que será usada no fundo da janela
-  glOrtho (-45, -25, -45, -15, -1, 1); // Posiciona a tela em comparação ao objeto. Os dois primeiros parâmetros são o mínimo
+  glOrtho(-45, -25, -45, -15, -1, 1); // Posiciona a tela em comparação ao objeto. Os dois primeiros parâmetros são o mínimo
   // e o máximo do x que irá variar que nós vamos ver e os próximos dois são o mínimo e o máximo do y irá variar que nós vamos ver.
-  // bom deixar uma margem de sobra para ver todo o objeto. É o referencial para a partir de que ponto até que ponto vamos ver o objeto
+  // bom deixar uma margem de sobra para ver todo o objeto. É o referencial para a partir de que ponto até que ponto vamos ver o objetos
+  glPointSize(10.0f);
 }
 
 

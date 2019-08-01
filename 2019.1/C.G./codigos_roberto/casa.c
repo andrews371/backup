@@ -41,9 +41,9 @@ void keyboard(unsigned char key, int x, int y){
 }
 
 int main(int arg, char* argv[]){
-	glutinit(&arg,argv);
+	glutInit(&arg,argv);
 	
-	glutInitDisplayMode();
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	
 	glutInitWindowSize(400,400);
 	glutInitWindowPosition(500,200);
