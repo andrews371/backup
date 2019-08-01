@@ -1,4 +1,5 @@
-Message[302] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 139 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 140 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 142 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 146 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 141 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 143 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 164 : Found label after column 1. (DELAY)
+Message[305] /home/andre/Documents/2019.1/Microcontroladores/Testando.X/testando.asm 171 : Using default destination of 1 (file).
