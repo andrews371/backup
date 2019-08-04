@@ -13,7 +13,7 @@ void display();
 int main(int argc, char *argv[])
 {   
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB;
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(400, 400);
 	glutInitWindowPosition(100, 100);	
 	glutCreateWindow("Desenhos Retas");
@@ -111,14 +111,14 @@ void display()
 {
 	glClearColor(0,0,0,1);
 	glClear(GL_COLOR_BUFFER_BIT);
-	gluOrtho2D(0.0,50.0,0.0,50.0);
-    	glPointSize(10.0f);
+	gluOrtho2D(-80, 30, -80, 30);
+    glPointSize(10.0f);
 
 	glBegin(GL_POINTS);
 	glColor3d(1, 0, 0);
 	auto start = std::chrono::steady_clock::now();
-	int i;
-	EqReta(10, 45, 20, 35);
+	//int i;
+	EqReta(-40, -40, -30, -20);
 	
 	auto endEqReta = std::chrono::steady_clock::now();
 	
@@ -131,7 +131,7 @@ void display()
 	
 	start = std::chrono::steady_clock::now();
 	
-		Bresenham(30, 25, 20, 15);
+		Bresenham(-40, -40, -30, -20);
 	    
 	auto endBresenham = std::chrono::steady_clock::now();
 	cout << "\nTempo Algoritmo de Bresenham: " << std::chrono::duration_cast<std::chrono::nanoseconds>(endBresenham - start).count() << "ns";
@@ -139,7 +139,7 @@ void display()
 	start = std::chrono::steady_clock::now();
 	glColor3d(0, 0, 1);
 	
-	DDA(30, 40, 45, 35);
+	DDA(-40, -40, -30, -20);
 	
 	
 	auto endDDA = std::chrono::steady_clock::now();
@@ -152,8 +152,8 @@ void display()
 	
 		start = std::chrono::steady_clock::now();
 		glColor3d(1, 1, 1);
-		glVertex2i(5, 15);
-		glVertex2i(10, 25);
+		glVertex2i(-40, -40);
+		glVertex2i(-30, -20);
 		
 		auto endBresenhamOpGL = std::chrono::steady_clock::now();
 		
