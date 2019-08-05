@@ -1,0 +1,18 @@
+opengl -> capítulo 8 e 9 do livro "Livro de Computação Gráfica (OPEN GL - Uma abordagem prática e objetiva)", "opengl - redbook", "opengl_resumo" e "glut_openGL"
+
+opengl -> API com comandos usados para especificar objetos e operações necessárias para produzir aplicativos
+gráficos 2D e 3D. A Opengl não inclui comandos de tratamento de janelas ou interação com o usuário. Independente de hardware.
+
+glu -> (Opengl utitily library) biblioteca  utilizada para facilitar o uso de algumas funcionalidades da OpenGL. Biblioteca de utilitários
+da Opengl. A GLU oferece diversas facilidades na definição de objetos tridimensionais, como superfícies quadráticas ou curvas, e 
+superfícies com NURBS (non uniform rational B-splines)
+
+glut -> Opengl utility toolkit) biblioteca  utilizada para facilitar o uso de algumas funcionalidades da OpenGL. Conjunto de ferramentas
+para desenvolvimento de programas baseados em opengl. Oferece meios de lidar com janelas gráficas e interações realizadas pelo usuários.
+A glut é independente do sistema gráfico utilizado e por isso, permite a criação de aplicações que podem ser compiladas e exeutadas
+em qualquer sistema de janelas.
+
+
+ler -> capítulo 1 red book; capítulo 3 (3.5 a 3.9) Hearn and Baker; capítulo de qualquer livro de cg que fale de transformações;
+red book paginas da 5 a 25 (capítulo 1 já falado e mais 2 páginas); leitura de projeções geométricas de qualquer livro de cg páginas
+da 123 a 140 do redbook; exibição com opengl redbook páginas 129 a 131;
