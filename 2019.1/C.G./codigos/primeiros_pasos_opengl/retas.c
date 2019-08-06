@@ -20,7 +20,7 @@ void exibir(){
   //Eq da reta
   glLoadIdentity();
   glTranslated(-0.2,0,0);
-  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. Mínimo e máximo
+  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. 
   glColor3d(1,0,0);
   glBegin(GL_POINTS);
     t = clock();
@@ -36,7 +36,7 @@ void exibir(){
   // Bresenham
   glLoadIdentity();
   glTranslated(0,0,0);
-  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. Mínimo e máximo
+  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto.
   glColor3d(0,1,0);
   glBegin(GL_POINTS);
     //glColor3d(0,1,0);
@@ -53,7 +53,7 @@ void exibir(){
   // DDA
   glLoadIdentity();
   glTranslated(0.2,0,0);
-  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. Mínimo e máximo
+  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. 
   glColor3d(0,0,1);
   glBegin(GL_POINTS);
     t = clock();
@@ -69,8 +69,9 @@ void exibir(){
   // Reta nativa GL
   glLoadIdentity();
   glTranslated(-0.2, -0.4 , 0); // Operação no objeto em relação à tela
-  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. Mínimo e máximo
-                                // em comparação às diminsões do objeto  
+  gluOrtho2D(-80, 30, -80, 30); // left, right, bottom, up. Posiciona a tela em comparação ao objeto.
+                                // Mínimo e máximo em comparação às diminsões do objeto  
+
  // Cor usada para desenhar objetos (para ficar visível tem que ser diferente da usada para limpar a tela)
   glColor3f(0.0,0.0,0.0);
   glBegin(GL_LINES);
@@ -188,8 +189,8 @@ int main(int argc, char** argv){
 // Obs.: 
 
 // glOrtho(-80, 30, -80, 30, -1, 1); Usado em 3D. Posiciona a tela em comparação ao objeto. 
-// Os dois primeiros parâmetros são o mínimo e o máximo do x que irá variar que nós vamos ver e os próximos dois
-// são o mínimo e o máximo do y irá variar que nós vamos ver.
+// Os dois primeiros parâmetros são o mínimo e o máximo do x que irá variar que nós vamos ver e 
+// os próximos dois são o mínimo e o máximo do y que irá variar que nós vamos ver.
 // bom deixar uma margem de sobra para ver todo o objeto. 
 // É o referencial para a partir de que ponto até que ponto vamos ver os objetos
 // os dois últimos parâmetros aqui não estão sendo usados, que seria o near, far. 
