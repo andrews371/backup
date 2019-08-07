@@ -12,8 +12,8 @@ void desenha_cubo()
 	glTranslated(0, 0, -20); // define a posição do objeto na cena
 
 	// realiza operações de rotação no objeto
-	glRotated(30, 0, 1, 0);
 	glRotated(30, 1, 0, 0);
+	glRotated(30, 0, 1, 0);
 	glRotated(30, 0, 0, 1);
 
 	glBegin(GL_LINES);
@@ -44,7 +44,7 @@ void desenha_cubo()
 }
 
 void init(){
-	glClearColor(0.0,0.0,0.0, 0.0); // indica a cor que será usada no fundo da janela
+	glClearColor(0.0, 0.0, 0.0, 0.0); // indica a cor que será usada no fundo da janela
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity(); // inicializa a matriz de projeção atual
 	glOrtho(-50.0, 50.0, -50.0, 50.0, 1, 50); 
