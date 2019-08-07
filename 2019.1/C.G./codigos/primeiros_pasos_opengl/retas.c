@@ -4,11 +4,15 @@
 
 
 void exibir(){
+
+  glMatrixMode(GL_MODELVIEW);
+  glLoadIdentity();
+
   clock_t t;
   int cont = 0;
   float tempo;
   int x1 = -40, y1 = -40, x2 = -30, y2 = -20;
-  glClearColor(1.0,1.0,1.0,1.0); // indica a cor que será usada no fundo da janela
+  //glClearColor(1.0,1.0,1.0,1.0); // indica a cor que será usada no fundo da janela
 
   // "glClear(GL_COLOR_BUFFER_BIT);" Este comando pinta os buffers indicados com a cor 
   // especificada em glClearColor. 
@@ -19,8 +23,8 @@ void exibir(){
 
   //Eq da reta
   glLoadIdentity();
-  glTranslated(-0.2,0,0);
-  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. 
+  glTranslated(-15,0,0);
+  //gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. 
   glColor3d(1,0,0);
   glBegin(GL_POINTS);
     t = clock();
@@ -36,7 +40,7 @@ void exibir(){
   // Bresenham
   glLoadIdentity();
   glTranslated(0,0,0);
-  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto.
+  //gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto.
   glColor3d(0,1,0);
   glBegin(GL_POINTS);
     //glColor3d(0,1,0);
@@ -52,8 +56,8 @@ void exibir(){
 
   // DDA
   glLoadIdentity();
-  glTranslated(0.2,0,0);
-  gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. 
+  glTranslated(15,0,0);
+  //gluOrtho2D(-80, 30, -80, 30); //left, right, bottom, up. Posiciona a tela em comparação ao objeto. 
   glColor3d(0,0,1);
   glBegin(GL_POINTS);
     t = clock();
@@ -68,8 +72,8 @@ void exibir(){
 
   // Reta nativa GL
   glLoadIdentity();
-  glTranslated(-0.2, -0.4 , 0); // Operação no objeto em relação à tela
-  gluOrtho2D(-80, 30, -80, 30); // left, right, bottom, up. Posiciona a tela em comparação ao objeto.
+  glTranslated(-5, -25 , 0); // Operação no objeto em relação à tela
+  //gluOrtho2D(-80, 30, -80, 30); // left, right, bottom, up. Posiciona a tela em comparação ao objeto.
                                 // Mínimo e máximo em comparação às diminsões do objeto  
 
  // Cor usada para desenhar objetos (para ficar visível tem que ser diferente da usada para limpar a tela)
@@ -171,6 +175,13 @@ void EqReta(int x1, int y1, int x2, int y2){
   } 
 }
 
+void init() {
+  glClearColor(1,1,1,1); // indica a cor que será usada no fundo da janela
+  glMatrixMode(GL_PROJECTION);
+  glLoadIdentity(); // inicializa a matriz de projeção atual
+  gluOrtho2D(-80, 30, -80, 3); 
+}
+
 int main(int argc, char** argv){
 
   glutInit(&argc, argv); // inicia a biblioteca glut
@@ -178,6 +189,7 @@ int main(int argc, char** argv){
   glutInitWindowSize(512,512); // Tamanho da janela que abrirá
   glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
   glutCreateWindow("Retas usando o OpenGL"); // Título da janela
+  init();
   glutDisplayFunc(exibir);
 
   glutMainLoop(); 

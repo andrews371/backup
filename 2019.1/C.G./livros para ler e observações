@@ -23,8 +23,8 @@ transformações -> Usar o parâmetro "GL_MODELVIEW" em glMatrixMode. Sempre seg
 
 quando chega na função construída para desenhar, usa esta sequência de código na função: 
 
-glMatrizMode(x); // onde x é MODELVIEW (para selecionar a matriz do modelo (objeto ou ceja), ou seja, as operações que vão ser realizadas serão sobre o objeto ou ceja), PROJECTION (para selecionar a matriz de projeção), etc.
-//todas as operações (translação, rotação, escala) a partir daqui, vão afetar a matriz selecionada (seja matriz do modelo ou matriz de projeção, etc).
+glMatrixMode(x); // onde x é MODELVIEW (para selecionar a matriz do modelo (matriz do objeto ou cena), ou seja, as operações que vão ser realizadas serão sobre o objeto ou ceja), PROJECTION (para selecionar a matriz de projeção), etc.
+//todas as operações (translação, rotação, escala) a partir daqui, vão afetar a matriz selecionada (seja matriz do modelo, matriz de projeção, etc).
 
 glLoadIdentity(); // função utilizada para inicializar o sistema de coordenadas antes da execução de qualquer operação de manipulação de matrizes. Faz com que seja carregada a matriz identidade.
 glClear(GL_COLOR_BUFFER_BIT);
@@ -71,7 +71,7 @@ glEnd();
 glFlush():
 
 // Assim podemos desenhar várias primitivas para termos ao final um objeto. Por exemplo, alguns quadrados e um triângulo podem formar uma casa.
-// No momento de aplicar as transformações é preciso especificar qual matriz será utilizada. Então é necessária a utilização de glMatrizMode(x) e glMatrizIdentity();
+// No momento de aplicar as transformações é preciso especificar qual matriz será utilizada. Então é necessária a utilização de glMatrixMode(x) e glMatrizIdentity();
 
 Portanto transformações nada mais são do que operações matemáticas de soma e multiplicação em todas as coordenadas que compõem os objetos.
 
@@ -80,14 +80,30 @@ O OpenGl aplica as transformações na origem do sistema de referência, portant
 
 Fazer os exemplos da casa feitos no livro "opengl uma abordagem prática e objetiva". Entre as pgs 115 até 128 tem os códigos usando translação, rotação e escala e tudo junto, inclusive alterando a ordem da chamada das funções para se ver a diferença no resultado final.
 
-Quando se tem dois ou mais objetos e se quer fazer uma transformação em apenas 1, não podemos aplicar a transformação e depois desenhar se não a transformação atingirá os dois objetos. Nesse caso usamos pilhas para definir o escopo das transformações. Ver e fazer os exemplos de transformações e esse de transformações usando pilhas.
+Quando se tem dois ou mais objetos e se quer fazer uma transformação em apenas 1, não podemos aplicar a transformação e depois desenhar se não a transformação atingirá os outros objetos também. Nesse caso usamos implementação de uma pilha de matrizes de transformação para definir o escopo das transformações. 
 
-parei na página 131 do livro (66 do leitor de pdf).
+rotate não mantém as proporções de escala de x e y que o objeto tinha ANTES mas mantém a largura e a altura da tela que o objeto ocupava antes, então ele pode ficar mais achatado ou esticado qnd rotacionar. Uma escala aqui aumentando o tamanho em x por exemplo, deixa o eixo x da tela aumentado, entao mesmo se fizer uma rotação no objeto, a parte x da TELA (e nao do objeto) continuará aumentada. Com y acontece de forma análoga.
+
+ja escala dada depois do rotate funciona normalmente porém o eixo x do objeto é o mesmo eixo que era antes de ser rotacionado. Então aqui por exemplo em uma rotação de 90, o eixo x fica sendo o y da tela (que corresponde ao eixo x do objeto antes da rotação). Uma escala aqui aumentando o tamanho em x por exemplo, deixa o x do objeto (x inicial antes da rotação) aumentado. Com y acontece de forma análoga.
+
+É aconselhável que a transformação de translação seja a PRIMEIRA a ser chamada, mas isso não é uma regra é só para ajudar a evitar possíveis confusões.
+
+Só usar o glMatrixMode(x) quando for mudar de um modo para outro. Por exemplo, se estiver trabalhando no OBJETO/CENA e precisar mudar para trabalhar com PROJEÇÃO, do modo modelo (modelview) para projeção (projeção), ou seja, se precisar mudar de qualquer modo de matriz para qualquer outro modo de matriz.
+
+A maneira de aplicar transformações geométricas em 3D é praticamente igual à aplicar em 2D, sendo que são empregados valores para escala e translação em z e a rotação pode ser feita ao redor de qualquer eixo.
+
+Obs.: glClearColor() possui 4 parâmetros. Os 3 primeiros é referente ao rgb e o quarto eu não sei. Serve para limpar a tela colocando uma cor de fundo definida aqui. Já glColor3f() possui três parâmetros referentes à rgb. Serve para fazer o desenho com a cor selecionada aqui.
+
+Usar o GL_PROJECTION em uma função void init() conforme está nos exemplos de transformações. Fazendo isso, para dar translação por exemplo, você não usa escala do tipo 0.2, você usa escala do tipo 15 para conseguir os efeitos. Isso é detalhe, mas é bom padronizar e usar na função void init() o GL_PROJECION assim como glOrtho e os outros comandos que tem nessa função que pode ser visto, como dito, nos exemplos de transformações.
+
+parei no final da página 131 depois do desenho da casa usando pilha de matrizes de transformação (página 66 do leitor de pdf) do livro "Opengl - Uma abordagem prática e objetiva".
+
 
 
 
 
  
+
 
 
 

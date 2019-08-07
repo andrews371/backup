@@ -8,7 +8,7 @@ void init(void){
 	 glOrtho(0,256,0,256,-1,1); // Seleciona o modo de projeção Ortogonal.
 }
 
-/*
+
 void AlteraTamanhoJanela(GLsizei w, GLsizei h){
 	 GLsizei largura, altura;
 	 if(h == 0) // Evita divisão por zero.
@@ -28,7 +28,7 @@ void AlteraTamanhoJanela(GLsizei w, GLsizei h){
 	 else
 	 	gluOrtho2D(-40.0f*largura/altura,40.0f*largura/altura,-40.0f,40.0f);
 }	 
-*/	 //glClearColor(1.0,1.0,1.0,0.0); // Fornece os valores para limpeza do buffer de cor no modo RGBA.
+	 //glClearColor(1.0,1.0,1.0,0.0); // Fornece os valores para limpeza do buffer de cor no modo RGBA.
 
 
 void display(void){
