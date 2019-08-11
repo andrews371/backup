@@ -16095,3 +16095,669 @@ JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842c
 1565405270300	Marionette	INFO	Stopped listening on port 34642
 [Parent 21805, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 [Parent 21805, Gecko_IOThread] WARNING: pipe error (94): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565471018173	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8XCXdWru6EdQ"
+*** You are running in headless mode.
+1565471019164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565471019164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565471019165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565471019165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565471023113	Marionette	INFO	Listening on port 33922
+1565471023214	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565471333350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xtDGkH6LmELC"
+*** You are running in headless mode.
+1565471335212	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565471335213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565471335213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565471335214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565471340372	Marionette	INFO	Listening on port 42275
+1565471340425	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565472281763	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sqGeYSAJBXlm"
+*** You are running in headless mode.
+1565472282766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565472282766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565472282767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565472282767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565472286751	Marionette	INFO	Listening on port 37960
+1565472286780	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1565472392116	Marionette	INFO	Stopped listening on port 37960
+1565475005071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F9eE8CF7sIlQ"
+*** You are running in headless mode.
+1565475006135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565475006135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565475006136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565475006136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565475010434	Marionette	INFO	Listening on port 33644
+1565475010488	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565475108688	Marionette	INFO	Stopped listening on port 33644
+[Parent 26017, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565475136129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RDdP2qyE4k42"
+*** You are running in headless mode.
+1565475137129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565475137129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565475137130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565475137130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565475140866	Marionette	INFO	Listening on port 38480
+1565475140956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565475237166	Marionette	INFO	Stopped listening on port 38480
+[Parent 26261, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA80006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1565481392627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8iJwtkpmu732"
+*** You are running in headless mode.
+1565481394055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565481394055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565481394055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565481394056	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565481398473	Marionette	INFO	Listening on port 36166
+1565481398546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565481398619	Marionette	INFO	Stopped listening on port 36166
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1565481405731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LiWQysFDYkcO"
+*** You are running in headless mode.
+1565481406700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565481406700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565481406701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565481406701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565481410617	Marionette	INFO	Listening on port 40704
+1565481410651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 28218, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[Child 28173, Chrome_ChildThread] WARNING: pipe error (40): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24978, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24914, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24897, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[Child 28150, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565481506158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qMlzksuMiwQn"
+*** You are running in headless mode.
+1565481507306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565481507306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565481507306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565481507307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565481511423	Marionette	INFO	Listening on port 36409
+1565481511480	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565481511548	Marionette	INFO	Stopped listening on port 36409
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1565481517948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XdCM3UWmSyko"
+*** You are running in headless mode.
+1565481518964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565481518965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565481518965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565481518965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565481522788	Marionette	INFO	Listening on port 35980
+1565481522862	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1565481625673	Marionette	INFO	Stopped listening on port 35980
+1565482079244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZFYHiV82IM80"
+*** You are running in headless mode.
+1565482080230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565482080231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565482080231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565482080231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565482084252	Marionette	INFO	Listening on port 46258
+1565482084264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565482163225	Marionette	INFO	Stopped listening on port 46258
+[Parent 28902, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565482499603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Es947NNT6YfH"
+*** You are running in headless mode.
+1565482500589	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565482500590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565482500590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565482500590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565482504712	Marionette	INFO	Listening on port 40407
+1565482504731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565482591909	Marionette	INFO	Stopped listening on port 40407
+[Parent 29148, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565482596570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.msPJyddNJK6g"
+*** You are running in headless mode.
+1565482597542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565482597542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565482597543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565482597543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565482601341	Marionette	INFO	Listening on port 39166
+1565482601399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:29508): dconf-WARNING **: 21:17:04.702: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565482638416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nybbrbGgBPp0"
+*** You are running in headless mode.
+1565482639414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565482639415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565482639416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565482639416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565482643908	Marionette	INFO	Listening on port 43504
+1565482643938	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565482658444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uiGadxC6U9Z0"
+*** You are running in headless mode.
+1565482659462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565482659462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565482659463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565482659463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565482663942	Marionette	INFO	Listening on port 41021
+1565482663969	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://melban1.top/checker/checker.js, line 44: TypeError: document.location is null
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1565482765285	Marionette	INFO	Stopped listening on port 41021
+[Parent 29774, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1565482889282	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IBIJp3pqeGFO"
+*** You are running in headless mode.
+1565482890235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565482890235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565482890236	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565482890236	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565482894236	Marionette	INFO	Listening on port 36717
+1565482894299	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565482995531	Marionette	INFO	Stopped listening on port 36717
+[Parent 30008, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565483671649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kAR4pILVcLYn"
+*** You are running in headless mode.
+1565483672630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565483672631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565483672631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565483672631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565483676553	Marionette	INFO	Listening on port 45037
+1565483676574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565483775248	Marionette	INFO	Stopped listening on port 45037
+[Parent 30337, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565483899064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Tzp6uCtGq0Pc"
+*** You are running in headless mode.
+1565483900075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565483900075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565483900076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565483900076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565483904121	Marionette	INFO	Listening on port 33214
+1565483904181	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565483999538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WJ7xMMpAnrTs"
+*** You are running in headless mode.
+1565484000572	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565484000572	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565484000573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565484000573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565484004647	Marionette	INFO	Listening on port 39533
+1565484004665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 30873, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1565484062428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lrld283NUgc1"
+*** You are running in headless mode.
+1565484063514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565484063514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565484063515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565484063515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565484067450	Marionette	INFO	Listening on port 34653
+1565484067550	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 30983, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1565484137127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MrhiUaVtCATo"
+*** You are running in headless mode.
+1565484138110	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565484138111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565484138111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565484138111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565484142064	Marionette	INFO	Listening on port 38479
+1565484142143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565484171739	Marionette	INFO	Stopped listening on port 38479
+1565484219993	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LMZD5TGhht5J"
+*** You are running in headless mode.
+1565484221028	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565484221029	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565484221029	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565484221029	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565484224990	Marionette	INFO	Listening on port 43512
+1565484225015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565484253954	Marionette	INFO	Stopped listening on port 43512
+1565484276906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6LMmxOPS5gPT"
+*** You are running in headless mode.
+1565484277945	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565484277946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565484277946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565484277946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565484282093	Marionette	INFO	Listening on port 42869
+1565484282124	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565484323632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j70Rvf5Cuu4e"
+*** You are running in headless mode.
+1565484324629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565484324630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565484324630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565484324630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565484328866	Marionette	INFO	Listening on port 46570
+1565484328953	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1565484428695	Marionette	INFO	Stopped listening on port 46570
+[Parent 31671, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565485565285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UAC2XYkXotwl"
+*** You are running in headless mode.
+1565485566380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565485566380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565485566381	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565485566381	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565485570394	Marionette	INFO	Listening on port 44235
+1565485570410	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
+1565485666442	Marionette	INFO	Stopped listening on port 44235
+[Parent 32103, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-Gxb1SB/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
