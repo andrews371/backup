@@ -1,4 +1,4 @@
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  1
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00041                                         ;USUÁRIO
   00000020            00042                 W_TEMP          ;REGISTRADORES TEMPORÁRIOS PARA USO
   00000021            00043                 STATUS_TEMP     ;JUNTO ÀS INTERRUPÇÕES
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  2
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -69,7 +69,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
   00000022            00047                 V1
   00000023            00048                 V2
   00000024            00049                 V3
-  00000025            00050                 CONT_10
+  00000025            00050                 CONT_5
                       00051                 
                       00052         ENDC                    ;FIM DO BLOCO DE MEMÓRIA
                       00053 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -116,7 +116,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00094 ;*                    ROTINA DE INTERRUPÇÃO                        *
                       00095 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00096 ; AQUI SERÃO ESCRITAS AS ROTINAS DE RECONHECIMENTO E TRATAMENTO DAS
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  3
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -175,7 +175,7 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 0019   3000           00144         MOVLW   B'00000000'
 001A   008B           00145         MOVWF   INTCON          ;DEFINE OPÇÕES DE INTERRUPÇÕES
                       00146         
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  4
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -196,8 +196,8 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 001E                  00159 MAIN
                       00160         ;CORPO DA ROTINA PRINCIPAL
                       00161    
-001E   300A           00162         MOVLW   .10
-001F   00A5           00163         MOVWF   CONT_10
+001E   3005           00162         MOVLW   .5
+001F   00A5           00163         MOVWF   CONT_5
 Warning[207]: Found label after column 1. (DELAY)
 0020                  00164     DELAY
 0020   0181           00165         CLRF    TMR0
@@ -207,7 +207,7 @@ Warning[207]: Found label after column 1. (DELAY)
 0024   1D0B           00169         BTFSS   INTCON,T0IF
 0025   2824           00170         GOTO    $ - 1
 Message[305]: Using default destination of 1 (file).
-0026   0BA5           00171         DECFSZ  CONT_10
+0026   0BA5           00171         DECFSZ  CONT_5
 0027   2820           00172         GOTO    DELAY
                       00173         
 0028   281E           00174         GOTO    MAIN
@@ -217,7 +217,7 @@ Message[305]: Using default destination of 1 (file).
                       00178 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00179 
                       00180         END
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  5
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  5
 
 
 SYMBOL TABLE
@@ -257,7 +257,7 @@ CM2                               00000002
 CMCON                             00000019
 CMIE                              00000003
 CMIF                              00000003
-CONT_10                           00000025
+CONT_5                            00000025
 COUT                              00000006
 DC                                00000001
 DELAY                             00000020
@@ -276,7 +276,7 @@ GO                                00000001
 GO_DONE                           00000001
 GO_NOT_DONE                       00000001
 GP0                               00000000
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  6
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  6
 
 
 SYMBOL TABLE
@@ -335,7 +335,7 @@ PCON                              0000008E
 PEIE                              00000006
 PIE1                              0000008C
 PIR1                              0000000C
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  7
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  7
 
 
 SYMBOL TABLE
@@ -394,7 +394,7 @@ VRR                               00000005
 W                                 00000000
 WPU                               00000095
 WPU0                              00000000
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  8
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  8
 
 
 SYMBOL TABLE
@@ -450,7 +450,7 @@ _XT_OSC                           00003FF9
 __12F675                          00000001
 __DEBUG                           
 __MPLAB_DEBUGGER_SIMULATOR        1
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-1-2019  13:45:46         PAGE  9
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-11-2019  15:16:39         PAGE  9
 
 
 MEMORY USAGE MAP ('X' = Used,  '-' = Unused)

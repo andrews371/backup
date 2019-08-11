@@ -47,7 +47,7 @@
 		V1
 		V2
 		V3
-		CONT_10
+		CONT_5
 		
 	ENDC			;FIM DO BLOCO DE MEMÓRIA
 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -159,8 +159,8 @@ INICIO
 MAIN
 	;CORPO DA ROTINA PRINCIPAL
    
-	MOVLW	.10
-	MOVWF	CONT_10
+	MOVLW	.5
+	MOVWF	CONT_5
     DELAY
 	CLRF	TMR0
 	BCF	INTCON,T0IF
@@ -168,7 +168,7 @@ MAIN
 	MOVWF	TMR0
 	BTFSS	INTCON,T0IF
 	GOTO	$ - 1
-	DECFSZ	CONT_10
+	DECFSZ	CONT_5
 	GOTO	DELAY
 	
 	GOTO	MAIN
