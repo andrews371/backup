@@ -4,6 +4,7 @@
 
 void desenha()
 {
+
   // muda para as coordenadas do modelo
   glMatrixMode(GL_MODELVIEW);
 

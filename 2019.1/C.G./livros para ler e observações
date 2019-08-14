@@ -15,7 +15,7 @@ em qualquer sistema de janelas.
 
 ler -> capítulo 1 red book; capítulo 3 (3.5 a 3.9) Hearn and Baker; capítulo de qualquer livro de cg que fale de transformações;
 red book paginas da 5 a 25 (capítulo 1 já falado e mais 2 páginas); leitura de projeções geométricas de qualquer livro de cg páginas
-da 123 a 140 do redbook; exibição com opengl redbook páginas 129 a 131;
+da 123 a 140 do redbook; exibição com opengl redbook páginas 129 a 131; (da PR2 até o 23)
 
 projeção -> obter representações bidimensionais de objetos tridimensionais para serem exibidas em um monitor. Usar o parâmetro "GL_PROJECTION" em glMatrixMode
 
