@@ -191,7 +191,7 @@ MAIN
 	MOVLW	.0
 	MOVWF	END1	    ;ENDEREÇO INICIAL
 	MOVLW	.40	    
-	MOvWF	END2	    ;ENDEREÇO FINAL
+	MOVWF	END2	    ;ENDEREÇO FINAL
 	
 	MOVLW	.29
 	MOVWF	DADO
@@ -233,11 +233,11 @@ DESLOCAMENTO
 	INCF	END1
 	MOVLW	.40
 	SUBWF	END1
-	DECFSC	END2
+	DECFSZ	END2
 	GOTO	DESLOCAMENTO
 
 FIM
-	GOTO	FIM
+	GOTO	MAIN
 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 ;*                       FIM DO PROGRAMA                           *
 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

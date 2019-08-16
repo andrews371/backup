@@ -98,7 +98,11 @@ ${OBJECTDIR}/dia_18_07.o: dia_18_07.ASM  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/dia_18_07.o.d 
 	@${RM} ${OBJECTDIR}/dia_18_07.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/dia_18_07.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/dia_18_07.lst\\\" -e\\\"${OBJECTDIR}/dia_18_07.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/dia_18_07.o\\\" \\\"dia_18_07.ASM\\\" 
+	@${FIXDEPS} dummy.d -e "/home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.ERR" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION) -u  $(ASM_OPTIONS)    \\\"/home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.ASM\\\" 
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.O ${OBJECTDIR}/dia_18_07.o
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.ERR ${OBJECTDIR}/dia_18_07.o.err
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.LST ${OBJECTDIR}/dia_18_07.o.lst
+	@${RM}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.HEX 
 	@${DEP_GEN} -d "${OBJECTDIR}/dia_18_07.o"
 	@${FIXDEPS} "${OBJECTDIR}/dia_18_07.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
@@ -107,7 +111,11 @@ ${OBJECTDIR}/dia_18_07.o: dia_18_07.ASM  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/dia_18_07.o.d 
 	@${RM} ${OBJECTDIR}/dia_18_07.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/dia_18_07.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/dia_18_07.lst\\\" -e\\\"${OBJECTDIR}/dia_18_07.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/dia_18_07.o\\\" \\\"dia_18_07.ASM\\\" 
+	@${FIXDEPS} dummy.d -e "/home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.ERR" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  $(ASM_OPTIONS)    \\\"/home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.ASM\\\" 
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.O ${OBJECTDIR}/dia_18_07.o
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.ERR ${OBJECTDIR}/dia_18_07.o.err
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.LST ${OBJECTDIR}/dia_18_07.o.lst
+	@${RM}  /home/andre/Documents/2019.1/Microcontroladores/dia_18_07.X/dia_18_07.HEX 
 	@${DEP_GEN} -d "${OBJECTDIR}/dia_18_07.o"
 	@${FIXDEPS} "${OBJECTDIR}/dia_18_07.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
