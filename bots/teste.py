@@ -1,5 +1,5 @@
 ### manipulando tabela do brasileirão série A a partir de 2012
-# para verificação de estratégia de Poisson - versão baseado nos dados main leagues football data
+# para verificação de estratégia de over/under full trader
 
 import csv 
 import statistics as st
@@ -214,7 +214,7 @@ def poisson(time1,time2,mgf_ccasa,mgs_ccasa,mgf_cfora,mgs_cfora,rodada):
     pass
 
 
-def ano_dados(camp,ano):
+def ano_dados(camp):
     # base de dados
     time_casa = ''
     time_fora = ''
@@ -273,8 +273,8 @@ def ano_dados(camp,ano):
     saldo = 0
     num_entradas = 0
 
-    taxa_1x0 = 0
-    taxa_n1x0 = 0
+    taxa_n0x0 = 0
+    taxa_0x0 = 0
     total_ja = 0
 
     # últimos resultados
@@ -284,19 +284,20 @@ def ano_dados(camp,ano):
     # reds seguidos
     rs = 0
     mrs = 0
-
+    
     with open(camp, 'r', encoding = 'utf-8', newline = '') as al:
         arq1 = csv.DictReader(al)
-
-        for linha in arq1:  
-            #print('oi')
-                  
-            if (linha['Date'].split('/')[2] == ano):
+        for linha in arq1:
+            try:
+                
+                lnvazia = int(linha['FTHG'])
+                lnvazia = int(linha['FTAG'])
+                
                 # odd match odds Pinnacle
                 odd_pca = float(linha['PSH'])
                 odd_pea = float(linha['PSD'])
                 odd_pfa = float(linha['PSA']) 
-                  
+
                 # resultado do jogo
                 resultado = linha['FTR']
 
@@ -366,8 +367,8 @@ def ano_dados(camp,ano):
                         rodada += 1
                         cont_jogos = 1
                         dentro_rodada = 0
-                        
-                        
+
+
 
                     dentro_rodada += 1
 
@@ -384,10 +385,11 @@ def ano_dados(camp,ano):
 
                     #print('número de jogos: {}'.format(cont_geral))
                     # chamando o método para cálculo de probabilidades
-                    if rodada > 10: 
-                        ojc,oje,ojf = poisson(time1_ant,time2_ant,mgf_ccasa_ant,mgs_ccasa_ant,mgf_cfora_ant,mgs_cfora_ant,rodada)
-                        
-                        if (((odd_pca / ojc) - 1) * 100) >= 20 and (((odd_pca / ojc) - 1) * 100) <= 40 and odd_pca >= 1.8 and odd_pca <= 2.2:
+                    
+                    if rodada > 1: 
+                        '''ojc,oje,ojf = poisson(time1_ant,time2_ant,mgf_ccasa_ant,mgs_ccasa_ant,mgf_cfora_ant,mgs_cfora_ant,rodada)
+
+                        if (((odd_pca / ojc) - 1) * 100) >= 10 and (((odd_pca / ojc) - 1) * 100) <= 40 and odd_pca >= 1.8 and odd_pca <= 2.2:
                             num_entradas += 1
                             if (linha['FTR'] == 'H'):
                                 if rs > mrs:
@@ -398,7 +400,7 @@ def ano_dados(camp,ano):
                                 rs += 1                  
                                 saldo -= 5
 
-                        elif (((odd_pfa / ojf) - 1) * 100) >= 20 and (((odd_pfa / ojf) - 1) * 100) <= 40 and odd_pfa >= 1.8 and odd_pfa <= 2.2:
+                        elif (((odd_pfa / ojf) - 1) * 100) >= 10 and (((odd_pfa / ojf) - 1) * 100) <= 40 and odd_pfa >= 1.8 and odd_pfa <= 2.2:
                             num_entradas += 1
                             if (linha['FTR'] == 'A'):
                                 if rs > mrs:
@@ -409,7 +411,7 @@ def ano_dados(camp,ano):
                                 rs += 1
                                 saldo -= 5
 
-                       
+
                         elif (((odd_pea / oje) - 1) * 100) >= 10 and odd_pea >= 2.2 and odd_pea <= 3.3:
                             num_entradas += 1
                             if (linha['FTR'] == 'D'):
@@ -420,30 +422,34 @@ def ano_dados(camp,ano):
                             else:
                                 rs += 1
                                 frs = True
-                                saldo -= 5                       
-                        
+                                saldo -= 5'''
+                        pass
+                    
+                    
+                        if odd_pca <= 1.8:
+                            total_ja += 1
+                            if int(linha['HTHG']) == 0 and int(linha['HTAG']) == 0:
+                                if rs > mrs:
+                                    mrs = rs
+                                rs = 0
+                                taxa_0x0 += 1
+                            else:
+                                rs += 1
+                                taxa_n0x0 += 1
+
+                       
 
                 cont_geral += 1
+            except:
+                continue
                 
-             
-    '''odd_lay = 100 / (100 - ((taxa_n1x0 * 100) / (total_ja)))
-    print(f'Total de jogos analisados: {total_ja}')
-    print(f'taxa de nao 1x0: {taxa_n1x0}')
-    print(f'taxa de 1x0: {taxa_1x0}')
-    print(f'greens por red: {taxa_n1x0/taxa_1x0:.2f}')
-    print(f'Acertos: {((taxa_n1x0 * 100) / (total_ja)):.2f}%')
-    print(f'Odd lay ideal ABAIXO de : {odd_lay:.2f}')'''
-    pass
-    print('Máximo de reds seguidos: {}'.format(mrs))
-    print('Campeonato: {}  ano: {}'.format(camp,ano))
-    print('Entradas: {}  Saldo: {s:.2f}'.format(num_entradas,s = saldo))
-    return num_entradas,saldo
-    
-    
+    print(f'Máximo de reds seguidos: {mrs}')
+    print(f'Campeonato: {camp}')
+    return cont_geral - 1,taxa_0x0,taxa_n0x0,total_ja
+        
     
 # programa principal
 # ano a ser avaliado
-
 ent2 = input('Campeonato: ')
 entrada2 = ent2.upper().split(',') # campeonato -> entrada2
 tam_ent2 = len(entrada2)
@@ -453,23 +459,41 @@ entrada2 = entrada2
 for i in range(tam_ent2):
     entrada2[i] +='.csv'
 
-ent = input('anos a serem avaliados: ')
-entrada = ent.split(',') # ano -> entrada
-tam_ent = len(entrada)
-print('\n')
 
-saldo_final = 100
-quant_entradas = 0
+taxa_0x0 = 0
+taxa_n0x0 = 0
+total_ja = 0
+num_jogos = 0
+
+fnum_jogos = 0
+ftaxa_0x0 = 0
+ftaxa_n0x0 = 0
+ftotal_ja = 0
+
+ftaxa_acertos = []
 
 for i in range(tam_ent2):
-    for j in range(tam_ent):
-        try:
-            quant_ent,saldo = ano_dados(entrada2[i],entrada[j])
-            quant_entradas += quant_ent
-            saldo_final += saldo
-            print('Banca parcial {s:.2f}\n'.format(s = saldo_final))
-        except:
-            continue
-    
-print(f'Número de entradas: {quant_entradas}   Saldo final: {saldo_final:.2f}')
-    
+    try:
+        num_jogos,taxa_0x0,taxa_n0x0,total_ja = ano_dados(entrada2[i])
+        fnum_jogos += num_jogos
+        ftaxa_0x0 += taxa_0x0
+        ftaxa_n0x0 += taxa_n0x0
+        ftotal_ja += total_ja
+        ftaxa_acertos.append((ftaxa_0x0*100) / ftotal_ja)
+        #print('Banca parcial {s:.2f}\n'.format(s = saldo_final))
+    except:
+        continue
+
+#print(f'Número de entradas: {quant_entradas}   Saldo final: {saldo_final:.2f}')
+odd_lay = 100 / (100 - ((ftaxa_0x0 * 100) / (ftotal_ja)))
+so_odd_lay = 100 / (100 - st.median(ftaxa_acertos))
+
+print(f'\nTotal de jogos: {fnum_jogos}')
+print(f'Total de jogos analisados: {ftotal_ja}')
+print(f'taxa de 0x0: {ftaxa_0x0}')
+print(f'taxa de não 0x0: {ftaxa_n0x0}')
+print(f'greens por red: {ftaxa_0x0 / ftaxa_n0x0:.2f}')
+print(f'Acertos em média: {((ftaxa_0x0 * 100) / (ftotal_ja)):.2f}%')
+print(f'Acertos em mediana (tirando outliers): {st.median(ftaxa_acertos):.2f}%')
+print(f'Odd lay ideal ABAIXO de : {odd_lay:.2f}')
+print(f'Odd lay ideal (tirando outliers) ABAIXO de : {so_odd_lay:.2f}\n')
