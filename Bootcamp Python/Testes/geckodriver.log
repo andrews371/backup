@@ -18584,3 +18584,98 @@ console.error: BroadcastService:
 
 JavaScript warning: https://academia.r.worldssl.net/assets/cache/br/15644019842cb1807b29b20f348e7aa463dd6def79.js, line 10: unreachable code after return statement
 1565828350461	Marionette	INFO	Stopped listening on port 44302
+1566323388646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yPwY5866Hmfg"
+*** You are running in headless mode.
+1566323390558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566323390558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566323390558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566323390559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566323396095	Marionette	INFO	Listening on port 43192
+1566323396259	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=8FC440E794DBAF5E94138EEAA0EE5840?org_id=9ghwyvdk&session_id=323f8113-944f-445c-a28b-a85e00144672&nonce=62f0c83ce8fc62c7, line 213: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(/usr/lib/firefox/firefox:6649): dconf-WARNING **: 14:50:07.023: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566233826256%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1566323416461	Marionette	INFO	Stopped listening on port 43192
+1566323491081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NnKz0ZTElpPK"
+1566323492199	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566323492200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566323492200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566323492200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566323496228	Marionette	INFO	Listening on port 45510
+1566323496296	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6885): dconf-WARNING **: 14:51:48.747: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566233826256%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+(/usr/lib/firefox/firefox:6937): dconf-WARNING **: 14:52:32.226: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+(/usr/lib/firefox/firefox:7005): dconf-WARNING **: 14:53:07.678: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+(/usr/lib/firefox/firefox:7056): dconf-WARNING **: 14:53:44.775: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 6814, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-fV3oeE/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566323788915	Marionette	INFO	Stopped listening on port 45510
+1566342146833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CBxAqDucfvV9"
+1566342148425	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566342148425	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566342148426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566342148426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566342152492	Marionette	INFO	Listening on port 41776
+1566342152559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1566342159155	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+
+(/usr/lib/firefox/firefox:9164): dconf-WARNING **: 20:02:43.979: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+1566342262439	Marionette	INFO	Stopped listening on port 41776
