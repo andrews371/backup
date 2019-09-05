@@ -1,4 +1,4 @@
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  1
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00040         CBLOCK  0x20    ;ENDEREÇO INICIAL DA MEMÓRIA DE
                       00041                                         ;USUÁRIO
   00000020            00042                 W_TEMP          ;REGISTRADORES TEMPORÁRIOS PARA USO
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  2
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -116,7 +116,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00093 ; AQUI SERÃO ESCRITAS AS ROTINAS DE RECONHECIMENTO E TRATAMENTO DAS
                       00094 ; INTERRUPÇÕES
                       00095 
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  3
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -175,7 +175,7 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 0017                  00144 MAIN
                       00145 
                       00146         ;CORPO DA ROTINA PRINCIPAL 
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  4
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -234,7 +234,7 @@ Warning[207]: Found label after column 1. (ROTINA1_2_C3)
 0035   1605           00192         BSF     PORTA,RA4       ;A SEQUENCIA ATE O GOTO MAIN SEGUE EXATAMENTE A MESMA LOGICA
 0036   3084           00193         MOVLW   .132            ;DA ROTINA1 QUE JA FOI EXPLICADA
 0037   00A2           00194         MOVWF   TEMP1
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  5
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  5
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -293,7 +293,7 @@ Warning[207]: Found label after column 1. (ROTINA3_3_C1)
 0059   2???           00238         GOTO    ROTINA3_3_C1
 005A   0000           00239         NOP 
 005B   300F           00240         MOVLW   .15
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  6
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  6
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -336,7 +336,7 @@ Warning[207]: Found label after column 1. (ROTINA4_4)
                       00270 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00271 
 3F30                  00272         END
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  7
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  7
 
 
 SYMBOL TABLE
@@ -395,7 +395,7 @@ INTF                              00000001
 IRP                               00000007
 MAIN                              00000017
 NOT_BO                            00000000
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  8
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  8
 
 
 SYMBOL TABLE
@@ -454,7 +454,7 @@ ROTINA1_2_C2                      0000002D
 ROTINA1_2_C3                      00000032
 ROTINA2                           00000035
 ROTINA2_2                         00000038
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE  9
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE  9
 
 
 SYMBOL TABLE
@@ -513,7 +513,7 @@ TMR2ON                            00000002
 TOUTPS0                           00000003
 TOUTPS1                           00000004
 TOUTPS2                           00000005
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE 10
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE 10
 
 
 SYMBOL TABLE
@@ -572,7 +572,7 @@ _CP_OFF                           00003FFF
 _CP_ON                            00001FFF
 _DEVID1                           00002006
 _ER_OSC_CLKOUT                    00003FFF
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  0:21:32         PAGE 11
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-5-2019  10:49:55         PAGE 11
 
 
 SYMBOL TABLE

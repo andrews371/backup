@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=
+SOURCEFILES_QUOTED_IF_SPACED=atividade8.ASM
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=
-POSSIBLE_DEPFILES=
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/atividade8.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/atividade8.o.d
 
 # Object Files
-OBJECTFILES=
+OBJECTFILES=${OBJECTDIR}/atividade8.o
 
 # Source Files
-SOURCEFILES=
+SOURCEFILES=atividade8.ASM
 
 
 CFLAGS=
@@ -94,7 +94,23 @@ MP_LINKER_DEBUG_OPTION=
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assemble
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+${OBJECTDIR}/atividade8.o: atividade8.ASM  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/atividade8.o.d 
+	@${RM} ${OBJECTDIR}/atividade8.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/atividade8.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/atividade8.lst\\\" -e\\\"${OBJECTDIR}/atividade8.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/atividade8.o\\\" \\\"atividade8.ASM\\\" 
+	@${DEP_GEN} -d "${OBJECTDIR}/atividade8.o"
+	@${FIXDEPS} "${OBJECTDIR}/atividade8.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
+	
 else
+${OBJECTDIR}/atividade8.o: atividade8.ASM  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/atividade8.o.d 
+	@${RM} ${OBJECTDIR}/atividade8.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/atividade8.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/atividade8.lst\\\" -e\\\"${OBJECTDIR}/atividade8.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/atividade8.o\\\" \\\"atividade8.ASM\\\" 
+	@${DEP_GEN} -d "${OBJECTDIR}/atividade8.o"
+	@${FIXDEPS} "${OBJECTDIR}/atividade8.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
+	
 endif
 
 # ------------------------------------------------------------------------------------
