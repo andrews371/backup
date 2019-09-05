@@ -1,4 +1,4 @@
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  1
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00041                                         ;USUÁRIO
   00000020            00042                 W_TEMP          ;REGISTRADORES TEMPORÁRIOS PARA USO
   00000021            00043                 STATUS_TEMP     ;JUNTO ÀS INTERRUPÇÕES
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  2
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -66,158 +66,205 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00044                 
                       00045                 ;NOVAS VARIÁVEIS
                       00046                 
-  00000022            00047                 V1
-  00000023            00048                 V2
-  00000024            00049                 V3
-  00000025            00050                 CONT_5
-                      00051                 
-                      00052         ENDC                    ;FIM DO BLOCO DE MEMÓRIA
+  00000022            00047                 CONTH
+  00000023            00048                 CONTL
+                      00049                 
+                      00050         ENDC                    ;FIM DO BLOCO DE MEMÓRIA
+                      00051 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00052 ;*                        FLAGS INTERNOS                           *
                       00053 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00054 ;*                        FLAGS INTERNOS                           *
-                      00055 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00056 ; DEFINIÇÃO DE TODOS OS FLAGS UTILIZADOS PELO SISTEMA
-                      00057 
+                      00054 ; DEFINIÇÃO DE TODOS OS FLAGS UTILIZADOS PELO SISTEMA
+                      00055 
+                      00056 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00057 ;*                         CONSTANTES                              *
                       00058 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00059 ;*                         CONSTANTES                              *
-                      00060 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00061 ; DEFINIÇÃO DE TODAS AS CONSTANTES UTILIZADAS PELO SISTEMA
-                      00062 
+                      00059 ; DEFINIÇÃO DE TODAS AS CONSTANTES UTILIZADAS PELO SISTEMA
+                      00060 
+                      00061 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00062 ;*                           ENTRADAS                              *
                       00063 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00064 ;*                           ENTRADAS                              *
-                      00065 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00066 ; DEFINIÇÃO DE TODOS OS PINOS QUE SERÃO UTILIZADOS COMO ENTRADA
-                      00067 ; RECOMENDAMOS TAMBÉM COMENTAR O SIGNIFICADO DE SEUS ESTADOS (0 E 1)
-                      00068 
+                      00064 ; DEFINIÇÃO DE TODOS OS PINOS QUE SERÃO UTILIZADOS COMO ENTRADA
+                      00065 ; RECOMENDAMOS TAMBÉM COMENTAR O SIGNIFICADO DE SEUS ESTADOS (0 E 1)
+                      00066 
+                      00067 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00068 ;*                           SAÍDAS                                *
                       00069 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00070 ;*                           SAÍDAS                                *
-                      00071 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00072 ; DEFINIÇÃO DE TODOS OS PINOS QUE SERÃO UTILIZADOS COMO SAÍDA
-                      00073 ; RECOMENDAMOS TAMBÉM COMENTAR O SIGNIFICADO DE SEUS ESTADOS (0 E 1)
-                      00074 
+                      00070 ; DEFINIÇÃO DE TODOS OS PINOS QUE SERÃO UTILIZADOS COMO SAÍDA
+                      00071 ; RECOMENDAMOS TAMBÉM COMENTAR O SIGNIFICADO DE SEUS ESTADOS (0 E 1)
+                      00072 
+                      00073 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00074 ;*                       VETOR DE RESET                            *
                       00075 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00076 ;*                       VETOR DE RESET                            *
-                      00077 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00078 
-0000                  00079         ORG     0x00                    ;ENDEREÇO INICIAL DE PROCESSAMENTO
-0000   2813           00080         GOTO    INICIO
-                      00081         
+                      00076 
+0000                  00077         ORG     0x00                    ;ENDEREÇO INICIAL DE PROCESSAMENTO
+0000   2813           00078         GOTO    INICIO
+                      00079         
+                      00080 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00081 ;*                    INÍCIO DA INTERRUPÇÃO                        *
                       00082 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00083 ;*                    INÍCIO DA INTERRUPÇÃO                        *
-                      00084 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00085 ; ENDEREÇO DE DESVIO DAS INTERRUPÇÕES. A PRIMEIRA TAREFA É SALVAR OS
-                      00086 ; VALORES DE "W" E "STATUS" PARA RECUPERAÇÃO FUTURA
-                      00087 
-0004                  00088         ORG     0x04                    ;ENDEREÇO INICIAL DA INTERRUPÇÃO
-0004   00A0           00089         MOVWF   W_TEMP          ;COPIA W PARA W_TEMP
-0005   0E03           00090         SWAPF   STATUS,W
-0006   00A1           00091         MOVWF   STATUS_TEMP     ;COPIA STATUS PARA STATUS_TEMP
-                      00092 
+                      00083 ; ENDEREÇO DE DESVIO DAS INTERRUPÇÕES. A PRIMEIRA TAREFA É SALVAR OS
+                      00084 ; VALORES DE "W" E "STATUS" PARA RECUPERAÇÃO FUTURA
+                      00085 
+0004                  00086         ORG     0x04                    ;ENDEREÇO INICIAL DA INTERRUPÇÃO
+0004   00A0           00087         MOVWF   W_TEMP          ;COPIA W PARA W_TEMP
+0005   0E03           00088         SWAPF   STATUS,W
+0006   00A1           00089         MOVWF   STATUS_TEMP     ;COPIA STATUS PARA STATUS_TEMP
+                      00090 
+                      00091 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00092 ;*                    ROTINA DE INTERRUPÇÃO                        *
                       00093 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00094 ;*                    ROTINA DE INTERRUPÇÃO                        *
-                      00095 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00096 ; AQUI SERÃO ESCRITAS AS ROTINAS DE RECONHECIMENTO E TRATAMENTO DAS
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  3
+                      00094 ; AQUI SERÃO ESCRITAS AS ROTINAS DE RECONHECIMENTO E TRATAMENTO DAS
+                      00095 ; INTERRUPÇÕES
+                      00096 
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-                      00097 ; INTERRUPÇÕES
-                      00098 
-0007   1805           00099         BTFSC   GPIO,GP0
-0008   280B           00100         GOTO    FINALZINHO
-0009   1685           00101         BSF     GPIO,GP5
-000A   280C           00102         GOTO    LIMPA_FLAG
-000B                  00103 FINALZINHO
-000B   1285           00104         BCF     GPIO,GP5
-                      00105 
-000C                  00106 LIMPA_FLAG
-000C   100B           00107         BCF     INTCON,GPIF
+0007   1805           00097         BTFSC   GPIO,GP0
+0008   280B           00098         GOTO    FINALZINHO
+0009   1685           00099         BSF     GPIO,GP5
+000A   280C           00100         GOTO    LIMPA_FLAG
+000B                  00101 FINALZINHO
+000B   1285           00102         BCF     GPIO,GP5
+                      00103 
+000C                  00104 LIMPA_FLAG
+000C   100B           00105         BCF     INTCON,GPIF
+                      00106 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00107 ;*                 ROTINA DE SAÍDA DA INTERRUPÇÃO                  *
                       00108 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00109 ;*                 ROTINA DE SAÍDA DA INTERRUPÇÃO                  *
-                      00110 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00111 ; OS VALORES DE "W" E "STATUS" DEVEM SER RECUPERADOS ANTES DE 
-                      00112 ; RETORNAR DA INTERRUPÇÃO
-                      00113 
-000D                  00114 SAI_INT
-000D   0E21           00115         SWAPF   STATUS_TEMP,W
-000E   0083           00116         MOVWF   STATUS          ;MOVE STATUS_TEMP PARA STATUS
-000F   0EA0           00117         SWAPF   W_TEMP,F
-0010   0E20           00118         SWAPF   W_TEMP,W        ;MOVE W_TEMP PARA W
-0011   0009           00119         RETFIE
-                      00120 
+                      00109 ; OS VALORES DE "W" E "STATUS" DEVEM SER RECUPERADOS ANTES DE 
+                      00110 ; RETORNAR DA INTERRUPÇÃO
+                      00111 
+000D                  00112 SAI_INT
+000D   0E21           00113         SWAPF   STATUS_TEMP,W
+000E   0083           00114         MOVWF   STATUS          ;MOVE STATUS_TEMP PARA STATUS
+000F   0EA0           00115         SWAPF   W_TEMP,F
+0010   0E20           00116         SWAPF   W_TEMP,W        ;MOVE W_TEMP PARA W
+0011   0009           00117         RETFIE
+                      00118 
+                      00119 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00120 ;*                       ROTINAS E SUBROTINAS                      *
                       00121 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00122 ;*                       ROTINAS E SUBROTINAS                      *
-                      00123 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00124 ; CADA ROTINA OU SUBROTINA DEVE POSSUIR A DESCRIÇÃO DE FUNCIONAMENTO
-                      00125 ; E UM NOME COERENTE ÀS SUAS FUNÇÕES.
+                      00122 ; CADA ROTINA OU SUBROTINA DEVE POSSUIR A DESCRIÇÃO DE FUNCIONAMENTO
+                      00123 ; E UM NOME COERENTE ÀS SUAS FUNÇÕES.
+                      00124 
+0012                  00125 SUBROTINA1
                       00126 
-0012                  00127 SUBROTINA1
+                      00127         ;CORPO DA ROTINA
                       00128 
-                      00129         ;CORPO DA ROTINA
+0012   0008           00129         RETURN
                       00130 
-0012   0008           00131         RETURN
-                      00132 
+                      00131 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00132 ;*                     INICIO DO PROGRAMA                          *
                       00133 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00134 ;*                     INICIO DO PROGRAMA                          *
-                      00135 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00136         
-0013                  00137 INICIO
-0013   1683           00138         BANK1                           ;ALTERA PARA O BANCO 1
-0014   3000           00139         MOVLW   B'00000000' ;CONFIGURA TODAS AS PORTAS DO GPIO (PINOS)
+                      00134         
+0013                  00135 INICIO
+0013   1683           00136         BANK1                           ;ALTERA PARA O BANCO 1
+0014   3008           00137         MOVLW   B'00001000' ;CONFIGURA TODAS AS PORTAS DO GPIO (PINOS)
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0015   0085           00140         MOVWF   TRISIO          ;COMO SAÍDAS
+0015   0085           00138         MOVWF   TRISIO          ;COMO SAÍDAS
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0016   019F           00141         CLRF    ANSEL           ;DEFINE PORTAS COMO Digital I/O
-0017   3007           00142         MOVLW   B'00000111'
+0016   019F           00139         CLRF    ANSEL           ;DEFINE PORTAS COMO Digital I/O
+0017   3000           00140         MOVLW   B'00000000'
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0018   0081           00143         MOVWF   OPTION_REG      ;DEFINE OPÇÕES DE OPERAÇÃO
-0019   3000           00144         MOVLW   B'00000000'
-001A   008B           00145         MOVWF   INTCON          ;DEFINE OPÇÕES DE INTERRUPÇÕES
+0018   0081           00141         MOVWF   OPTION_REG      ;DEFINE OPÇÕES DE OPERAÇÃO
+0019   3000           00142         MOVLW   B'00000000'
+001A   008B           00143         MOVWF   INTCON          ;DEFINE OPÇÕES DE INTERRUPÇÕES
+001B   3000           00144         MOVLW   B'00000000'     ;DEFINE TIMER1 PRESCALE DE 1:1, HABILITA O USO 
+001C   0090           00145         MOVWF   T1CON           ;DO TIMER1
                       00146         
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  4
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-                      00147         
-001B   1283           00148         BANK0                           ;RETORNA PARA O BANCO           
-001C   3000           00149         MOVLW   B'00000000'
-001D   0099           00150         MOVWF   CMCON           ;DEFINE O MODO DE OPERAÇÃO DO COMPARADOR ANALÓGICO
-                      00151 
-                      00152 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00153 ;*                     INICIALIZAÇÃO DAS VARIÁVEIS                 *
-                      00154 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00155 
-                      00156 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00157 ;*                     ROTINA PRINCIPAL                            *
-                      00158 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-001E                  00159 MAIN
-                      00160         ;CORPO DA ROTINA PRINCIPAL
-                      00161    
-001E   3005           00162         MOVLW   .5
-001F   00A5           00163         MOVWF   CONT_5
-Warning[207]: Found label after column 1. (DELAY)
-0020                  00164     DELAY
-0020   0181           00165         CLRF    TMR0
-0021   110B           00166         BCF     INTCON,T0IF
-0022   303C           00167         MOVLW   .60
-0023   0081           00168         MOVWF   TMR0
-0024   1D0B           00169         BTFSS   INTCON,T0IF
-0025   2824           00170         GOTO    $ - 1
-Message[305]: Using default destination of 1 (file).
-0026   0BA5           00171         DECFSZ  CONT_5
-0027   2820           00172         GOTO    DELAY
-                      00173         
-0028   281E           00174         GOTO    MAIN
-                      00175 
-                      00176 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00177 ;*                       FIM DO PROGRAMA                           *
-                      00178 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00179 
-                      00180         END
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  5
+001D   1283           00147         BANK0                           ;RETORNA PARA O BANCO           
+001E   3000           00148         MOVLW   B'00000000'
+001F   0099           00149         MOVWF   CMCON           ;DEFINE O MODO DE OPERAÇÃO DO COMPARADOR ANALÓGICO
+                      00150 
+                      00151 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00152 ;*                     INICIALIZAÇÃO DAS VARIÁVEIS                 *
+                      00153 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00154 
+                      00155 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00156 ;*                     ROTINA PRINCIPAL                            *
+                      00157 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+0020                  00158 MAIN
+                      00159         ;CORPO DA ROTINA PRINCIPAL
+0020   3004           00160         MOVLW   B'00000100'
+0021   00A2           00161         MOVWF   CONTH
+0022   30C2           00162         MOVLW   B'11000010'
+0023   00A3           00163         MOVWF   CONTL
+                      00164         
+0024   018F           00165         CLRF    TMR1H           ; ZERA OS TMR1H:TMR1L
+0025   018E           00166         CLRF    TMR1L           
+0026   3004           00167         MOVLW   B'00000100'     ;65536 - 65521 = 15 DELAY DE 500MS, ESCALA 1:8  
+0027   008F           00168         MOVWF   TMR1H           ;25000 * 8 = 200000 = 200MS
+0028   30BF           00169         MOVLW   B'10111111'     ;PARA ISSO DIVIDE OS 16BITS EM 8 EM CADA  
+0029   008E           00170         MOVWF   TMR1L           ;15 = B'11111111 11110001
+002A   1410           00171         BSF     T1CON,TMR1ON    
+002B   1985           00172         BTFSC   GPIO,GP3
+002C   282B           00173         GOTO    $-1 
+002D   1010           00174         BCF     T1CON,TMR1ON
+                      00175         
+                      00176         ;TESTE DE DISTÂNCIA
+002E   0822           00177         MOVFW   CONTH
+002F   020F           00178         SUBWF   TMR1H,W
+0030   1803           00179         BTFSC   STATUS,C
+0031   2833           00180         GOTO    MAIOR_IGUAL
+0032   2837           00181         GOTO    MENOR
+                      00182         
+0033                  00183 MAIOR_IGUAL
+0033   1903           00184         BTFSC   STATUS,Z
+0034   2838           00185         GOTO    TESTA_LOW
+0035   2836           00186         GOTO    MAIOR   
+                      00187 
+0036                  00188 MAIOR
+0036   2820           00189         GOTO    MAIN
+                      00190         
+0037                  00191 MENOR   
+0037   2820           00192         GOTO    MAIN
+                      00193         
+                      00194 ;BITS MENOS SIGNIFICATIVOS
+0038                  00195 TESTA_LOW
+0038   0823           00196         MOVFW   CONTL
+0039   020E           00197         SUBWF   TMR1L,W
+003A   1803           00198         BTFSC   STATUS,C
+003B   283D           00199         GOTO    MAIOR_IGUAL_L
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  5
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+003C   2842           00200         GOTO    MENOR_L
+                      00201         
+003D                  00202 MAIOR_IGUAL_L
+003D   1903           00203         BTFSC   STATUS,Z
+003E   2840           00204         GOTO    IGUAL_L
+003F   2841           00205         GOTO    MAIOR_L 
+                      00206         
+0040                  00207 IGUAL_L
+0040   2820           00208         GOTO    MAIN
+                      00209         
+0041                  00210 MAIOR_L
+0041   2820           00211         GOTO    MAIN
+                      00212         
+0042                  00213 MENOR_L 
+0042   2820           00214         GOTO    MAIN
+                      00215 ;FIM DO TESTE DE DISTÂNCIA
+                      00216         
+0043   2820           00217         GOTO    MAIN
+                      00218 
+                      00219 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00220 ;*                       FIM DO PROGRAMA                           *
+                      00221 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00222 
+                      00223         END
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  6
 
 
 SYMBOL TABLE
@@ -257,10 +304,10 @@ CM2                               00000002
 CMCON                             00000019
 CMIE                              00000003
 CMIF                              00000003
-CONT_5                            00000025
+CONTH                             00000022
+CONTL                             00000023
 COUT                              00000006
 DC                                00000001
-DELAY                             00000020
 EEADR                             0000009B
 EECON1                            0000009C
 EECON2                            0000009D
@@ -276,7 +323,7 @@ GO                                00000001
 GO_DONE                           00000001
 GO_NOT_DONE                       00000001
 GP0                               00000000
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  6
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  7
 
 
 SYMBOL TABLE
@@ -296,6 +343,7 @@ GPIO2                             00000002
 GPIO3                             00000003
 GPIO4                             00000004
 GPIO5                             00000005
+IGUAL_L                           00000040
 INDF                              00000000
 INICIO                            00000013
 INTCON                            0000000B
@@ -318,7 +366,13 @@ IOCB4                             00000004
 IOCB5                             00000005
 IRP                               00000007
 LIMPA_FLAG                        0000000C
-MAIN                              0000001E
+MAIN                              00000020
+MAIOR                             00000036
+MAIOR_IGUAL                       00000033
+MAIOR_IGUAL_L                     0000003D
+MAIOR_L                           00000041
+MENOR                             00000037
+MENOR_L                           00000042
 NOT_BOD                           00000000
 NOT_BOR                           00000000
 NOT_DONE                          00000001
@@ -328,6 +382,12 @@ NOT_POR                           00000001
 NOT_T1SYNC                        00000002
 NOT_TO                            00000004
 OPTION_REG                        00000081
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  8
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
 OSCCAL                            00000090
 PCL                               00000002
 PCLATH                            0000000A
@@ -335,12 +395,6 @@ PCON                              0000008E
 PEIE                              00000006
 PIE1                              0000008C
 PIR1                              0000000C
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  7
-
-
-SYMBOL TABLE
-  LABEL                             VALUE 
-
 PS0                               00000000
 PS1                               00000001
 PS2                               00000002
@@ -362,6 +416,7 @@ T1CON                             00000010
 T1IE                              00000000
 T1IF                              00000000
 T1OSCEN                           00000003
+TESTA_LOW                         00000038
 TMR0                              00000001
 TMR0IE                            00000005
 TMR0IF                            00000002
@@ -380,26 +435,23 @@ TRISIO2                           00000002
 TRISIO3                           00000003
 TRISIO4                           00000004
 TRISIO5                           00000005
-V1                                00000022
-V2                                00000023
-V3                                00000024
 VCFG                              00000006
 VR0                               00000000
 VR1                               00000001
 VR2                               00000002
 VR3                               00000003
 VRCON                             00000099
-VREN                              00000007
-VRR                               00000005
-W                                 00000000
-WPU                               00000095
-WPU0                              00000000
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  8
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE  9
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
+VREN                              00000007
+VRR                               00000005
+W                                 00000000
+WPU                               00000095
+WPU0                              00000000
 WPU1                              00000001
 WPU2                              00000002
 WPU4                              00000004
@@ -448,25 +500,30 @@ _WDT_OFF                          00003FF7
 _WDT_ON                           00003FFF
 _XT_OSC                           00003FF9
 __12F675                          00000001
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-4-2019  21:20:32         PAGE 10
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
 __DEBUG                           
 __MPLAB_DEBUGGER_SIMULATOR        1
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   8-15-2019  14:47:11         PAGE  9
 
 
 MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
 
-
-0000 : X---XXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXX------- ----------------
+0000 : X---XXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+0040 : XXXX------------ ---------------- ---------------- ----------------
 2000 : -------X-------- ---------------- ---------------- ----------------
 
 All other memory blocks unused.
 
-Program Memory Words Used:    38
-Program Memory Words Free:   986
+Program Memory Words Used:    65
+Program Memory Words Free:   959
 
 
 Errors   :     0
-Warnings :     1 reported,     0 suppressed
-Messages :     4 reported,     0 suppressed
+Warnings :     0 reported,     0 suppressed
+Messages :     3 reported,     0 suppressed
 
 
