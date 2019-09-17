@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-url = 'https://10fastfingers.com/advanced-typing-test/english'
+url = 'https://10fastfingers.com/competition/5d72111083a45'
 driver = webdriver.Firefox()
 driver.get(url)
 login = driver.find_element_by_css_selector('ul.nav:nth-child(5) > li:nth-child(2) > a:nth-child(1)').click()
