@@ -98,7 +98,11 @@ ${OBJECTDIR}/Atividade9.o: Atividade9.ASM  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/Atividade9.o.d 
 	@${RM} ${OBJECTDIR}/Atividade9.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/Atividade9.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/Atividade9.lst\\\" -e\\\"${OBJECTDIR}/Atividade9.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/Atividade9.o\\\" \\\"Atividade9.ASM\\\" 
+	@${FIXDEPS} dummy.d -e "/home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.ERR" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION) -u  $(ASM_OPTIONS)    \\\"/home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.ASM\\\" 
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.O ${OBJECTDIR}/Atividade9.o
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.ERR ${OBJECTDIR}/Atividade9.o.err
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.LST ${OBJECTDIR}/Atividade9.o.lst
+	@${RM}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.HEX 
 	@${DEP_GEN} -d "${OBJECTDIR}/Atividade9.o"
 	@${FIXDEPS} "${OBJECTDIR}/Atividade9.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
@@ -107,7 +111,11 @@ ${OBJECTDIR}/Atividade9.o: Atividade9.ASM  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/Atividade9.o.d 
 	@${RM} ${OBJECTDIR}/Atividade9.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/Atividade9.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/Atividade9.lst\\\" -e\\\"${OBJECTDIR}/Atividade9.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/Atividade9.o\\\" \\\"Atividade9.ASM\\\" 
+	@${FIXDEPS} dummy.d -e "/home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.ERR" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  $(ASM_OPTIONS)    \\\"/home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.ASM\\\" 
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.O ${OBJECTDIR}/Atividade9.o
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.ERR ${OBJECTDIR}/Atividade9.o.err
+	@${MV}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.LST ${OBJECTDIR}/Atividade9.o.lst
+	@${RM}  /home/andre/Documents/2019.1/Microcontroladores/Atividade9.X/Atividade9.HEX 
 	@${DEP_GEN} -d "${OBJECTDIR}/Atividade9.o"
 	@${FIXDEPS} "${OBJECTDIR}/Atividade9.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	

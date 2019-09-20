@@ -1,4 +1,4 @@
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  1
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00041                                         ;USUÁRIO
   00000020            00042                 W_TEMP          ;REGISTRADORES TEMPORÁRIOS PARA USO
   00000021            00043                 STATUS_TEMP     ;JUNTO ÀS INTERRUPÇÕES
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  2
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -116,7 +116,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00094         ;1ms COM GP2 EM NÍVEL 1 DEPOIS VAI À 0
 0007   1505           00095         BSF     GPIO,GP2
 0008   0181           00096         CLRF    TMR0
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  3
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -175,7 +175,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 001F   1683           00147         BANK1                           ;ALTERA PARA O BANCO 1
 0020   3004           00148         MOVLW   B'00000100' ;CONFIGURA TODAS AS PORTAS DO GPIO (PINOS)
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  4
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -218,7 +218,7 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
                       00180 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00181 
 3FA5                  00182         END
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  5
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  5
 
 
 SYMBOL TABLE
@@ -277,7 +277,7 @@ GP0                               00000000
 GP1                               00000001
 GP2                               00000002
 GP3                               00000003
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  6
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  6
 
 
 SYMBOL TABLE
@@ -336,7 +336,7 @@ PS0                               00000000
 PS1                               00000001
 PS2                               00000002
 PSA                               00000003
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  7
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  7
 
 
 SYMBOL TABLE
@@ -395,7 +395,7 @@ WPU5                              00000005
 WR                                00000001
 WREN                              00000002
 WRERR                             00000003
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:09:06         PAGE  8
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  10:12:59         PAGE  8
 
 
 SYMBOL TABLE

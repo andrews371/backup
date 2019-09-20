@@ -1,4 +1,4 @@
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  1
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00041                                         ;USUÁRIO
   00000020            00042                 W_TEMP          ;REGISTRADORES TEMPORÁRIOS PARA USO
   00000021            00043                 STATUS_TEMP     ;JUNTO ÀS INTERRUPÇÕES
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  2
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -116,7 +116,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00094 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                       00095 ;*                 ROTINA DE SAÍDA DA INTERRUPÇÃO                  *
                       00096 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  3
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -175,7 +175,7 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
                       00144 
                       00145         ;CORPO DA ROTINA PRINCIPAL
 0018   1A03           00146         BTFSC   STATUS,4        ;TESTANDO O TO BARRADO
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  4
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -188,34 +188,36 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 001B                  00151 TESTA_GP2
 001B   1D05           00152         BTFSS   GPIO,GP2
 001C   2???           00153         GOTO    $ - 1
-001D   0064           00154         CLRWDT
-001E   1405           00155         BSF     GPIO,GP0
-                      00156         
-                      00157         ;DELAY 1ms
-001F   1683           00158         BANK1
-0020   3007           00159         MOVLW   B'00000111'
+001D   0063           00154         SLEEP
+001E   0000           00155         NOP
+001F   0064           00156         CLRWDT
+0020   1405           00157         BSF     GPIO,GP0
+                      00158         
+                      00159         ;DELAY 1ms
+0021   1683           00160         BANK1
+0022   3007           00161         MOVLW   B'00000111'
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0021   0081           00160         MOVWF   OPTION_REG      ;DEFINE OPÇÕES DE OPERAÇÃO DO TIMER0
-0022   1283           00161         BANK0
-0023   0181           00162         CLRF    TMR0
-0024   30FC           00163         MOVLW   .252
-0025   0081           00164         MOVWF   TMR0            ;PRE SCALER EM 256
-0026   1D0B           00165         BTFSS   INTCON,T0IF
-0027   2???           00166         GOTO    $ - 1
-0028   110B           00167         BCF     INTCON,T0IF
-                      00168         ;FIM DO DELAY
-                      00169 
-0029   1005           00170         BCF     GPIO,GP0
-002A   2???           00171         GOTO    TESTA_GP2
-                      00172         
-002B   2???           00173         GOTO MAIN
-                      00174 
-                      00175 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00176 ;*                       FIM DO PROGRAMA                           *
+0023   0081           00162         MOVWF   OPTION_REG      ;DEFINE OPÇÕES DE OPERAÇÃO DO TIMER0
+0024   1283           00163         BANK0
+0025   0181           00164         CLRF    TMR0
+0026   30FC           00165         MOVLW   .252
+0027   0081           00166         MOVWF   TMR0            ;PRE SCALER EM 256
+0028   1D0B           00167         BTFSS   INTCON,T0IF
+0029   2???           00168         GOTO    $ - 1
+002A   110B           00169         BCF     INTCON,T0IF
+                      00170         ;FIM DO DELAY
+                      00171 
+002B   1005           00172         BCF     GPIO,GP0
+002C   2???           00173         GOTO    TESTA_GP2
+                      00174         
+002D   2???           00175         GOTO MAIN
+                      00176 
                       00177 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                      00178 
-3FAC                  00179         END
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  5
+                      00178 ;*                       FIM DO PROGRAMA                           *
+                      00179 ;* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                      00180 
+3FAC                  00181         END
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  5
 
 
 SYMBOL TABLE
@@ -274,7 +276,7 @@ GP0                               00000000
 GP1                               00000001
 GP2                               00000002
 GP3                               00000003
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  6
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  6
 
 
 SYMBOL TABLE
@@ -333,7 +335,7 @@ PS0                               00000000
 PS1                               00000001
 PS2                               00000002
 PSA                               00000003
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  7
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  7
 
 
 SYMBOL TABLE
@@ -392,7 +394,7 @@ WPU4                              00000004
 WPU5                              00000005
 WR                                00000001
 WREN                              00000002
-MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-3-2019  12:17:13         PAGE  8
+MPASM 5.84  /HOME/ANDRE/DOCUMENTS/2019.1/MIC   9-19-2019  11:23:38         PAGE  8
 
 
 SYMBOL TABLE
@@ -402,7 +404,7 @@ WRERR                             00000003
 W_TEMP                            00000020
 Z                                 00000002
 _.org_1_001C                      0000001C
-_.org_1_0027                      00000027
+_.org_1_0029                      00000029
 _BODEN_OFF                        00003FBF
 _BODEN_ON                         00003FFF
 _BOREN_OFF                        00003FBF
