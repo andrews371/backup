@@ -21008,3 +21008,1340 @@ JavaScript warning: https://regstat.betfair.com/fp/check.js;CIS3SID=864CF285782F
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1571241626793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.o2smZx1fvNjx"
+*** You are running in headless mode.
+1571241629797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571241629798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571241629798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571241629798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571241638065	Marionette	INFO	Listening on port 42376
+1571241638142	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7284): dconf-WARNING **: 13:00:47.963: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571241964602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oJxnAeIBHUK7"
+*** You are running in headless mode.
+1571241965554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571241965554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571241965554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571241965555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571241969604	Marionette	INFO	Listening on port 37464
+1571241969626	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7945): dconf-WARNING **: 13:06:21.957: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fc116205055384&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fc116205055384&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571242001175	Marionette	INFO	Stopped listening on port 37464
+1571242188954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.grsiPX09wCI8"
+*** You are running in headless mode.
+1571242190000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571242190001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571242190001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571242190001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571242194063	Marionette	INFO	Listening on port 43531
+1571242194092	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8206): dconf-WARNING **: 13:10:05.356: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fc4aeeff53d48a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fc4aeeff53d48a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571242223411	Marionette	INFO	Stopped listening on port 43531
+1571242468110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9ztnyDJ6p06Z"
+*** You are running in headless mode.
+1571242469088	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571242469089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571242469089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571242469089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571242473082	Marionette	INFO	Listening on port 33599
+1571242473141	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8412): dconf-WARNING **: 13:14:41.424: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571242500504	Marionette	INFO	Stopped listening on port 33599
+1571242698813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zTO2FK1AOQC0"
+*** You are running in headless mode.
+1571242699846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571242699846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571242699847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571242699847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571242703903	Marionette	INFO	Listening on port 42086
+1571242703941	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8624): dconf-WARNING **: 13:18:32.236: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f20637d42dab7c8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f20637d42dab7c8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571242824646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PtSuqLvBAkTK"
+*** You are running in headless mode.
+1571242825805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571242825805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571242825806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571242825806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571242830041	Marionette	INFO	Listening on port 45331
+1571242830066	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8815): dconf-WARNING **: 13:20:38.723: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2d9cbca238a744&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2d9cbca238a744&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571242856940	Marionette	INFO	Stopped listening on port 45331
+1571243013578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wbIkCKnpqff9"
+1571243014745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243014745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243014746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243014746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243018882	Marionette	INFO	Listening on port 35167
+1571243018899	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9023): dconf-WARNING **: 13:23:47.465: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f16ec77ca05303c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f16ec77ca05303c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243045463	Marionette	INFO	Stopped listening on port 35167
+1571243114945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NMbjnaaz7waJ"
+1571243116156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243116156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243116157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243116157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243120264	Marionette	INFO	Listening on port 34096
+1571243120360	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9218): dconf-WARNING **: 13:25:29.086: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f220ce4833113e&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f220ce4833113e&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243159704	Marionette	INFO	Stopped listening on port 34096
+1571243298781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tZslHRmHy3K5"
+1571243300443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243300443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243300444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243300444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243304674	Marionette	INFO	Listening on port 42487
+1571243304732	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9512): dconf-WARNING **: 13:28:32.284: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2fa138562b011c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2fa138562b011c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243321711	Marionette	INFO	Stopped listening on port 42487
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571243369976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.di67uzA0Yv2R"
+1571243371265	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243371266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243371266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243371266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243375244	Marionette	INFO	Listening on port 36302
+1571243375298	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9716): dconf-WARNING **: 13:29:44.369: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3281d00f5fd62&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3281d00f5fd62&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243393347	Marionette	INFO	Stopped listening on port 36302
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571243411877	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iFbhxyIkLxhP"
+1571243413137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243413137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243413138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243413138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243417660	Marionette	INFO	Listening on port 33232
+1571243417695	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9915): dconf-WARNING **: 13:30:29.219: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571243438747	Marionette	INFO	Stopped listening on port 33232
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571243456132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zNjxbzYTpAjr"
+1571243457290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243457291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243457291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243457292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243461420	Marionette	INFO	Listening on port 45826
+1571243461455	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10129): dconf-WARNING **: 13:31:09.501: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f370fb743691eba&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f370fb743691eba&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243517438	Marionette	INFO	Stopped listening on port 45826
+1571243519448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aSy860hAO6vL"
+1571243521036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243521036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243521037	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243521037	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243525145	Marionette	INFO	Listening on port 37315
+1571243525169	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10335): dconf-WARNING **: 13:32:12.811: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3f6adcaf24636&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3f6adcaf24636&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243541863	Marionette	INFO	Stopped listening on port 37315
+1571243596342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.u5EgPIuL0yej"
+1571243597540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243597541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243597541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243597541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243601531	Marionette	INFO	Listening on port 37209
+1571243601564	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10537): dconf-WARNING **: 13:33:27.573: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f271ccfebf29d2c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f271ccfebf29d2c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243616428	Marionette	INFO	Stopped listening on port 37209
+1571243644927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RQctYY6V7iHC"
+1571243646132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243646132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243646133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243646134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243650189	Marionette	INFO	Listening on port 41784
+1571243650242	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10733): dconf-WARNING **: 13:34:18.479: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f293e8b95d8192a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f293e8b95d8192a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243666954	Marionette	INFO	Stopped listening on port 41784
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571243702637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6Uu1fxhdFzTp"
+1571243703797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243703797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243703798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243703798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243707876	Marionette	INFO	Listening on port 34772
+1571243707952	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10929): dconf-WARNING **: 13:35:19.948: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f16b54575017ede&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f16b54575017ede&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243771896	Marionette	INFO	Stopped listening on port 34772
+1571243775399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Nf0maRBIy98a"
+1571243776653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243776654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243776654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243776654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243780715	Marionette	INFO	Listening on port 42113
+1571243780819	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11134): dconf-WARNING **: 13:36:26.279: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2c9677139dcc28&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2c9677139dcc28&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243816785	Marionette	INFO	Stopped listening on port 42113
+1571243820553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PwS1BVttVtOM"
+1571243822047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243822047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243822047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243822048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243826157	Marionette	INFO	Listening on port 38669
+1571243826173	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11338): dconf-WARNING **: 13:37:11.617: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3d26f4f250864&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3d26f4f250864&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243861734	Marionette	INFO	Stopped listening on port 38669
+1571243874180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.D1bUjeUZe5JQ"
+1571243875291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243875292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243875292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243875292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243879783	Marionette	INFO	Listening on port 42027
+1571243879811	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11546): dconf-WARNING **: 13:38:08.145: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fb209cdc0b18ea&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fb209cdc0b18ea&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243908604	Marionette	INFO	Stopped listening on port 42027
+1571243916669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6i36MBUM2XeE"
+1571243917896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571243917896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571243917897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571243917897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571243922445	Marionette	INFO	Listening on port 44575
+1571243922503	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11747): dconf-WARNING **: 13:38:48.371: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1d98f42c1884d6&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1d98f42c1884d6&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571243932904	Marionette	INFO	Stopped listening on port 44575
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8624, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1571244107138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6XFywatu9GYl"
+1571244108267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571244108267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571244108268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571244108268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571244112860	Marionette	INFO	Listening on port 43421
+1571244112955	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11976): dconf-WARNING **: 13:42:01.481: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2ab29a1f82c2a4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2ab29a1f82c2a4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571244125929	Marionette	INFO	Stopped listening on port 43421
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571244573051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3FFyl3S6hwHO"
+1571244574162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571244574162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571244574163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571244574163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571244578627	Marionette	INFO	Listening on port 42222
+1571244578682	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12197): dconf-WARNING **: 13:49:47.511: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fe2819ac05b328&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fe2819ac05b328&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571244592531	Marionette	INFO	Stopped listening on port 42222
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571244990462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MXsEMjJuy6NK"
+1571244991746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571244991746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571244991747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571244991747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571244995858	Marionette	INFO	Listening on port 43294
+1571244995880	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12412): dconf-WARNING **: 13:56:44.231: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571245076006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.31svelKO5cH8"
+1571245077197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571245077197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571245077198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571245077198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571245081683	Marionette	INFO	Listening on port 36759
+1571245081727	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12339, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1571245083234	Marionette	INFO	Stopped listening on port 43294
+
+(/usr/lib/firefox/firefox:12626): dconf-WARNING **: 13:58:11.792: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2d4da9e131f9d8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2d4da9e131f9d8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571245093976	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1571245096787	Marionette	INFO	Stopped listening on port 36759
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571245151796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J8EGpfDSXwMU"
+1571245152954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571245152954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571245152955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571245152955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571245157183	Marionette	INFO	Listening on port 46073
+1571245157221	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12829): dconf-WARNING **: 13:59:27.003: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f249b889d306ed8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f249b889d306ed8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571245172553	Marionette	INFO	Stopped listening on port 46073
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 173: Error: Data is not ready.
+1571250878676	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F2ABvhXfpqhT"
+1571250888901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571250888901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571250888902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571250888902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+Exiting due to channel error.
+1571250997518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JMZx6gJ8wWHE"
+1571251005961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571251005961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571251005962	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571251005962	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571251013498	Marionette	INFO	Listening on port 43618
+1571251013633	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14978): dconf-WARNING **: 15:37:04.854: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fa5a8217e1b8f&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fa5a8217e1b8f&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571251574812	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3f2I7WjSJyEI"
+1571251580411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571251580411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571251580412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571251580412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571251592692	Marionette	INFO	Listening on port 41400
+1571251592741	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15439): dconf-WARNING **: 15:46:44.119: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3e45e1b4904d3e&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3e45e1b4904d3e&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571251628342	Marionette	INFO	Stopped listening on port 43618
+1571251689427	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MvtTVicQPkqs"
+1571251691099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571251691099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571251691099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571251691100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 15311, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1571251694158	Marionette	INFO	Stopped listening on port 41400
+1571251697223	Marionette	INFO	Listening on port 44418
+1571251697286	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15663): dconf-WARNING **: 15:48:23.400: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 15577, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1571251860791	Marionette	INFO	Stopped listening on port 44418
+1571251869914	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.unSNalGZKTcq"
+1571251871295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571251871296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571251871296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571251871297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571251876745	Marionette	INFO	Listening on port 40238
+1571251876851	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15864): dconf-WARNING **: 15:51:25.207: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571251892299	Marionette	INFO	Stopped listening on port 40238
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571251900590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A7iOL8ooUaxy"
+1571251902100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571251902100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571251902101	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571251902101	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571251907785	Marionette	INFO	Listening on port 41874
+1571251907829	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16067): dconf-WARNING **: 15:51:59.180: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571251924066	Marionette	INFO	Stopped listening on port 41874
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571251938732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OoWFC6F7pIAz"
+1571251940256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571251940257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571251940257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571251940257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571251945651	Marionette	INFO	Listening on port 33756
+1571251945667	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16267): dconf-WARNING **: 15:52:34.922: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571251987863	Marionette	INFO	Stopped listening on port 33756
+1571252012815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lLftKoIJwPTU"
+1571252014267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252014267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252014268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252014268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252020536	Marionette	INFO	Listening on port 40292
+1571252020575	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16482): dconf-WARNING **: 15:53:46.880: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 683))
+1571252113138	Marionette	INFO	Stopped listening on port 40292
+1571252181296	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O4bzD6F9Tio2"
+1571252182476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252182477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252182477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252182477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252186568	Marionette	INFO	Listening on port 33496
+1571252186629	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16700): dconf-WARNING **: 15:56:34.599: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571252205055	Marionette	INFO	Stopped listening on port 33496
+1571252314874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TlEqK87EBnbM"
+1571252316084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252316085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252316085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252316085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252321175	Marionette	INFO	Listening on port 34405
+1571252321200	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16907): dconf-WARNING **: 15:58:50.644: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571252340849	Marionette	INFO	Stopped listening on port 34405
+1571252465127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ow9uIcIKZfCU"
+1571252466329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252466329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252466330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252466330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252470497	Marionette	INFO	Listening on port 33250
+1571252470550	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:17144): dconf-WARNING **: 16:01:18.498: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571252506403	Marionette	INFO	Stopped listening on port 33250
+1571252657315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1PNiWHJn7Vic"
+1571252658582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252658582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252658583	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252658583	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252662638	Marionette	INFO	Listening on port 37694
+1571252662735	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:17366): dconf-WARNING **: 16:04:31.900: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f27b1e7f25b07b&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f27b1e7f25b07b&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571252681442	Marionette	INFO	Stopped listening on port 37694
+1571252827716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SqvxaRo7Qg3Z"
+1571252828917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252828917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252828918	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252828918	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252833059	Marionette	INFO	Listening on port 44334
+1571252833135	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:17573): dconf-WARNING **: 16:07:24.227: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f17a8711d4fc946&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f17a8711d4fc946&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571252854276	Marionette	INFO	Stopped listening on port 44334
+1571252875125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G9dsKx47UrTj"
+1571252876302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252876302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252876302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252876303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252880358	Marionette	INFO	Listening on port 40089
+1571252880441	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:17776): dconf-WARNING **: 16:08:10.277: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f37d3290b32d4aa&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f37d3290b32d4aa&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571252901829	Marionette	INFO	Stopped listening on port 40089
+1571252977328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.S5qoAFrL4E85"
+1571252978451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571252978452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571252978452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571252978452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571252982487	Marionette	INFO	Listening on port 45395
+1571252982554	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:17978): dconf-WARNING **: 16:09:51.680: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571253003255	Marionette	INFO	Stopped listening on port 45395
+1571253096000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ABR4QM94KrDi"
+1571253097118	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253097119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253097119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253097119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253101459	Marionette	INFO	Listening on port 45208
+1571253101524	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18190): dconf-WARNING **: 16:11:52.977: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f35eb96665e427c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f35eb96665e427c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571253120797	Marionette	INFO	Stopped listening on port 45208
+1571253304176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YBv3rZYYI4H8"
+1571253305475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253305475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253305475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253305475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253309453	Marionette	INFO	Listening on port 35192
+1571253309511	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18402): dconf-WARNING **: 16:15:16.922: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571253325092	Marionette	INFO	Stopped listening on port 35192
+1571253350392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RFkEnToa0Fqy"
+1571253351561	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253351562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253351562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253351562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253355563	Marionette	INFO	Listening on port 46506
+1571253355624	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18598): dconf-WARNING **: 16:16:03.421: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571253422715	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GoV10t8F41IP"
+1571253423954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253423954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253423955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253423955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253428098	Marionette	FATAL	Remote protocol server failed to start: Error: Could not bind to port 39228 (NS_ERROR_SOCKET_ADDRESS_IN_USE)(chrome://marionette/content/server.js:94:17) JS Stack trace: set acceptConnections@server.js:94:17
+start@server.js:124:5
+init/<@marionette.js:499:21
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 18734, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 18734, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 173: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB list() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1571253460665	Marionette	INFO	Stopped listening on port 46506
+1571253472062	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oLZiVzJQ6mgJ"
+1571253473303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253473304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253473304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253473305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253477462	Marionette	INFO	Listening on port 44441
+1571253477486	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18985): dconf-WARNING **: 16:18:07.277: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 18913, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1571253543190	Marionette	INFO	Stopped listening on port 44441
+1571253548483	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kYBksk7H8W3G"
+1571253549936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253549936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253549936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253549936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253554033	Marionette	INFO	Listening on port 40129
+1571253554107	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:19193): dconf-WARNING **: 16:19:21.813: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571253607854	Marionette	INFO	Stopped listening on port 40129
+1571253610872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Iq4knnDTKzXO"
+1571253612023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253612023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253612024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253612024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253616088	Marionette	INFO	Listening on port 45775
+1571253616188	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:19396): dconf-WARNING **: 16:20:24.281: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 19324, Gecko_IOThread] WARNING: pipe error (131): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1571253645676	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TEN74QKS9OPt"
+1571253646850	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253646850	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253646850	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253646851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253651466	Marionette	INFO	Listening on port 34147
+1571253651500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571253653129	Marionette	INFO	Stopped listening on port 45775
+
+(/usr/lib/firefox/firefox:19590): dconf-WARNING **: 16:21:00.266: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2df62ec483644e&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2df62ec483644e&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571253678197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kNzafLB2RgI7"
+1571253679611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253679612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253679612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253679612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253683566	Marionette	INFO	Stopped listening on port 34147
+1571253684701	Marionette	INFO	Listening on port 43814
+1571253684722	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:19788): dconf-WARNING **: 16:21:35.949: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1bf2630be3693c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1bf2630be3693c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571253713965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.caJr8ILCqmEM"
+1571253715640	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253715640	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253715640	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253715640	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253717496	Marionette	INFO	Stopped listening on port 43814
+1571253720223	Marionette	INFO	Listening on port 41585
+1571253720285	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:19990): dconf-WARNING **: 16:22:10.084: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571253749198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.34jUKV3B5OXd"
+1571253750759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253750759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253750759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253750759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253754893	Marionette	INFO	Stopped listening on port 41585
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1571253755651	Marionette	INFO	Listening on port 39324
+1571253755727	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:20188): dconf-WARNING **: 16:22:44.809: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571253785650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ptHMKym06czO"
+1571253786816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253786817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253786817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253786817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253787867	Marionette	INFO	Stopped listening on port 39324
+1571253791387	Marionette	INFO	Listening on port 34719
+1571253791466	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:20391): dconf-WARNING **: 16:23:19.801: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fd99fa7ced6a58&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fd99fa7ced6a58&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571253820466	Marionette	INFO	Stopped listening on port 34719
+1571253820512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZAUAHtWnZy1J"
+1571253821713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253821713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253821713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253821713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253825878	Marionette	INFO	Listening on port 44168
+1571253825931	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:20589): dconf-WARNING **: 16:23:52.138: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3b76a270790182&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3b76a270790182&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571253853920	Marionette	INFO	Stopped listening on port 44168
+1571253938169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PKPTo9ZaL1R0"
+1571253939360	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253939361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253939361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253939361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253943509	Marionette	INFO	Listening on port 34789
+1571253943592	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:20851): dconf-WARNING **: 16:25:51.577: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571253973413	Marionette	INFO	Stopped listening on port 34789
+1571253974945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NluvEet6ZWZ2"
+1571253976135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571253976135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571253976135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571253976135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571253980405	Marionette	INFO	Listening on port 35791
+1571253980473	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:21048): dconf-WARNING **: 16:26:28.152: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1dbc373fedec26&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1dbc373fedec26&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571254013207	Marionette	INFO	Stopped listening on port 35791
+1571254024774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xY1KntjlNynB"
+1571254025930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571254025931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571254025931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571254025931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571254029977	Marionette	INFO	Listening on port 44631
+1571254030003	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:21250): dconf-WARNING **: 16:27:20.315: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fee1ee4731bcc4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fee1ee4731bcc4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571254067108	Marionette	INFO	Stopped listening on port 44631
+1571254721616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.h6mtI0xDHmMe"
+1571254722837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571254722837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571254722838	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571254722838	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571254727031	Marionette	INFO	Listening on port 44437
+1571254727048	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:21638): dconf-WARNING **: 16:38:53.842: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3057be21025454&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3057be21025454&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571254794779	Marionette	INFO	Stopped listening on port 44437
+1571254795856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j1vO3ztSI3tG"
+1571254797018	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571254797018	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571254797019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571254797019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571254801070	Marionette	INFO	Listening on port 37324
+1571254801085	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:21841): dconf-WARNING **: 16:40:10.181: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2786578e07a53&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2786578e07a53&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571254817082	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x540005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1571254834880	Marionette	INFO	Stopped listening on port 37324
+1571254929181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hRgdLXr9RLde"
+1571254930368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571254930368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571254930368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571254930369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571254934388	Marionette	INFO	Listening on port 38927
+1571254934413	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:22063): dconf-WARNING **: 16:42:22.699: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571254950454	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1571255112172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GzxHRrQpCX3o"
+1571255113347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255113347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255113347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255113348	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255117460	Marionette	INFO	Listening on port 44249
+1571255117493	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:22294): dconf-WARNING **: 16:45:26.444: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f348c29d89970ae&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f348c29d89970ae&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571255144809	Marionette	INFO	Stopped listening on port 38927
+1571255150469	Marionette	INFO	Stopped listening on port 44249
+1571255161096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OacmdT3KM52u"
+1571255162218	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255162219	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255162219	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255162219	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255166837	Marionette	INFO	Listening on port 39478
+1571255166913	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:22495): dconf-WARNING **: 16:46:16.423: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f27ef5a8485ffee&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f27ef5a8485ffee&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571255244825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0XZSqfzonjA8"
+1571255245952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255245952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255245953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255245953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255249964	Marionette	INFO	Listening on port 35096
+1571255250040	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:22696): dconf-WARNING **: 16:47:40.832: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571255278399	Marionette	INFO	Stopped listening on port 39478
+1571255284336	Marionette	INFO	Stopped listening on port 35096
+1571255307365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dUMEOh0ibHT0"
+1571255308520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255308520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255308521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255308521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255312654	Marionette	INFO	Listening on port 46347
+1571255312688	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:22913): dconf-WARNING **: 16:48:45.928: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f19ba02741a715a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f19ba02741a715a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571255361351	Marionette	INFO	Stopped listening on port 46347
+1571255365644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RT4OJkbca8W0"
+1571255366795	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255366796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255366796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255366796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255370921	Marionette	INFO	Listening on port 38935
+1571255370977	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23112): dconf-WARNING **: 16:49:42.174: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571255413797	Marionette	INFO	Stopped listening on port 38935
+1571255423332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.stB78WhGGeOV"
+1571255424634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255424634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255424634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255424635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255428761	Marionette	INFO	Listening on port 45726
+1571255428849	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23307): dconf-WARNING **: 16:50:37.772: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571255541588	Marionette	INFO	Stopped listening on port 45726
+1571255648164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7f5dPQEokpdD"
+1571255649281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255649281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255649282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255649282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255653449	Marionette	INFO	Listening on port 45676
+1571255653495	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23531): dconf-WARNING **: 16:54:18.472: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571255692884	Marionette	INFO	Stopped listening on port 45676
+1571255725643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gKUStw85I6nA"
+1571255726944	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255726944	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255726944	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255726945	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255731027	Marionette	INFO	Listening on port 33803
+1571255731081	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23727): dconf-WARNING **: 16:55:37.177: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=ff1a35726f5174&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=ff1a35726f5174&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571255770659	Marionette	INFO	Stopped listening on port 33803
+1571255797615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VJZ5FrsOkVJ9"
+1571255798821	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255798821	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255798822	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255798822	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255802966	Marionette	INFO	Listening on port 34744
+1571255803030	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23924): dconf-WARNING **: 16:56:51.581: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3a030b1e179e5c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3a030b1e179e5c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571255850436	Marionette	INFO	Stopped listening on port 34744
+1571255940985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Vi20GGQn2sR0"
+1571255942187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571255942188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571255942188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571255942188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571255946280	Marionette	INFO	Listening on port 37262
+1571255946309	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24138): dconf-WARNING **: 16:59:15.260: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571256000984	Marionette	INFO	Stopped listening on port 37262
+1571256010362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jdeBz24mXiCC"
+1571256011623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256011623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256011624	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256011624	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256015737	Marionette	INFO	Listening on port 44972
+1571256015785	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24379): dconf-WARNING **: 17:00:22.383: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f186184a6194fe4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f186184a6194fe4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571256049522	Marionette	INFO	Stopped listening on port 44972
+1571256053994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.T8NOG43aZOL1"
+1571256055173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256055174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256055175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256055175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256059749	Marionette	INFO	Listening on port 37759
+1571256059821	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24573): dconf-WARNING **: 17:01:08.327: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f176d62a5c44004&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f176d62a5c44004&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+[Parent 24503, Gecko_IOThread] WARNING: pipe error (123): Connection reset by peer: file /build/firefox-6Lhy2L/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1571256094380	Marionette	INFO	Stopped listening on port 37759
+1571256149448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9PN7ZrVrjgN5"
+1571256150616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256150616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256150616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256150617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256154703	Marionette	INFO	Listening on port 38619
+1571256154765	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24772): dconf-WARNING **: 17:02:43.542: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1637a14087401&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1637a14087401&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571256197482	Marionette	INFO	Stopped listening on port 38619
+1571256273782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pEjmh178stsA"
+1571256274926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256274926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256274926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256274927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256278967	Marionette	INFO	Listening on port 40745
+1571256279001	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24982): dconf-WARNING **: 17:04:47.596: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1490cb99d9a3f&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1490cb99d9a3f&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571256395871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9Fum5f8Cq8qo"
+1571256397006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256397006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256397007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256397007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256401110	Marionette	INFO	Listening on port 34802
+1571256401189	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25184): dconf-WARNING **: 17:06:51.071: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2f9ff431a58568&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2f9ff431a58568&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571256440785	Marionette	INFO	Stopped listening on port 40745
+1571256444104	Marionette	INFO	Stopped listening on port 34802
+1571256518561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.buctrF71XfoT"
+1571256519661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256519662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256519662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256519662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256523615	Marionette	INFO	Listening on port 44374
+1571256523691	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25397): dconf-WARNING **: 17:08:52.024: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571256560523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SGJ8RiAbriTa"
+1571256561606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256561606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256561606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256561607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256565747	Marionette	INFO	Listening on port 46238
+1571256565840	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25593): dconf-WARNING **: 17:09:32.271: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fcad32b8d52708&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fcad32b8d52708&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571256613610	Marionette	INFO	Stopped listening on port 46238
+1571256615149	Marionette	INFO	Stopped listening on port 44374
+1571256632774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Le1D14xSDZg9"
+1571256633914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256633914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256633914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256633915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256638137	Marionette	INFO	Listening on port 42004
+1571256638199	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25800): dconf-WARNING **: 17:10:43.159: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f7d910c92ae27a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f7d910c92ae27a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571256679220	Marionette	INFO	Stopped listening on port 42004
+1571256682999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QUcjzVXgSZ0V"
+1571256684096	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256684097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256684097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256684097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256688531	Marionette	INFO	Listening on port 36792
+1571256688639	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26011): dconf-WARNING **: 17:11:36.067: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 683))
+1571256732403	Marionette	INFO	Stopped listening on port 36792
+1571256746932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZbJBgo2XZOy4"
+1571256748049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256748049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256748050	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256748050	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256752333	Marionette	INFO	Listening on port 40507
+1571256752364	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26223): dconf-WARNING **: 17:12:39.307: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571256799878	Marionette	INFO	Stopped listening on port 40507
+1571256872490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.o3WSmKQPRFVw"
+1571256873558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256873558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256873559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256873559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256877554	Marionette	INFO	Listening on port 40334
+1571256877612	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26425): dconf-WARNING **: 17:14:43.883: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3c431c25d0451c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3c431c25d0451c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571256918955	Marionette	INFO	Stopped listening on port 40334
+1571256976060	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1M27eE5TR39N"
+1571256977174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571256977174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571256977174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571256977175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571256981192	Marionette	INFO	Listening on port 36739
+1571256981277	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26624): dconf-WARNING **: 17:16:28.514: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571257022937	Marionette	INFO	Stopped listening on port 36739
+1571257081404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.irRCRK4jCH5W"
+1571257082555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571257082556	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571257082556	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571257082557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571257086598	Marionette	INFO	Listening on port 32940
+1571257086630	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26829): dconf-WARNING **: 17:18:14.896: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3cff36297a6db8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3cff36297a6db8&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571257132724	Marionette	INFO	Stopped listening on port 32940
+1571257138411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.t5YdioCD0hEg"
+1571257139585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571257139585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571257139586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571257139586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571257143900	Marionette	INFO	Listening on port 35459
+1571257143935	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:27025): dconf-WARNING **: 17:19:09.370: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f117aea7c036b6a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f117aea7c036b6a&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571257184112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UHzrrO4ZyM6F"
+1571257185562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571257185562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571257185563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571257185563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571257185604	Marionette	INFO	Stopped listening on port 35459
+1571257189507	Marionette	INFO	Listening on port 46622
+1571257189535	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:27221): dconf-WARNING **: 17:19:58.554: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571257227362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VIEpPF0a3dbO"
+1571257228500	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571257228501	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571257228501	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571257228501	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571257232806	Marionette	INFO	Listening on port 46121
+1571257232886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571257233354	Marionette	INFO	Stopped listening on port 46622
+
+(/usr/lib/firefox/firefox:27450): dconf-WARNING **: 17:20:42.338: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2c5f739dea8ca6&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2c5f739dea8ca6&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571257264973	Marionette	INFO	Stopped listening on port 46121
+1571257281361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9DFulfr9SgcH"
+1571257282743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571257282743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571257282744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571257282744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571257286756	Marionette	INFO	Listening on port 37751
+1571257286784	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:27657): dconf-WARNING **: 17:21:33.661: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571257350654	Marionette	INFO	Stopped listening on port 37751
+1571261862890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DjKpwKS7vrGT"
+*** You are running in headless mode.
+1571261864268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571261864268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571261864269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571261864269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571261869242	Marionette	INFO	Listening on port 44795
+1571261869312	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:28264): dconf-WARNING **: 18:37:57.638: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f17182249330914&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f17182249330914&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571261898496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mCY6V2EcUAsc"
+*** You are running in headless mode.
+1571261899491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571261899491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571261899491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571261899492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571261903762	Marionette	INFO	Listening on port 46644
+1571261903817	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:28454): dconf-WARNING **: 18:38:34.498: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1c6a886757bcbc&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1c6a886757bcbc&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571261938463	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ztm4TjXkMQYN"
+*** You are running in headless mode.
+1571261940061	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571261940062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571261940062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571261940062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571261944560	Marionette	INFO	Listening on port 41085
+1571261944588	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:28649): dconf-WARNING **: 18:39:14.146: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571261989806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EUoLyaDEyYTJ"
+*** You are running in headless mode.
+1571261993104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571261993104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571261993104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571261993104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571261997290	Marionette	INFO	Listening on port 35461
+1571261997366	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:28825): dconf-WARNING **: 18:40:05.882: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1c0919dbec4c98&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f1c0919dbec4c98&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571262046679	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dgt8cMaXF5Sq"
+1571262049619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571262049619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571262049619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571262049620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571262058921	Marionette	INFO	Listening on port 46787
+1571262059013	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:29797): dconf-WARNING **: 18:41:15.092: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f39f0f6ff595846&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f39f0f6ff595846&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571262125672	Marionette	INFO	Stopped listening on port 46787
+1571262130150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ppHfrEn0HuuU"
+1571262145901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571262145902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571262145903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571262145903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571262155652	Marionette	INFO	Listening on port 36848
+1571262155740	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:30126): dconf-WARNING **: 18:42:57.865: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f220e796f3ac99c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f220e796f3ac99c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571262243726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DEIgy4ovNRMT"
+1571262246968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571262246968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571262246969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571262246969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571262251885	Marionette	INFO	Listening on port 36316
+1571262251906	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:30331): dconf-WARNING **: 18:44:22.787: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fd955d5905d208&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fd955d5905d208&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1571262283983	Marionette	INFO	Stopped listening on port 36848
+1571262288404	Marionette	INFO	Stopped listening on port 36316
+1571262333783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.I6Bnasov8V1e"
+*** You are running in headless mode.
+1571262336041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571262336041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571262336041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571262336042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571262341438	Marionette	INFO	Listening on port 46195
+1571262341516	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:30568): dconf-WARNING **: 18:45:50.833: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571262681345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IlLVEfaScxL4"
+*** You are running in headless mode.
+1571262682331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571262682331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571262682331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571262682332	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571262686544	Marionette	INFO	Listening on port 36670
+1571262686570	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:30814): dconf-WARNING **: 18:51:35.549: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571263081772	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KR1BbNgknLsu"
+*** You are running in headless mode.
+1571263094740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571263094740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571263094741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571263094741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571263114124	Marionette	INFO	Listening on port 38036
+1571263114306	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:31102): dconf-WARNING **: 18:58:47.779: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571263437472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sKjbzifh0LFH"
+*** You are running in headless mode.
+1571263445743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571263445743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571263445757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571263445757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571263461488	Marionette	INFO	Listening on port 33618
+1571263462091	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:31415): dconf-WARNING **: 19:04:36.541: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1571263976017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dnwCewYP6vWe"
+*** You are running in headless mode.
+1571263982344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571263982345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571263982345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571263982345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571263991590	Marionette	INFO	Listening on port 36769
+1571263991733	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:31768): dconf-WARNING **: 19:13:19.157: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571264011466	Marionette	INFO	Stopped listening on port 36769
+1571264225202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iNTOWbvL0PbG"
+*** You are running in headless mode.
+1571264226221	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571264226221	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571264226222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571264226222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571264230296	Marionette	INFO	Listening on port 42824
+1571264230325	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:31962): dconf-WARNING **: 19:17:19.900: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1571264251957	Marionette	INFO	Stopped listening on port 42824
+1571264633048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4V8u56fiy3U2"
+*** You are running in headless mode.
+1571264634082	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571264634083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571264634083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571264634083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571264638151	Marionette	INFO	Listening on port 37255
+1571264638175	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:32178): dconf-WARNING **: 19:24:07.731: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fb4839af3178fc&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=fb4839af3178fc&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571264659748	Marionette	INFO	Stopped listening on port 37255
+1571264722568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WfFYT1AkNDVG"
+*** You are running in headless mode.
+1571264723681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571264723681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571264723681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571264723682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571264727844	Marionette	INFO	Listening on port 39172
+1571264727892	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:32371): dconf-WARNING **: 19:25:34.994: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3acdb0b3aa998c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3acdb0b3aa998c&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571264746784	Marionette	INFO	Stopped listening on port 39172
+1571264756569	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CabJcZki3h1u"
+*** You are running in headless mode.
+1571264757636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571264757637	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571264757637	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571264757637	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571264761749	Marionette	INFO	Listening on port 34742
+1571264761788	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:32559): dconf-WARNING **: 19:26:07.331: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f68a044baf7be4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f68a044baf7be4&origin=https%3A%2F%2Fwww.sofascore.com, line 47: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1571264779904	Marionette	INFO	Stopped listening on port 34742

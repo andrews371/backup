@@ -1,13 +1,4 @@
- oddscasa >= 2.2 and 3 and resultadoht = "1x0" and chutesnogolcasa > chutesnogolvisitante + 1 and chutesgrandeareacasa > chutesgrandeareavisitante + 1
+oddscasa >= 2 and resultadoht = "1x0" and chutesnogolcasa > chutesnogolvisitante + 1
 
 
-oddscasa >= 2.2 and 3 andresultadoht = "1x0" and chutesnogolcasa > chutesnogolvisitante + 1 and chutesgrandeareacasa > chutesgrandeareavisitante + 1 and vencedorft = 1
-
-
-
-2.2 and 3 sem comportamento
-67.2% 	1.49
-
-
-2.2 and 3 com comportamento
-83.2	1.20
+oddscasa >= 2 and resultadoht = "1x0" and chutesnogolcasa > chutesnogolvisitante + 1 and vencedorft = 1
