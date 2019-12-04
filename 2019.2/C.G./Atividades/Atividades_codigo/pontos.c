@@ -13,7 +13,7 @@ void display()
       glVertex3f (0.75, 0.25, 0.0);
       glColor3f(0,0,1);
       glVertex3f (0.75, 0.75, 0.0);
-   glEnd(); // fim da função para desenhar pontos "GL_POINTS"
+  glEnd(); // fim da função para desenhar pontos "GL_POINTS"
 
   glFlush (); // Imprime na tela do pc o que estava no buffer ( todo o desenho feito )
 
