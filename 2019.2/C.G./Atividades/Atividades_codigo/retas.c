@@ -18,7 +18,7 @@ void display()
 	glBegin(GL_POINTS); // função para desenho de pontos
 
 	inicio = clock(); // inicío da marcação de tempo para e eq. da reta
-	for (int i = 0; i <= REPETICOES; i++){
+	for (int i = 0; i <= REPETICOES; i++){ // REPETICOES é uma constante no valor de 10000
 	 	// eq. da reta
   		m = (yf - yi) / (xf - xi);
 
@@ -117,11 +117,11 @@ void display()
     	
     }
 
-    fim = clock(); // fim da marcação de tempo para o algoritmo de Bresenham
+    fim = clock(); // fim da marcação de tempo para o algoritmo de Bresenham nativo
     tempo = fim - inicio;
     tempo = (tempo * 1000 / CLOCKS_PER_SEC);
 
-    printf("Tempo Bresenham %f milissegundos\n\n", tempo); 
+    printf("Tempo de Bresenham nativo %f milissegundos\n\n", tempo); 
 
 
  	glEnd(); // fim da função para desenhar pontos "GL_POINTS"
