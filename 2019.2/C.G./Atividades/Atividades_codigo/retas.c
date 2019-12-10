@@ -47,9 +47,9 @@ void display()
     	// DDA
       	m = (yf - yi) / (xf - xi);
 
-    	// indica qual a cor o ponto terá
-    	glColor3f(0,1,0);
-    	glVertex3f(xi,yi,0.0);
+      	// indica qual a cor o ponto terá
+      	glColor3f(0,1,0);
+      	glVertex3f(xi,yi,0.0);
       	glVertex3f(xf,yf,0.0);  
 
     	y_aux = yi;
@@ -79,20 +79,20 @@ void display()
       	glVertex3f(xi,yi,0.0);
       	glVertex3f(xf,yf,0.0);  
 
-    	y = yi;
+      	y = yi;
 
-    	dx = xf - xi; dy = yf- yi;
-    	p = (2 * dy) - dx;
+      	dx = xf - xi; dy = yf- yi;
+      	p = (2 * dy) - dx;
 
-    	for (x = xi + 1; x < xf; x++){
-    		if (p < 0) {
-    			p = p + (2 * dy);
-    		}
-    		else {
-    			y = y + 1; p = p + (2 * dy) - (2 * dx);
-    		}
-    		glVertex3f(x,y,0.0);
-    	}
+      	for (x = xi + 1; x < xf; x++){
+      		if (p < 0) {
+      			p = p + (2 * dy);
+      		}
+      		else {
+      			y = y + 1; p = p + (2 * dy) - (2 * dx);
+      		}
+      		glVertex3f(x,y,0.0);
+    	  }
     }
 
     fim = clock(); // fim da marcação de tempo para o algoritmo de Bresenham
