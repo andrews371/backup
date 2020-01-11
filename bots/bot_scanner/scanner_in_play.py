@@ -600,9 +600,10 @@ inicio = time.time()
 fim = time.time()
 
 # final do nome do arquivo salvo quando nao puder salvar mais no atual
-cont_data = 1
+cont_data = 6
 
-while t.isAlive():
+#while t.isAlive():
+while (func == True or count < 3):
     try:
         func, inicio, fim, cont_data = scanner(inicio, fim, cont_data)
         if func == False:
