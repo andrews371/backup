@@ -2376,3 +2376,1007 @@ JavaScript warning: https://www.oddsportal.com/res/x/global-200108131053.js, lin
 1578935337105	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
 bail@chrome://marionette/content/sync.js:237:64
 1578935337415	Marionette	INFO	Stopped listening on port 44239
+1579094779138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1z1lDiJqOIDP"
+1579094780192	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579094780467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579094780467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579094780468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579094780468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579094783562	Marionette	INFO	Listening on port 46461
+1579094783661	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1579095161611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZbBCyZ6bAvkl"
+1579095162548	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579095162826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579095162826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579095162826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579095162826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579095166126	Marionette	INFO	Listening on port 43956
+1579095166139	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579095262341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lL3eNnBRgbfk"
+1579095263238	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579095263510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579095263510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579095263510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579095263511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579095268185	Marionette	INFO	Listening on port 43067
+1579095268258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579095364816	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QymcplqpQkxy"
+1579095365747	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579095366071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579095366071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579095366071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579095366071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579095369398	Marionette	INFO	Listening on port 43265
+1579095369436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579095649896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l2YxiVXxfxrw"
+1579095650857	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579095651134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579095651134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579095651134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579095651134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579095654475	Marionette	INFO	Listening on port 44438
+1579095654526	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579095828990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ayho7RwFEYsU"
+1579095829910	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579095830192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579095830192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579095830192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579095830192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579095833601	Marionette	INFO	Listening on port 35891
+1579095833692	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579096000391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yt0NZZEq9kHS"
+1579096001353	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579096001655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579096001655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579096001655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579096001656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579096004862	Marionette	INFO	Listening on port 42126
+1579096004907	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579096181839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5oDblMFOWtLW"
+1579096182897	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579096183185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579096183185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579096183186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579096183186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579096186469	Marionette	INFO	Listening on port 32833
+1579096186557	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579096607341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l4Y6lpgpJwE1"
+1579096608286	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579096608563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579096608563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579096608563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579096608563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579096611886	Marionette	INFO	Listening on port 45282
+1579096611969	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579096709837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MNdhPy62k9C8"
+1579096710752	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579096711024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579096711024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579096711024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579096711024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579096714260	Marionette	INFO	Listening on port 44446
+1579096715698	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+1579096760981	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579096818381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0tevUdruuB2m"
+1579096819326	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579096819603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579096819603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579096819603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579096819603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579096822915	Marionette	INFO	Listening on port 45804
+1579096824375	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097031316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.patDaXbtBRN8"
+1579097032235	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097032518	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097032518	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097032518	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097032519	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097035928	Marionette	INFO	Listening on port 45842
+1579097035945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097310784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZQmPHiN58cIc"
+1579097311736	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097312038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097312038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097312038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097312038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097315217	Marionette	INFO	Listening on port 33141
+1579097315307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097408835	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nIvdx8tWwPpb"
+1579097409768	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097410044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097410044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097410044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097410044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097413244	Marionette	INFO	Listening on port 42761
+1579097413280	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097560428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nLPoKxZI06Yg"
+1579097561543	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097561820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097561820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097561820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097561820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097565084	Marionette	INFO	Listening on port 45700
+1579097565141	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097656000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3tD2jGMYC4fQ"
+1579097657162	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097657447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097657448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097657448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097657448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097660647	Marionette	INFO	Listening on port 36975
+1579097660718	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097765882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.H0nuvaqz8mnZ"
+1579097766831	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097767136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097767136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097767136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097767137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097772141	Marionette	INFO	Listening on port 43420
+1579097772212	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097871108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JZ5VJgldlJ5p"
+1579097871979	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097872248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097872248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097872248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097872248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097875462	Marionette	INFO	Listening on port 46010
+1579097875528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579097953429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WhkRaX6yopw3"
+1579097954355	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579097954678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579097954679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579097954679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579097954679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579097958316	Marionette	INFO	Listening on port 36702
+1579097958349	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+1579097974361	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579098167302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b5myEajtdZII"
+1579098168234	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579098168521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579098168521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579098168522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579098168522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579098171947	Marionette	INFO	Listening on port 34239
+1579098172016	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1579098740798	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pjudpa9edAwV"
+1579098741728	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579098742005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579098742005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579098742006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579098742006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579098745244	Marionette	INFO	Listening on port 35015
+1579098745344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579107453100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PP8vhgQd2wiV"
+1579107454062	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579107454340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579107454340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579107454341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579107454341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579107458830	Marionette	INFO	Listening on port 34545
+1579107458929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579107669262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0vOoyZBh6xpp"
+1579107670118	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579107670386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579107670387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579107670387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579107670387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579107673647	Marionette	INFO	Listening on port 39260
+1579107673678	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579107756673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jFILDDSZmHDF"
+1579107758003	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579107758469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579107758469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579107758470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579107758470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579107763039	Marionette	INFO	Listening on port 42456
+1579107763093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579107880705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NmsqR1cV8F4s"
+1579107881662	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579107881938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579107881939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579107881939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579107881939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579107885477	Marionette	INFO	Listening on port 41382
+1579107885535	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579107953897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iywOdpG4fGfR"
+1579107954848	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579107955138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579107955138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579107955138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579107955138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579107958526	Marionette	INFO	Listening on port 42149
+1579107959787	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579108078918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.63cMCNWGayly"
+1579108079973	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579108080252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579108080252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579108080252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579108080252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579108083464	Marionette	INFO	Listening on port 41912
+1579108083531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579108144513	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NbyrQq2C9hEy"
+1579108145420	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579108145700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579108145700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579108145701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579108145701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579108148931	Marionette	INFO	Listening on port 40703
+1579108150464	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579108286176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oesLRTsO3x6X"
+1579108287090	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579108287356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579108287356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579108287357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579108287357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579108290471	Marionette	INFO	Listening on port 38519
+1579108290500	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579108445400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.v42N6OiX6a9a"
+1579108446342	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579108446609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579108446609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579108446610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579108446610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579108449828	Marionette	INFO	Listening on port 46402
+1579108449916	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 680"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:680:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:69
+addAllSources@resource://devtools/server/actors/thread.js:1379:14
+onSources@resource://devtools/server/actors/thread.js:1385:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 680, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 680: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 83))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:83:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:100:41
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 680"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:680:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:69
+addAllSources@resource://devtools/server/actors/thread.js:1379:14
+onSources@resource://devtools/server/actors/thread.js:1385:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 680, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 680: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 329: TypeError: this.contentWindow.windowRoot is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1579109379823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ImVRBt7MeOnB"
+1579109381790	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579109382076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579109382077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579109382077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579109382077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579109386897	Marionette	INFO	Listening on port 33841
+1579109386976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579109554345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PJjC5TBLbevs"
+1579109555221	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579109555535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579109555535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579109555536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579109555536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579109558785	Marionette	INFO	Listening on port 38895
+1579109558861	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579109959919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.e4syVwWFlIAY"
+1579109960883	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579109961155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579109961155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579109961155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579109961155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579109964324	Marionette	INFO	Listening on port 37978
+1579109964353	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579110063330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CAe2cGimmrk2"
+1579110064287	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579110064554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579110064555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579110064555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579110064555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579110068141	Marionette	INFO	Listening on port 41326
+1579110068154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579110334406	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.46uW3bYiHB9u"
+1579110335309	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579110335626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579110335626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579110335626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579110335626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579110338885	Marionette	INFO	Listening on port 41254
+1579110338937	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 680"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:680:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:69
+addAllSources@resource://devtools/server/actors/thread.js:1379:14
+onSources@resource://devtools/server/actors/thread.js:1385:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 680, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 680: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 329: TypeError: this.contentWindow.windowRoot is null
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 680"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:680:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:69
+addAllSources@resource://devtools/server/actors/thread.js:1379:14
+onSources@resource://devtools/server/actors/thread.js:1385:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 680, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 680: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579110534870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DaS0W5o6NtqF"
+1579110535784	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579110536049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579110536050	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579110536050	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579110536050	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579110539402	Marionette	INFO	Listening on port 43766
+1579110539485	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 680"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:680:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:69
+addAllSources@resource://devtools/server/actors/thread.js:1379:14
+onSources@resource://devtools/server/actors/thread.js:1385:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 680, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 680: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579110852631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EgSk3fX0kjZb"
+1579110853522	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579110853790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579110853790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579110853790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579110853790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579110857105	Marionette	INFO	Listening on port 40912
+1579110857161	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+1579110873719	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 680"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:680:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2097:69
+addAllSources@resource://devtools/server/actors/thread.js:1379:14
+onSources@resource://devtools/server/actors/thread.js:1385:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 680, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 680: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579110987111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.frrJanXurOH4"
+1579110988041	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579110988309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579110988309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579110988310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579110988310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579110991470	Marionette	INFO	Listening on port 33183
+1579110991532	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579111229224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vI0IHjpeNb5f"
+1579111230158	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579111230431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579111230431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579111230431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579111230431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579111233687	Marionette	INFO	Listening on port 36713
+1579111233743	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579111711708	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ehrfacSRbCjV"
+1579111712712	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579111713004	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579111713005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579111713005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579111713005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579111716212	Marionette	INFO	Listening on port 39940
+1579111716236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579111795278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9LvoQEWZRmd6"
+1579111797188	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579111797460	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579111797461	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579111797461	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579111797461	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579111800802	Marionette	INFO	Listening on port 32966
+1579111800897	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+1579111860169	Marionette	INFO	Stopped listening on port 32966
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1579112837240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Npns2EnL7M7n"
+1579112838199	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579112838532	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579112838533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579112838533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579112838533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579112841997	Marionette	INFO	Listening on port 37676
+1579112842060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+1579112900088	Marionette	INFO	Stopped listening on port 37676
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1579113313340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jLeHPmpJdY0N"
+1579113314235	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579113314502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579113314502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579113314502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579113314502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579113317751	Marionette	INFO	Listening on port 36638
+1579113317823	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+1579113354890	Marionette	INFO	Stopped listening on port 36638
+1579113912858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Oo94IPDW2K17"
+1579113913722	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579113913987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579113913987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579113913987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579113913988	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579113917187	Marionette	INFO	Listening on port 39954
+1579113917278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1579114038006	Marionette	INFO	Stopped listening on port 39954
+1579114169206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nnlu8tkb2Yqn"
+1579114170147	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579114170415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579114170415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579114170416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579114170416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579114173527	Marionette	INFO	Listening on port 42948
+1579114174886	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579114299172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mJ9Coe6JJzI5"
+1579114300109	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579114300389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579114300389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579114300389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579114300390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579114303535	Marionette	INFO	Listening on port 36444
+1579114303632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+1579114384678	Marionette	INFO	Stopped listening on port 36444
+1579114584268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.twnXQ6f2oDVl"
+1579114585251	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579114585524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579114585524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579114585524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579114585524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579114588717	Marionette	INFO	Listening on port 37938
+1579114588783	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1579114646551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pvw45ZAquwz5"
+1579114647528	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579114647800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579114647800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579114647800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579114647801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579114651110	Marionette	INFO	Listening on port 37057
+1579114651166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 329: TypeError: this.contentWindow.windowRoot is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579114907486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UmnLCzruEWOu"
+1579114908467	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579114908731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579114908731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579114908731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579114908731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579114911895	Marionette	INFO	Listening on port 43644
+1579114911968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+1579114929115	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 329: TypeError: this.contentWindow.windowRoot is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579121482313	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bLskmIIKs1LB"
+1579121483266	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579121483550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579121483551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579121483551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579121483551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579121486713	Marionette	INFO	Listening on port 35647
+1579121486745	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579121587943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2Biq5e72LMew"
+1579121588832	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579121589102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579121589102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579121589103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579121589103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579121593933	Marionette	INFO	Listening on port 45826
+1579121593990	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1579121899899	Marionette	INFO	Stopped listening on port 45826
+1579121972222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OskQ6nfGvm5a"
+1579121973165	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579121973448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579121973449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579121973449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579121973449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579121976933	Marionette	INFO	Listening on port 44652
+1579121976946	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+1579122051174	Marionette	INFO	Stopped listening on port 44652
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1579122509443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uP2l2dDKpKRI"
+1579122510357	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579122510679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579122510679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579122510679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579122510679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579122513943	Marionette	INFO	Listening on port 42108
+1579122513976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+1579122529732	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579122577705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.If5grCM6CLRR"
+1579122578683	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579122578950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579122578951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579122578951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579122578951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579122582223	Marionette	INFO	Listening on port 38178
+1579122582323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1579122658335	Marionette	INFO	Stopped listening on port 38178
+1579122661399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.k7XLlLrXlQ6Z"
+1579122662245	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579122662514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579122662514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579122662515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579122662515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579122665733	Marionette	INFO	Listening on port 41568
+1579122667429	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579122863351	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3rCwloGUMgkN"
+1579122864310	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579122864587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579122864587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579122864588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579122864588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579122867983	Marionette	INFO	Listening on port 46288
+1579122868090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+1579122927082	Marionette	INFO	Stopped listening on port 46288
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1579124087268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sWk7EYRzpeSX"
+1579124088268	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579124088542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579124088543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579124088543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579124088543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579124091766	Marionette	INFO	Listening on port 42827
+1579124091795	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/user/strategy.js?v=0.0.5, line 1798: unreachable code after return statement
+JavaScript warning: https://www.betaminic.com/system/js/filters.js?v=0.0.5, line 3610: unreachable code after return statement
+JavaScript error: https://www.betaminic.com/system/vendor/switchery/switchery.js?v=0.0.5, line 1: TypeError: this.element is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
