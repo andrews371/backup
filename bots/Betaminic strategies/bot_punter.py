@@ -125,10 +125,12 @@ def bhct(page, i, lista_hct, tam_lista_hct, liga_tipster):
             break        
 
 
-# In[2]:
+# In[6]:
 
 
 def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, data):
+    
+    lista_picks = []
     
     # analisando o filtro de ligas da estratégia 
     ligas_do_dia = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[0].text.strip()
@@ -146,8 +148,13 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
 
             while var != 0:                                                                       
                 try:
+                    # pegando hora
+                    hora = page.find('tbody').find_all('tr')[var].find_all('td')[0].text.strip() 
+
+                    # pegando nome das equipes
                     equipes = page.find('tbody').find_all('tr')[var].find_all('td')[1].text.strip()
                     times_do_dia = equipes.split(' - ')
+                    
                     for k in range(tam_teams_o25):
                         if (times_do_dia[0] == teams_o25[k]) or (times_do_dia[1] == teams_o25[k]):
                             
@@ -157,14 +164,12 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
                             url = url_inicial + page.find('tbody').find_all('tr')[var].find_all('td')[1].find_all('a')[tam_url - 1].get('href')
                            
                             # verificando o filtro de odds do empate que faz parte da estratégia over
-                            odd, hora = odds_draw(url)
+                            odd = odds_draw(url)
                             odd = float(odd)
                             
                             if (odd >= 3.20):  
                                 
                                 # filtro de odds ACEITO
-                                
-                                lista_picks = [''] * 6 
                                 
                                 data = 'Data: ' + data
                                 hora = 'Hora: ' + hora
@@ -172,15 +177,15 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
                                 liga = 'Liga: ' + liga
                                 equipes = 'Equipes: ' + equipes
                                 
-                                lista_picks[0] = data
-                                lista_picks[1] = hora
-                                lista_picks[2] = pais
-                                lista_picks[3] = liga
-                                lista_picks[4] = equipes
-                                lista_picks[5] = 'Método: Over 2.5 gols'
+                                lista_picks.append(data)
+                                lista_picks.append(hora)
+                                lista_picks.append(pais)
+                                lista_picks.append(liga)
+                                lista_picks.append(equipes)
+                                lista_picks.append('Método: Over 2.5 gols')
+                            
+                            break
                                 
-                                break
-
                     var += 1
                 except:
                     var = 0
@@ -264,9 +269,6 @@ def odds_draw(url):
     # acessa novo site
     driver.get(url)
     time.sleep(3)
-    
-    # pegando hora
-    hora = driver.find_element_by_css_selector('.date').text.split(',')[2].split(' ')[1]
           
     # aguardando carregamento de elemento da página
     WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'tr.lo:nth-child(9) > td:nth-child(1) > div:nth-child(1) > a:nth-child(2)')))
@@ -296,7 +298,7 @@ def odds_draw(url):
     
     driver.quit()
     
-    return ood, hora
+    return ood
 
 
 # In[ ]:
@@ -452,7 +454,7 @@ def telegram(picks, id_telegram):
 
             # formatando a hora
             if picks[i].split(":")[0] == 'Hora':
-                tips = tips + '*' + picks[1].split(":")[0] + ':' '*' + picks[1].split(":")[1] + ':' + picks[1].split(":")[2] + '\n'
+                tips = tips + '*' + picks[i].split(":")[0] + ':' '*' + picks[i].split(":")[1] + ':' + picks[i].split(":")[2] + '\n'
                 flag = False
             else:
                 tips = tips + '*' + picks[i].split(":")[0] + ':' '*' + picks[i].split(":")[1] + '\n'
@@ -468,7 +470,7 @@ def telegram(picks, id_telegram):
         print('Nenhuma tip para esta data')
 
 
-# In[ ]:
+# In[5]:
 
 
 # Script principal
@@ -578,13 +580,10 @@ for i in range(tam_ligas_do_dia):
                     
                     # chamando o Método Over 2.5
                     lista_de_picks = over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, data)
-                    picks.append(lista_de_picks[0])
-                    picks.append(lista_de_picks[1])
-                    picks.append(lista_de_picks[2])
-                    picks.append(lista_de_picks[3])
-                    picks.append(lista_de_picks[4])
-                    picks.append(lista_de_picks[5])
+                    tam_lista_de_picks = len(lista_de_picks)
                     
+                    for k in range(tam_lista_de_picks):
+                        picks.append(lista_de_picks[k])                    
                     
     except:
         continue
