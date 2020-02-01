@@ -131,13 +131,12 @@ def bhct(page, i, lista_hct, tam_lista_hct, liga_tipster):
 def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, data):
     
     lista_picks = []
-    
-    # analisando o filtro de ligas da estratégia 
-    ligas_do_dia = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[0].text.strip()
-    pais = ligas_do_dia
-    liga = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[1].text.strip()
-    ligas_do_dia = pais + ' ' + liga
 
+    # país e liga
+    ligas_do_dia = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[0].text.strip()\
+                   + ' ' + page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[1].text.strip()
+
+    # analisando o filtro de ligas da estratégia 
     for j in range(tam_leagues_o25):
         if ligas_do_dia == leagues_o25[j]:
 
@@ -151,8 +150,16 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
                     # pegando hora
                     hora = page.find('tbody').find_all('tr')[var].find_all('td')[0].text.strip() 
 
+                    # país
+                    pais = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[0].text.strip()
+                    
+                    # liga
+                    liga = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[1].text.strip()
+
                     # pegando nome das equipes
                     equipes = page.find('tbody').find_all('tr')[var].find_all('td')[1].text.strip()
+                    
+                    # quebrando em time da casa e visitante
                     times_do_dia = equipes.split(' - ')
                     
                     for k in range(tam_teams_o25):
@@ -171,13 +178,13 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
                                 
                                 # filtro de odds ACEITO
                                 
-                                data = 'Data: ' + data
+                                data_metodo = 'Data: ' + data
                                 hora = 'Hora: ' + hora
                                 pais = 'País: ' + pais
                                 liga = 'Liga: ' + liga
                                 equipes = 'Equipes: ' + equipes
                                 
-                                lista_picks.append(data)
+                                lista_picks.append(data_metodo)
                                 lista_picks.append(hora)
                                 lista_picks.append(pais)
                                 lista_picks.append(liga)
