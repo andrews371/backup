@@ -173,6 +173,9 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
                             # verificando o filtro de odds do empate que faz parte da estratégia over
                             odd = odds_draw(url)
                             odd = float(odd)
+
+                            print(odd)
+                            print(equipes)
                             
                             if (odd >= 3.20):  
                                 
@@ -279,7 +282,12 @@ def odds_draw(url):
           
     # aguardando carregamento de elemento da página
     WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'tr.lo:nth-child(9) > td:nth-child(1) > div:nth-child(1) > a:nth-child(2)')))
-    time.sleep(2) 
+    time.sleep(3) 
+
+    # rolar a página mais para baixo
+    body = driver.find_element_by_css_selector('body')
+    body.send_keys(Keys.PAGE_DOWN)
+    time.sleep(1)
 
     # pegando a odd do match odds
     
