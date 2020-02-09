@@ -14995,3 +14995,623 @@ bail@chrome://marionette/content/sync.js:237:64
 1580829478793	Marionette	INFO	Stopped listening on port 33315
 1580829501031	Marionette	INFO	Stopped listening on port 43349
 JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1580829842917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZOMMbdDBMrO2"
+*** You are running in headless mode.
+1580829843723	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580829843927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580829843927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580829843927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580829843927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580829846707	Marionette	INFO	Listening on port 34613
+1580829846728	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580829886106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LlLeIFDcmZKc"
+*** You are running in headless mode.
+1580829886994	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580829887203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580829887203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580829887204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580829887204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580829890180	Marionette	INFO	Listening on port 34628
+1580829890223	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580829908520	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580829909971	Marionette	INFO	Stopped listening on port 34628
+1580829919678	Marionette	INFO	Stopped listening on port 34613
+1580829989856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pYNSLu3tVAlB"
+*** You are running in headless mode.
+1580829990695	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580829990928	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580829991031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580829991032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580829991032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580829994006	Marionette	INFO	Listening on port 41924
+1580829994070	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830027515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Fl60nx68kGnm"
+*** You are running in headless mode.
+1580830028331	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830028536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830028536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830028536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830028537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830031436	Marionette	INFO	Listening on port 39107
+1580830031534	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830054993	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830056426	Marionette	INFO	Stopped listening on port 39107
+1580830067706	Marionette	INFO	Stopped listening on port 41924
+1580830141278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vLnOzsfyU5gz"
+*** You are running in headless mode.
+1580830142150	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830142355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830142483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830142483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830142484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830145544	Marionette	INFO	Listening on port 46543
+1580830145592	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830253927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6Db6BrG0dLux"
+*** You are running in headless mode.
+1580830254745	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830254946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830254946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830254947	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830254947	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830257860	Marionette	INFO	Listening on port 35661
+1580830257959	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830278383	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830279792	Marionette	INFO	Stopped listening on port 35661
+1580830517075	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4Go5vPdht1tL"
+*** You are running in headless mode.
+1580830517928	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830518135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830518135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830518135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830518136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830521171	Marionette	INFO	Listening on port 40893
+1580830521206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830546386	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830547788	Marionette	INFO	Stopped listening on port 40893
+1580830561370	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zp8cKNlkOnnL"
+*** You are running in headless mode.
+1580830562240	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830562495	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830562591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830562591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830562591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830565371	Marionette	INFO	Listening on port 35551
+1580830565394	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830586064	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830587460	Marionette	INFO	Stopped listening on port 35551
+1580830668384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rqWurkkGkYwy"
+*** You are running in headless mode.
+1580830669236	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830669473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830669550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830669550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830669551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830672702	Marionette	INFO	Listening on port 33779
+1580830672797	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830692930	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830694307	Marionette	INFO	Stopped listening on port 33779
+1580830701434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZBfGpQ9opA6B"
+*** You are running in headless mode.
+1580830702290	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830702506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830702507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830702507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830702507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830705703	Marionette	INFO	Listening on port 45305
+1580830705751	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830727326	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830728713	Marionette	INFO	Stopped listening on port 45305
+1580830767855	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ALCZJTRKkNS1"
+*** You are running in headless mode.
+1580830768728	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830768946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830768946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830768946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830768947	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830772004	Marionette	INFO	Listening on port 35104
+1580830772067	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830791727	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830793120	Marionette	INFO	Stopped listening on port 35104
+1580830874746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jthMxBo9j97n"
+*** You are running in headless mode.
+1580830875717	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830875992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830875992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830875993	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830875993	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830879220	Marionette	INFO	Listening on port 36140
+1580830879259	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830900310	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830901684	Marionette	INFO	Stopped listening on port 36140
+1580830931194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pViapmMus8nA"
+*** You are running in headless mode.
+1580830932040	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830932245	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830932245	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830932246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830932246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830935254	Marionette	INFO	Listening on port 36567
+1580830935313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830956391	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580830957785	Marionette	INFO	Stopped listening on port 36567
+1580830974126	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G6PokN6uFima"
+*** You are running in headless mode.
+1580830974985	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580830975202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580830975202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580830975203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580830975203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580830978266	Marionette	INFO	Listening on port 37327
+1580830978337	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580830999655	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580831001037	Marionette	INFO	Stopped listening on port 37327
+1580831206542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.odlHTTVJHQ3f"
+*** You are running in headless mode.
+1580831207358	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580831207574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580831207574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580831207575	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580831207575	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580831210616	Marionette	INFO	Listening on port 38516
+1580831210664	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1580831231192	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580831232569	Marionette	INFO	Stopped listening on port 38516
+1580831259643	Marionette	INFO	Stopped listening on port 46543
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1581026820984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W2nEMwwQN31Z"
+*** You are running in headless mode.
+1581026821965	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581026822186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581026822186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581026822186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581026822186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581026829490	Marionette	INFO	Listening on port 40388
+1581026829547	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581026874861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.a0jVgahk3zae"
+*** You are running in headless mode.
+1581026875658	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581026875860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581026875860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581026875861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581026875861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581026878553	Marionette	INFO	Listening on port 36688
+1581026878579	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581026894854	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581026896260	Marionette	INFO	Stopped listening on port 36688
+1581026909640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jHN6PJ8T21nd"
+*** You are running in headless mode.
+1581026912170	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581026912373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581026912373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581026912373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581026912373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581026915606	Marionette	INFO	Listening on port 38994
+1581026915642	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581026933675	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581026935112	Marionette	INFO	Stopped listening on port 38994
+1581027051433	Marionette	INFO	Stopped listening on port 40388
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1581127200525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ryJpNSkvIeY9"
+*** You are running in headless mode.
+1581127202634	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581127203102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581127203102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581127203103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581127203103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581127209696	Marionette	INFO	Listening on port 42508
+1581127211237	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581127734019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gQ87M1wG4UIL"
+*** You are running in headless mode.
+1581127735932	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581127736270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581127736270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581127736271	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581127736271	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581127744982	Marionette	INFO	Listening on port 37829
+1581127745045	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581127760270	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581127761675	Marionette	INFO	Stopped listening on port 37829
+1581127852095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gX5bzLPgDj55"
+*** You are running in headless mode.
+1581127852951	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581127853162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581127853162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581127853162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581127853163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581127857073	Marionette	INFO	Listening on port 37578
+1581127857129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581127878262	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581127879655	Marionette	INFO	Stopped listening on port 37578
+1581127904694	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1a9UcszZBu9Y"
+*** You are running in headless mode.
+1581127905528	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581127905782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581127905782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581127905793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581127905794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581127908821	Marionette	INFO	Listening on port 36967
+1581127908907	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581127925154	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581127926570	Marionette	INFO	Stopped listening on port 36967
+1581127974623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A8PfEcGN8QBf"
+*** You are running in headless mode.
+1581127975477	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581127975705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581127975705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581127975706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581127975706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581127978735	Marionette	INFO	Listening on port 43509
+1581127978840	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581128000706	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581128002117	Marionette	INFO	Stopped listening on port 43509
+1581128012460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pW9aHhOXWwq3"
+*** You are running in headless mode.
+1581128013368	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581128013593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581128013593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581128013594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581128013594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581128016913	Marionette	INFO	Listening on port 40772
+1581128016975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581128036464	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581128037928	Marionette	INFO	Stopped listening on port 40772
+1581128166273	Marionette	INFO	Stopped listening on port 42508
+1581128955696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F91gTFY75yiI"
+*** You are running in headless mode.
+1581128956552	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581128956751	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581128956751	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581128956752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581128956752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581128959692	Marionette	INFO	Listening on port 46656
+1581128959717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581128996878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uWB1OGklT4Du"
+*** You are running in headless mode.
+1581128997752	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581128997950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581128997951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581128997951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581128997951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129000727	Marionette	INFO	Listening on port 44261
+1581129000791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129016966	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129018351	Marionette	INFO	Stopped listening on port 44261
+1581129077891	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hBFLTqZpTCR9"
+*** You are running in headless mode.
+1581129078756	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129078958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129078959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129078959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129078959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129081964	Marionette	INFO	Listening on port 35732
+1581129082012	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129108349	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129109782	Marionette	INFO	Stopped listening on port 35732
+1581129163906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wRofRSPgUcWd"
+*** You are running in headless mode.
+1581129164735	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129164943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129164943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129164943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129164943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129167893	Marionette	INFO	Listening on port 38919
+1581129167921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129186363	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129187835	Marionette	INFO	Stopped listening on port 38919
+1581129217114	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PrNDReAu8GeF"
+*** You are running in headless mode.
+1581129217962	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129218170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129218171	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129218171	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129218171	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129220917	Marionette	INFO	Listening on port 33938
+1581129220939	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129237349	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129238795	Marionette	INFO	Stopped listening on port 33938
+1581129252224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3yPriVgGhlgF"
+*** You are running in headless mode.
+1581129253066	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129253268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129253269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129253269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129253269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129256123	Marionette	INFO	Listening on port 40906
+1581129256143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129276957	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129278383	Marionette	INFO	Stopped listening on port 40906
+1581129307131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FAJwKd0iyqqX"
+*** You are running in headless mode.
+1581129307977	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129308181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129308181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129308181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129308181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129311133	Marionette	INFO	Listening on port 39636
+1581129311160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129333553	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129334974	Marionette	INFO	Stopped listening on port 39636
+1581129348319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8eXAPdckEKzx"
+*** You are running in headless mode.
+1581129349115	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129349326	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129349327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129349327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129349327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129352483	Marionette	INFO	Listening on port 42368
+1581129352532	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129378402	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129379839	Marionette	INFO	Stopped listening on port 42368
+1581129424431	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oxQYcbCHn5kX"
+*** You are running in headless mode.
+1581129425273	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129425476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129425477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129425477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129425477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129428203	Marionette	INFO	Listening on port 46222
+1581129428251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129450277	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129451660	Marionette	INFO	Stopped listening on port 46222
+1581129462618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4iYBCTj1EnId"
+*** You are running in headless mode.
+1581129463503	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129463706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129463706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129463706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129463707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129466818	Marionette	INFO	Listening on port 40607
+1581129466853	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129487377	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129488796	Marionette	INFO	Stopped listening on port 40607
+1581129509135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KelyHRLbWEqT"
+*** You are running in headless mode.
+1581129509950	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129510157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129510157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129510157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129510157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129512885	Marionette	INFO	Listening on port 39581
+1581129512948	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129528767	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129530213	Marionette	INFO	Stopped listening on port 39581
+1581129541064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DactCeHufumB"
+*** You are running in headless mode.
+1581129542023	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129542288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129542288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129542289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129542289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129545484	Marionette	INFO	Listening on port 40417
+1581129545588	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129568332	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129569738	Marionette	INFO	Stopped listening on port 40417
+1581129597691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.81vlo3jIjNpC"
+*** You are running in headless mode.
+1581129598479	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129598684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129598684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129598685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129598685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129601658	Marionette	INFO	Listening on port 36429
+1581129601710	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129617891	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129619304	Marionette	INFO	Stopped listening on port 36429
+1581129635597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xrFSvohHqSz9"
+*** You are running in headless mode.
+1581129636563	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581129636835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581129636835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581129636835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581129636835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581129639997	Marionette	INFO	Listening on port 46799
+1581129640015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581129662008	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581129663453	Marionette	INFO	Stopped listening on port 46799
+1581129704055	Marionette	INFO	Stopped listening on port 46656
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1581130047345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FhhPK07TlKWU"
+*** You are running in headless mode.
+1581130048143	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581130048349	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581130048350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581130048350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581130048350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581130051385	Marionette	INFO	Listening on port 36526
+1581130051458	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581130102948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eVNhdkbx7Uyd"
+*** You are running in headless mode.
+1581130103804	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581130104012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581130104012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581130104012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581130104012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581130106988	Marionette	INFO	Listening on port 37742
+1581130107061	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581130122946	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581130124374	Marionette	INFO	Stopped listening on port 37742
+1581130131499	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FKZ06HehkJAR"
+*** You are running in headless mode.
+1581130132331	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581130132547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581130132547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581130132547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581130132547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581130135478	Marionette	INFO	Listening on port 46233
+1581130135514	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581130151531	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581130152923	Marionette	INFO	Stopped listening on port 46233
+1581130159058	Marionette	INFO	Stopped listening on port 36526
+1581130887506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bGTwUWgSjzGS"
+*** You are running in headless mode.
+1581130888386	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581130888588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581130888588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581130888589	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581130888589	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581130891514	Marionette	INFO	Listening on port 39883
+1581130891533	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581130935274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.epcNlbFYb87S"
+*** You are running in headless mode.
+1581130936063	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581130936296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581130936296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581130936296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581130936297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581130939115	Marionette	INFO	Listening on port 35692
+1581130939185	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581130955117	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581130956517	Marionette	INFO	Stopped listening on port 35692
+1581130964111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.35ICaEJB9S6r"
+*** You are running in headless mode.
+1581130964918	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581130965131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581130965132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581130965132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581130965132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581130968719	Marionette	INFO	Listening on port 46551
+1581130968744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-200131070214.js, line 1: unreachable code after return statement
+1581130984936	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581130986353	Marionette	INFO	Stopped listening on port 46551
+1581130993045	Marionette	INFO	Stopped listening on port 39883
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.

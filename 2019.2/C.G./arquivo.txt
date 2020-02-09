@@ -1,4 +1,4 @@
-andre oliveira de sousa
-testando
-arquivo 1.2 
-vertice 1.2,0.29 3.25,-4.59
+andre oliveira de sousa lkjjfdlkf ldkfjdjlfk 
+testando andre oliveira de sousa
+arquivo 1.2 arquivo 1.2 arquivo 1.2 arquivo 1.2 arquivo 1.2 arquivo 1.2
+vertice1: 1.2,0.29 3.25,-4.59 vertice2: 2.2,0.29 3.25,-4.59 vertice3: 3.2,0.29 3.25,-4.59 vertice4: 4.2,0.29 3.25,-4.59
