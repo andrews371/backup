@@ -2,6 +2,21 @@
 #include<GL/glut.h> // biblioteca para usar o OpenGL
 #include<stdlib.h>
 
+void centro() {
+
+    glColor3f(0, 0, 1.5); // Cor das hélices   
+    
+    // Desenhando centro.
+    glBegin(GL_QUADS);
+        glVertex2d(0.25, 0.25); 
+        glVertex2f(0.25, -0.25);
+        glVertex2f(-0.25, -0.25);
+        glVertex2f(-0.25, 0.25);
+    glEnd();
+
+    glFlush(); // Imprime na tela o que estava armazenado no buffer.
+}
+
 void bastao() {
     glLineWidth(5); // Largura da linha
     glColor3f(0, 0, 0); // Cor da linha
@@ -14,23 +29,28 @@ void bastao() {
 void helices() {
     glMatrixMode(GL_MODELVIEW); // selecionando a matriz onde vamos aplicar as transformações
     glLoadIdentity();
-    float angulo = 30; // ângulo.
+    float angulo = 0; // ângulo.
 
     glColor3f(0, 0, 1.5); // Cor das hélices
     for(int i = 0; i < 4; i++) {
 
         glRotatef(angulo, 0.0, 0.0, 1.0); // Gira o objeto em torno do eixo Z
         // O giro é em graus, no sentido anti-horário.
+
+        glTranslatef(0.25, 0, 0);
+
         
         // Desenhando hélices.
-        glBegin(GL_TRIANGLES);
+        glBegin(GL_QUADS);
             glVertex2d(0.5, 0.5); 
             glVertex2f(0.5, 0.0);
             glVertex2f(0.0, 0.0);
+            glVertex2f(0.0, 0.5);
         glEnd();
 
+        //glLoadIdentity();
+
         angulo = 90;
-        
     }
     glFlush(); // Imprime na tela o que estava armazenado no buffer.
 
@@ -44,8 +64,9 @@ void display(){
     glOrtho(-3.0, 3.0, -3.0, 3.0, -1.0, 1.0);
 
     glClear(GL_COLOR_BUFFER_BIT); // Limpa toda a janela para a cor do comando glClearColor.
-    bastao();
-    helices();
+    centro(); // quadrado central do catavento
+    bastao(); // haste do catavento
+    helices(); // hélices
 }
 
 int main(int argc, char** argv){
