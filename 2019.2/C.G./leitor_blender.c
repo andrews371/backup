@@ -37,47 +37,10 @@ No* inserir_fim(No *lista, float dado){
 void imprimir_lista(No *lista){
 	No *percorre_lista = lista;
 	while(percorre_lista != NULL){
-		printf("%.2f ", percorre_lista->valor);
+		printf("%f\n", percorre_lista->valor);
 		percorre_lista = percorre_lista->prox;
 	}
 	printf("\n");
-}
-
-// ler o arquivo retornando informação a partir de uma string (referência) passada
-char* referencia(char separar[], char str[], char ref[], char separador[]){
-	char resultado[1000] = "";
-	bool flag = false;
-	separar = strtok(str, separador);
-
-	while(separar != NULL){
-
-		if (strcmp(separar, ref) == 0){ // igual a 0 significa palavras iguais
-			flag = true;
-		} 
-
-		if (flag == true){
-			strcat(resultado, separar);
-			strcat(resultado, " ");
-		}
-		separar = strtok(NULL, separador);
-	}
-	separar = resultado;
-	return separar;
-}
-
-// separa as strings pelo separador passado
-char* split(char separar[], char str[], char separador[]){
-	char resultado[1000] = "";
-	separar = strtok(str, separador);
-	while(separar != NULL){
-		strcat(resultado, separar);
-		strcat(resultado, " ");
-		separar = strtok(NULL, separador);
-		
-	}
-	
-	separar = resultado;
-	return separar;
 }
 
 
@@ -105,7 +68,7 @@ int main() {
 	imprimir_lista(lista);*/
 
 	// lendo arquivo
-	arq = fopen("arquivo.txt", "r");
+	arq = fopen("cubo.x3d", "r");
 	while(!feof(arq)){
 		ler = fgets(linha, 100, arq);
 		if (ler){
@@ -117,17 +80,55 @@ int main() {
 	printf("\n");
 	
 	char *separar;
-
+	char separador[] = " \n";
+	bool flag = false;
+	char face[4];
+	char vert[10];
+	float dado;
 
 	separar = strtok(str, separador);
 	while(separar != NULL){
-		strcat(resultado, separar);
-		strcat(resultado, " ");
-		separar = strtok(NULL, separador);
-		
-	}	
-	printf("separar = %s\n", separar);
-	strcpy(str, separar);
 
+		if (separar[0] == 'c' && separar[1] == 'o' && separar[2] == 'o' && separar[3] == 'r' && separar[4] == 'd' &&\
+			separar[5] == 'I' && separar[6] == 'n' && separar[7] == 'd' && separar[8] == 'e' && separar[9] == 'x') {
+
+				flag = true;
+				for (int i = 0; i < strlen(separar) - 1; i++){
+					if (separar[i] == '"'){
+						strcat(face, &separar[i + 1]);
+						
+						dado = atof(face);
+						lista = inserir_fim(lista, dado);
+					}
+				}
+		}
+
+		else if (separar[0] == 'p' && separar[1] == 'o' && separar[2] == 'i' && separar[3] == 'n' && separar[4] == 't' &&\
+			separar[5] == '=' && separar[6] == '"') {
+
+				flag = true;
+				for (int i = 0; i < strlen(separar) - 1; i++){
+					if (separar[i] == '"'){
+						strcat(vert, &separar[i + 1]);
+
+						dado = atof(vert);
+						lista = inserir_fim(lista, dado);
+					}
+				}
+		}
+
+		else if (strcmp(separar, "\"") == 0){
+			flag = false;
+		}
+
+		else if (flag == true){
+			dado = atof(separar);
+			lista = inserir_fim(lista, dado);
+		}
+
+		separar = strtok(NULL, separador);
+	}	
+
+	imprimir_lista(lista);
 	return 0;
 }
