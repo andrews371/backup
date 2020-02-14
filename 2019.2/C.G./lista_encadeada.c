@@ -80,44 +80,6 @@ char* split(char separar[], char str[], char separador[]){
 	return separar;
 }
 
-// separa as strings pelo separador passado e aloca posição de memória
-void split_aloca(char separar[], char str[], char separador[], No *lista){
-	char resultado[1000] = "";
-	separar = strtok(str, separador);
-	while(separar != NULL){
-		printf("split_aloca = %s\n", separar);
-		separar = strtok(NULL, separador);		
-	}
-}
-
-// checa em uma string o caractere passado
-char* checa_caractere(char separar[], char str[], char separador[], char caractere[], No *lista){
-	char simbolo, resultado[1000] = "";
-	int i;
-	char *separar2;
-	float num;
-	separar = strtok(str, separador);
-	while(separar != NULL){
-
-		for (i = 0; i < strlen(separar); i++){
-			simbolo = separar[i];
-			if (simbolo == ','){
-				strcpy(resultado,separar);
-				//split_aloca(separar2, resultado, ",", lista);
-				printf("resultado = %s\n", resultado);
-				//num = atof(separar);
-				//lista = inserir_fim(lista, num);
-			}	
-		}
-
-		separar = strtok(NULL, separador);
-		
-	}
-	
-	separar = resultado;
-	return separar;
-}
-
 
 // função principal
 int main() {
@@ -156,13 +118,16 @@ int main() {
 	
 	char *separar;
 
-	// extrair informação do arquivo a partir da referência (string) desejada
-	separar = referencia(separar, str, "vertice1:", " \n");
+
+	separar = strtok(str, separador);
+	while(separar != NULL){
+		strcat(resultado, separar);
+		strcat(resultado, " ");
+		separar = strtok(NULL, separador);
+		
+	}	
 	printf("separar = %s\n", separar);
 	strcpy(str, separar);
-
-	// verifica a ocorrência do último parâmetro passado abaixo, em cada string resultante da operação anterior
-	checa_caractere(separar, str, " ", ",", lista);
 
 	return 0;
 }
