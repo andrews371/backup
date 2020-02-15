@@ -67,7 +67,7 @@ int main() {
 	lista = inserir_fim(lista, 40);
 	imprimir_lista(lista);*/
 
-	// lendo arquivo
+	// lendo arquivo todo
 	arq = fopen("cubo.x3d", "r");
 	while(!feof(arq)){
 		ler = fgets(linha, 100, arq);
@@ -79,6 +79,7 @@ int main() {
 	fclose(arq);
 	printf("\n");
 	
+	// Variáveis usadas para ler os vértices e faces desejadas
 	char *separar;
 	char separador[] = " \n";
 	bool flag = false;
@@ -86,6 +87,7 @@ int main() {
 	char vert[10];
 	float dado;
 
+	// Lendo só os vértices e faces desejadas
 	separar = strtok(str, separador);
 	while(separar != NULL){
 
