@@ -36,6 +36,7 @@ No* inserir_fim(No *lista, float dado){
 // imprimindo lista
 void imprimir_lista(No *lista){
 	No *percorre_lista = lista;
+	// printf("%f\n", (percorre_lista+4)->valor);
 	while(percorre_lista != NULL){
 		printf("%f\n", percorre_lista->valor);
 		percorre_lista = percorre_lista->prox;

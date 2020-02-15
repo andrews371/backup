@@ -3,14 +3,11 @@
 #include<GL/glut.h>
 
 void desenha_cubo()
-{
-  glViewport(0 , 0, 500, 500);
-
-  glClear(GL_COLOR_BUFFER_BIT); // pinta o buffer com a cor indicada para o funda da janela
-
+{ 
   // muda para o sistema de coordenadas do modelo
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity(); // inicializa a matriz de transformação atual
+
   glTranslated(0, 0, -20); // define a posição do objeto na cena
 
   // realiza operações de rotação no objeto
@@ -45,8 +42,17 @@ void desenha_cubo()
          // e que está apenas no buffer.
 }
 
-void init(){
+void display(){
   glClearColor(0.0, 0.0, 0.0, 0.0); // indica a cor que será usada no fundo da janela
+  glClear(GL_COLOR_BUFFER_BIT); // pinta o buffer com a cor indicada para o funda da janela
+  glViewport(100 , 100, 125, 125);
+  desenha_cubo();
+
+  glViewport(50 , 50, 500, 500);
+  desenha_cubo();
+}
+
+void init(){
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity(); // inicializa a matriz de projeção atual
   glOrtho(-50.0, 50.0, -50.0, 50.0, 1, 50); 
@@ -62,7 +68,7 @@ int main(int argc, char** argv)
   glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
   glutCreateWindow("Cubo 3D"); // Título da janela
   init();
-  glutDisplayFunc(desenha_cubo); // chama a função que construímos para desenhar
+  glutDisplayFunc(display); // chama a função que construímos para desenhar
   glutMainLoop(); // até esse comando ser chamado a janela não é exibida.
   return 0;
 }
