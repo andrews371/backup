@@ -49,7 +49,7 @@ void init(){
   glClearColor(0.0, 0.0, 0.0, 0.0); // indica a cor que será usada no fundo da janela
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity(); // inicializa a matriz de projeção atual
-  glOrtho(-50.0, 50.0, -50.0, 50.0, 1, 50); 
+  glOrtho(-50.0, 50.0, -50.0, 50.0, 1, 50); // projeção paralela
   // glFrustum(-5.0, 5.0, -5.0, 5.0, 1, 50);
 
 }
