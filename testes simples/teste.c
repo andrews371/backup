@@ -4,13 +4,11 @@
 #include<string.h>
 
 int main(){
-	float a;
-	char v[10] = "-0.999999";
+	unsigned char a;
 
-	a = atof(v);
-
-
-	printf("%f\n", a);
+	for (int a = 0; a < 255; a++){
+		printf("%c\n", a);
+	}
 
 
 	return 0;

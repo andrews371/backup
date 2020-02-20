@@ -4,20 +4,25 @@
 
 GLint rx = 0, ry = 0, rz = 0;
 
+// protótipos
+void desenha_boneco();
+void display();
+void projecao(int w, int h);
+void redesenha(int w, int h);
+void teclado (unsigned char tecla, GLint x, GLint y);
+
 void desenha_boneco()
 { 
   // muda para o sistema de coordenadas do modelo
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity(); // inicializa a matriz de transformação atual
 
-  // tronco do boneco
   glTranslated(0, 0, -20); // define a posição do objeto na cena
-
-  // realiza operações de rotação no objeto
   glRotated(rx, 1, 0, 0);
   glRotated(ry, 0, 1, 0);
   glRotated(rz, 0, 0, 1);
 
+  // tronco do boneco
   glColor3f(1.0, 1.0, 1.0);
   glutSolidSphere(40, 30, 36); // raio, fatia (se diminuir fica mais "quadriculado") e pilha
 
@@ -42,15 +47,29 @@ void desenha_boneco()
          // e que está apenas no buffer.
 }
 
-void display(){
+void display() {
   glClearColor(0.0, 0.0, 0.0, 0.0); // indica a cor que será usada no fundo da janela
   glClear(GL_COLOR_BUFFER_BIT); // pinta o buffer com a cor indicada para o funda da janela
+  desenha_boneco();
+}
 
+void projecao(int w, int h){
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity(); // inicializa a matriz de projeção atual
-  glOrtho(-80.0, 80.0, -80.0, 80.0, 1, 100);  // projeção paralela
-  glViewport(0 , 0, 400, 400);
-  desenha_boneco();
+
+  if (w <= h) {
+    glOrtho(-80.0, 80.0, -80.0*h/w, 80.0*h/w, 1, 100);  // projeção paralela
+  }  
+  else {
+     glOrtho(-80.0*w/h, 80.0*w/h, -80.0, 80.0, 1, 100);  // projeção paralela
+  }
+  // glutPostRedisplay();  
+}
+
+void redesenha(int w, int h) {
+  glViewport(0,0,w,h); // mapeando toda a janela começando de 0,0 até o comprimento maximo w e altura maxima h
+  projecao(w, h); // função que irá projetar o desenho em tela
+  // glutPostRedisplay();
 }
 
 void teclado (unsigned char tecla, GLint x, GLint y){
@@ -64,7 +83,7 @@ void teclado (unsigned char tecla, GLint x, GLint y){
               break;
     case 'z':
     case 'Z': rz++;
-          break;
+              break;
   }
     display();
 }
@@ -76,8 +95,9 @@ int main(int argc, char** argv)
   glutInitWindowSize(500, 500); // Tamanho da janela que abrirá
   glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
   glutCreateWindow("Boneco de Neve"); // Título da janela
-  glutDisplayFunc(display); // chama a função que construímos para desenhar inclusive redesenha ao redimensionar janela
   glutKeyboardFunc(teclado);
+  glutDisplayFunc(display); // chama a função que construímos para desenhar inclusive redesenha ao redimensionar janela
+  glutReshapeFunc(redesenha);
 
   glutMainLoop(); // até esse comando ser chamado a janela não é exibida.
   return 0;

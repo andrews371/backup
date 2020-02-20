@@ -1,7 +1,30 @@
 // Andre Oliveira de Sousa - 11325684
 
 #include<GL/glut.h>
+GLint rx = 0, ry = 0, rz = 0;
 
+// Declaração das funções utilizadas
+void desenha_cubo();
+void teclado (unsigned char tecla, GLint x, GLint y);
+void display();
+
+
+int main(int argc, char** argv)
+{
+  glutInit(&argc,argv); // inicia a biblioteca glut. É a primeira rotina rotina a ser chamada
+  glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+  glutInitWindowSize(500, 500); // Tamanho da janela que abrirá
+  glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
+  glutCreateWindow("Cubo 3D"); // Título da janela
+  glutDisplayFunc(display); // chama a função que construímos para desenhar inclusive redesenha ao redimensionar janela
+  glutKeyboardFunc(teclado);
+
+  glutMainLoop(); // até esse comando ser chamado a janela não é exibida.
+  return 0;
+}
+
+
+// Funções utilizadas
 void desenha_cubo()
 { 
   // muda para o sistema de coordenadas do modelo
@@ -11,9 +34,9 @@ void desenha_cubo()
   glTranslated(0, 0, -20); // define a posição do objeto na cena
 
   // realiza operações de rotação no objeto
-  glRotated(30, 1, 0, 0);
-  glRotated(30, 0, 1, 0);
-  glRotated(30, 0, 0, 1);
+  glRotated(rx, 1, 0, 0);
+  glRotated(ry, 0, 1, 0);
+  glRotated(rz, 0, 0, 1);
 
   glBegin(GL_LINES);
 
@@ -34,12 +57,29 @@ void desenha_cubo()
 
     // desenhando o cubo
     glColor3f(0.0, 1.0, 1.0);
-    glutWireCube(15);
+    glutWireCube(20);
   glEnd();
 
   glFlush(); // esse comando exibe o que está armazenado no buffer
          // se esse comando não for chamado, a janela abrirá mas não exibirá nada que foi feito
          // e que está apenas no buffer.
+
+}
+
+void teclado (unsigned char tecla, GLint x, GLint y){
+  switch (tecla){
+    // rotação
+    case 'x':
+    case 'X': rx++;
+              break;
+    case 'y':
+    case 'Y': ry++;
+              break;
+    case 'z':
+    case 'Z': rz++;
+    		  break;
+  }
+    display();
 }
 
 void display(){
@@ -48,7 +88,7 @@ void display(){
 
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity(); // inicializa a matriz de projeção atual
-  glOrtho(-30.0, 30.0, -30.0, 30.0, 1, 50);  // projeção paralela
+  glOrtho(-50.0, 50.0, -50.0, 50.0, 1, 50);  // projeção paralela
   glViewport(100 , 100, 125, 125);
   desenha_cubo();
 
@@ -57,18 +97,7 @@ void display(){
   glFrustum(-5.0, 5.0, -5.0, 5.0, 1, 50); // projeção perpectiva
   glViewport(50 , 50, 500, 500);
   desenha_cubo();
-}
 
-int main(int argc, char** argv)
-{
-  glutInit(&argc,argv); // inicia a biblioteca glut. É a primeira rotina rotina a ser chamada
-  glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-  glutInitWindowSize(500, 500); // Tamanho da janela que abrirá
-  glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
-  glutCreateWindow("Cubo 3D"); // Título da janela
-  glutDisplayFunc(display); // chama a função que construímos para desenhar inclusive redesenha ao redimensionar janela
-  glutMainLoop(); // até esse comando ser chamado a janela não é exibida.
-  return 0;
 }
 
 // Obs.: comandos iniciados com glut são da glut, iniciados em glu são da glu

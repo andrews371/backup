@@ -1,0 +1,1 @@
+Para rotação em x, y e z, pressione as teclas "x", "y" e "z" respectivamente.
