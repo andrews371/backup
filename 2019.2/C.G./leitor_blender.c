@@ -36,7 +36,9 @@ No* inserir_fim(No *lista, float dado){
 // imprimindo lista
 void imprimir_lista(No *lista){
 	No *percorre_lista = lista;
-	// printf("%f\n", (percorre_lista+4)->valor);
+	int indice = 5;
+	indice = indice * 2;
+	// printf("%f\n", (percorre_lista+indice)->valor);
 	while(percorre_lista != NULL){
 		printf("%f\n", percorre_lista->valor);
 		percorre_lista = percorre_lista->prox;
@@ -99,8 +101,6 @@ int main() {
 				for (int i = 0; i < strlen(separar) - 1; i++){
 					if (separar[i] == '"'){
 						strcat(face, &separar[i + 1]);
-						
-						dado = atof(face);
 						lista = inserir_fim(lista, dado);
 					}
 				}
@@ -113,7 +113,6 @@ int main() {
 				for (int i = 0; i < strlen(separar) - 1; i++){
 					if (separar[i] == '"'){
 						strcat(vert, &separar[i + 1]);
-
 						dado = atof(vert);
 						lista = inserir_fim(lista, dado);
 					}

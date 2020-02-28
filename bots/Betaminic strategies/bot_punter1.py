@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[4]:
 
 
 # bot punter 
@@ -125,16 +125,21 @@ def bhct(page, i, lista_hct, tam_lista_hct, liga_tipster):
             break        
 
 
-# In[6]:
+# In[5]:
 
 
 def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, data):
     
     lista_picks = []
-
+    
     # país e liga
-    ligas_do_dia = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[0].text.strip()\
-                   + ' ' + page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[1].text.strip()
+    ligas_do_dia = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[0].text.strip()                   + ' ' + page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[1].text.strip()
+    
+    # analisando o filtro de ligas da estratégia 
+    ligas_do_dia = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[0].text.strip()
+    pais = ligas_do_dia
+    liga = page.find('tbody').find_all('tr')[i].find_all('th')[0].find_all('a')[1].text.strip()
+    ligas_do_dia = pais + ' ' + liga
 
     # analisando o filtro de ligas da estratégia 
     for j in range(tam_leagues_o25):
@@ -142,11 +147,12 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
 
             # filtro de ligas da estratégia ACEITO
 
-            # analisando o filtro de times da estratégia
             var = i + 1
 
+            # analisando o filtro de times da estratégia
             while var != 0:                                                                       
                 try:
+
                     # pegando hora
                     hora = page.find('tbody').find_all('tr')[var].find_all('td')[0].text.strip() 
 
@@ -161,7 +167,7 @@ def over_25(i, page, leagues_o25, tam_leagues_o25, teams_o25, tam_teams_o25, dat
                     
                     # quebrando em time da casa e visitante
                     times_do_dia = equipes.split(' - ')
-                    
+
                     for k in range(tam_teams_o25):
                         if (times_do_dia[0] == teams_o25[k]) or (times_do_dia[1] == teams_o25[k]):
                             
@@ -265,30 +271,20 @@ def odds_draw(url):
 
     # comentar a linha abaixo se for usar o navegador invisível e descomentar linhas no topo
     # driver = webdriver.Firefox() 
-    
-    # abre a nova aba
-    driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
-    time.sleep(1)
 
-    # muda de aba
-    driver.switch_to.window(driver.window_handles[1])
-
-    # acessa novo site
+    # acessa página
     driver.get(url)
     time.sleep(3)
           
     # aguardando carregamento de elemento da página
     WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'tr.lo:nth-child(9) > td:nth-child(1) > div:nth-child(1) > a:nth-child(2)')))
-    time.sleep(3) 
-
-    # rolar a página mais para baixo
-    body = driver.find_element_by_css_selector('body')
-    body.send_keys(Keys.PAGE_DOWN)
-    time.sleep(1)
+    time.sleep(3)   
 
     # pegando a odd do match odds
     
     # draw
+    bookmaker = ''
+    ood = ''
     for i in range(1, 20):  
         var = str(i)            
         try:
@@ -300,14 +296,39 @@ def odds_draw(url):
                 hov = ActionChains(driver).move_to_element(elem_opening_odd)
                 hov.perform()
                 data_in_the_bubble = driver.find_element_by_xpath("//*[@id='tooltiptext']")
-                ood = data_in_the_bubble.get_attribute("innerHTML").split('Opening odds:')[1].split('<strong>')[1].split('</strong>')[0]
+                ood = data_in_the_bubble.get_attribute("innerHTML").split('Opening odds:')[1].split('<strong>')[1].split('</strong>')[0] 
                 time.sleep(1)
+                print('oi 1')
                 break
         except:
             continue
 
-    
-    driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+    # se este if for aceito, então nao executou todo o if referente à pinnacle acima
+    print(f'bookmaker = {bookmaker}')
+    if ood == '':
+        print('oi 2')
+        # rolando a página mais para baixo
+        body = driver.find_element_by_css_selector('body')
+        body.send_keys(Keys.PAGE_DOWN)
+        time.sleep(1)
+
+        for i in range(1, 20):  
+            var = str(i)            
+            try:
+                bookmaker = driver.find_element_by_css_selector('tr.lo:nth-child('+ var +') > td:nth-child(1) > div:nth-child(1) > a:nth-child(2)').text
+                if bookmaker == 'Pinnacle':                      
+
+                    # pegando a odd de abertura do match odds - draw        
+                    elem_opening_odd = driver.find_element_by_css_selector('tr.lo:nth-child('+ var +') > td:nth-child(3)')
+                    hov = ActionChains(driver).move_to_element(elem_opening_odd)
+                    hov.perform()
+                    data_in_the_bubble = driver.find_element_by_xpath("//*[@id='tooltiptext']")
+                    ood = data_in_the_bubble.get_attribute("innerHTML").split('Opening odds:')[1].split('<strong>')[1].split('</strong>')[0]
+                    time.sleep(1)
+                    break
+            except:
+                continue
+
     
     driver.quit()
     
@@ -483,7 +504,7 @@ def telegram(picks, id_telegram):
         print('Nenhuma tip para esta data')
 
 
-# In[5]:
+# In[8]:
 
 
 # Script principal
