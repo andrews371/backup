@@ -1,8 +1,9 @@
 // Andre Oliveira de Sousa - 11325684
 
 #include<GL/glut.h>
+#include "leitor_blender.c"
 
-void desenha_cubo()
+void desenha_obj()
 {
   glViewport(0 , 0, 500, 500);
 
@@ -17,6 +18,17 @@ void desenha_cubo()
   glRotated(30, 1, 0, 0);
   glRotated(30, 0, 1, 0);
   glRotated(30, 0, 0, 1);
+
+  // variáveis necessárias
+  int tam_faces = 0, tam_vertices = 0, tam_vert_por_face = 0;
+  Lados *lista_faces = NULL;
+  Vertices *lista_vertices = NULL;
+
+  // chamando o leitor do objeto modelado no blender e carregando os vértices e faces
+  leitor(&tam_faces, &tam_vertices, &tam_vert_por_face, lista_faces, lista_vertices);
+
+  EDITAR AQUI
+  printf("%d\n", lista_faces->valor); 
 
 
   glColor3f(0,0,1);
@@ -81,6 +93,7 @@ glEnd();
   glFlush(); // esse comando exibe o que está armazenado no buffer
          // se esse comando não for chamado, a janela abrirá mas não exibirá nada que foi feito
          // e que está apenas no buffer.
+
 }
 
 void init(){
@@ -98,9 +111,9 @@ int main(int argc, char** argv)
   glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
   glutInitWindowSize(500, 500); // Tamanho da janela que abrirá
   glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
-  glutCreateWindow("Cubo 3D"); // Título da janela
+  glutCreateWindow("Objeto 3D"); // Título da janela
   init();
-  glutDisplayFunc(desenha_cubo); // chama a função que construímos para desenhar
+  glutDisplayFunc(desenha_obj); // chama a função que construímos para desenhar
   glutMainLoop(); // até esse comando ser chamado a janela não é exibida.
   return 0;
 }
