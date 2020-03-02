@@ -22,6 +22,8 @@ typedef struct vertices
 
 }Vertices;
 
+// Variáveis globais
+GLint rx = 30, ry = 30, rz = 30;
 int tam_faces = 0, tam_vertices = 0, tam_vert_por_face = 0;
 Lados *lista_faces = NULL;
 Vertices *lista_vertices = NULL;
@@ -29,7 +31,11 @@ Vertices *lista_vertices = NULL;
 
 // protótipos
 void desenha_obj();
-void init();
+void display();
+void projecao(int w, int h);
+void redesenha(int w, int h) ;
+void teclado (unsigned char tecla, GLint x, GLint y);
+
 Lados* inserir_fim_face(Lados *lista, int dado);
 Vertices* inserir_fim_vertice(Vertices *lista, float x, float y, float z);
 Lados* busca_face(int f, Lados *lista, int *tam_faces);
@@ -38,6 +44,8 @@ Vertices* busca_vertice(int v, Vertices *lista, int *tam_vertices);
 // função principal
 int main(int argc, char** argv)
 {
+	printf("\nPressionar as teclas x, y ou z para rotacionar em torno de x, y ou z respectivamente.\n");
+
 	// lendo arquivo
 	FILE *arq;
 	char *ler;
@@ -155,9 +163,9 @@ int main(int argc, char** argv)
 	glutInitWindowSize(500, 500); // Tamanho da janela que abrirá
 	glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
 	glutCreateWindow("Objeto 3D"); // Título da janela
-
-	init();
-	glutDisplayFunc(desenha_obj); // chama a função que construímos para desenhar
+	glutKeyboardFunc(teclado);
+	glutDisplayFunc(display); // chama a função que construímos para desenhar
+	glutReshapeFunc(redesenha);
 	glutMainLoop(); // até esse comando ser chamado a janela não é exibida.
 
 	return 0;
@@ -167,19 +175,15 @@ int main(int argc, char** argv)
 // FUNÇÕES
 void desenha_obj()
 {
-  glViewport(0 , 0, 500, 500);
-
-  glClear(GL_COLOR_BUFFER_BIT); // pinta o buffer com a cor indicada para o funda da janela
-
   // muda para o sistema de coordenadas do modelo
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity(); // inicializa a matriz de transformação atual
   glTranslated(0, 0, -15); // define a posição do objeto na cena
 
-  // realiza operações de rotação no objeto
-  glRotated(30, 1, 0, 0);
-  glRotated(30, 0, 1, 0);
-  glRotated(30, 0, 0, 1);
+ // realiza operações de rotação no objeto
+  glRotated(rx, 1, 0, 0);
+  glRotated(ry, 0, 1, 0);
+  glRotated(rz, 0, 0, 1);
 
   Lados *acessa_face;
   Vertices *acessa_vertice;
@@ -212,13 +216,47 @@ void desenha_obj()
 
 }
 
-void init(){
-  glClearColor(0.0, 0.0, 0.0, 0.0); // indica a cor que será usada no fundo da janela
+void projecao(int w, int h){
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity(); // inicializa a matriz de projeção atual
-  glOrtho(-10.0, 10.0, -10.0, 10.0, 1, 20); 
-  //glFrustum(-5.0, 5.0, -5.0, 5.0, 1, 50);
 
+  if (w <= h) {
+    glOrtho(-10.0, 10.0, -10.0*h/w, 10.0*h/w, 1, 20);   // projeção paralela
+  }  
+  else {
+     glOrtho(-10.0*w/h, 10.0*w/h, -10.0, 10.0, 1, 20);   // projeção paralela
+  }
+  // glutPostRedisplay();  
+}
+
+  
+
+void redesenha(int w, int h) {
+  glViewport(0,0,w,h); // mapeando toda a janela começando de 0,0 até o comprimento maximo w e altura maxima h
+  projecao(w, h); // função que irá projetar o desenho em tela
+  // glutPostRedisplay();
+}
+
+void teclado (unsigned char tecla, GLint x, GLint y){
+  switch (tecla){
+    // rotação
+    case 'x':
+    case 'X': rx++;
+              break;
+    case 'y':
+    case 'Y': ry++;
+              break;
+    case 'z':
+    case 'Z': rz++;
+    		  break;
+  }
+    display();
+}
+
+void display(){
+  glClearColor(0.0, 0.0, 0.0, 0.0); // indica a cor que será usada no fundo da janela
+  glClear(GL_COLOR_BUFFER_BIT); // pinta o buffer com a cor indicada para o funda da janela
+  desenha_obj();
 }
 
 // inserindo as faces no fim da lista
@@ -243,7 +281,6 @@ Lados* inserir_fim_face(Lados *lista, int dado){
 	return lista;
 }
 
-// EDITAR
 
 // inserindo os vértices no fim da lista
 Vertices* inserir_fim_vertice(Vertices *lista, float x, float y, float z){
@@ -270,7 +307,7 @@ Vertices* inserir_fim_vertice(Vertices *lista, float x, float y, float z){
 	return lista;
 }
 
-// imprimindo lista
+// buscando faces
 Lados* busca_face(int f, Lados *lista, int *tam_faces){
 	Lados *percorre_lista = lista;
 
@@ -289,6 +326,7 @@ Lados* busca_face(int f, Lados *lista, int *tam_faces){
 	printf("\n");
 }
 
+// buscando vértices
 Vertices* busca_vertice(int v, Vertices *lista, int *tam_vertices){
 	Vertices *percorre_lista = lista;
 

@@ -89,14 +89,14 @@ void display(){
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity(); // inicializa a matriz de projeção atual
   glOrtho(-50.0, 50.0, -50.0, 50.0, 1, 50);  // projeção paralela
-  glViewport(100 , 100, 125, 125);
+  glViewport(100 , 50, 200, 100);
   desenha_cubo();
 
-  glMatrixMode(GL_PROJECTION);
-  glLoadIdentity(); // inicializa a matriz de projeção atual
-  glFrustum(-5.0, 5.0, -5.0, 5.0, 1, 50); // projeção perpectiva
-  glViewport(50 , 50, 500, 500);
-  desenha_cubo();
+  // glMatrixMode(GL_PROJECTION);
+  // glLoadIdentity(); // inicializa a matriz de projeção atual
+  // glFrustum(-5.0, 5.0, -5.0, 5.0, 1, 50); // projeção perpectiva
+  // glViewport(50 , 50, 500, 500);
+  // desenha_cubo();
 
 }
 
