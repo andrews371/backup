@@ -16,8 +16,9 @@ int main(int argc, char** argv)
   glutInitWindowSize(500, 500); // Tamanho da janela que abrirá
   glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
   glutCreateWindow("Cubo 3D"); // Título da janela
-  glutDisplayFunc(display); // chama a função que construímos para desenhar inclusive redesenha ao redimensionar janela
   glutKeyboardFunc(teclado);
+  glutDisplayFunc(display); // chama a função que construímos para desenhar inclusive redesenha ao redimensionar janela
+  
 
   glutMainLoop(); // até esse comando ser chamado a janela não é exibida.
   return 0;
@@ -92,11 +93,11 @@ void display(){
   glViewport(100 , 50, 200, 100);
   desenha_cubo();
 
-  // glMatrixMode(GL_PROJECTION);
-  // glLoadIdentity(); // inicializa a matriz de projeção atual
-  // glFrustum(-5.0, 5.0, -5.0, 5.0, 1, 50); // projeção perpectiva
-  // glViewport(50 , 50, 500, 500);
-  // desenha_cubo();
+  glMatrixMode(GL_PROJECTION);
+  glLoadIdentity(); // inicializa a matriz de projeção atual
+  glFrustum(-5.0, 5.0, -5.0, 5.0, 1, 50); // projeção perpectiva
+  glViewport(50 , 50, 500, 500);
+  desenha_cubo();
 
 }
 

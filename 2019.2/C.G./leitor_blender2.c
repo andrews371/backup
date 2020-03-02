@@ -28,12 +28,9 @@ int tam_faces = 0, tam_vertices = 0, tam_vert_por_face = 0;
 Lados *lista_faces = NULL;
 Vertices *lista_vertices = NULL;
 
-// variável para criar a lista de exibição
-GLuint objeto;
 
 // protótipos
 void desenha_obj();
-void init();
 void display();
 void projecao(int w, int h);
 void redesenha(int w, int h) ;
@@ -166,7 +163,6 @@ int main(int argc, char** argv)
 	glutInitWindowSize(500, 500); // Tamanho da janela que abrirá
 	glutInitWindowPosition(0,0); // Posição em que a janela que abrirá irá aparecer na tela do PC
 	glutCreateWindow("Objeto 3D"); // Título da janela
-	init();
 	glutKeyboardFunc(teclado);
 	glutDisplayFunc(display); // chama a função que construímos para desenhar
 	glutReshapeFunc(redesenha);
@@ -179,6 +175,15 @@ int main(int argc, char** argv)
 // FUNÇÕES
 void desenha_obj()
 {
+  // muda para o sistema de coordenadas do modelo
+  glMatrixMode(GL_MODELVIEW);
+  glLoadIdentity(); // inicializa a matriz de transformação atual
+  glTranslated(0, 0, -15); // define a posição do objeto na cena
+
+ // realiza operações de rotação no objeto
+  glRotated(rx, 1, 0, 0);
+  glRotated(ry, 0, 1, 0);
+  glRotated(rz, 0, 0, 1);
 
   Lados *acessa_face;
   Vertices *acessa_vertice;
@@ -203,23 +208,13 @@ void desenha_obj()
 		}
 		glEnd();
 	}
-  }
+  }   
+
+  glFlush(); // esse comando exibe o que está armazenado no buffer
+         	 // se esse comando não for chamado, a janela abrirá mas não exibirá nada que foi feito
+         	 // e que está apenas no buffer.
 
 }
-
-void init(){
-
-  objeto = glGenLists(2);
-  glNewList(objeto, GL_COMPILE);
-
-    glColor3f(1.0, 1.0, 1.0);
-    desenha_obj();
-
-  glEndList();
-  glShadeModel(GL_FLAT);
-
-}
-
 
 void projecao(int w, int h){
   glMatrixMode(GL_PROJECTION);
@@ -233,7 +228,8 @@ void projecao(int w, int h){
   }
   // glutPostRedisplay();  
 }
- 
+
+  
 
 void redesenha(int w, int h) {
   glViewport(0,0,w,h); // mapeando toda a janela começando de 0,0 até o comprimento maximo w e altura maxima h
@@ -257,28 +253,11 @@ void teclado (unsigned char tecla, GLint x, GLint y){
     display();
 }
 
-
 void display(){
   glClearColor(0.0, 0.0, 0.0, 0.0); // indica a cor que será usada no fundo da janela
   glClear(GL_COLOR_BUFFER_BIT); // pinta o buffer com a cor indicada para o funda da janela
-
-  // muda para o sistema de coordenadas do modelo
-  glMatrixMode(GL_MODELVIEW);
-  glLoadIdentity(); // inicializa a matriz de transformação atual
-  glTranslated(0, 0, -15); // define a posição do objeto na cena
-
- // realiza operações de rotação no objeto
-  glRotated(rx, 1, 0, 0);
-  glRotated(ry, 0, 1, 0);
-  glRotated(rz, 0, 0, 1);
-
-  // fazendo chamada à lista de exibição
-  glCallList(objeto);
-  glFlush(); // esse comando exibe o que está armazenado no buffer
-         	 // se esse comando não for chamado, a janela abrirá mas não exibirá nada que foi feito
-         	 // e que está apenas no buffer.
-  } 
-
+  desenha_obj();
+}
 
 // inserindo as faces no fim da lista
 Lados* inserir_fim_face(Lados *lista, int dado){

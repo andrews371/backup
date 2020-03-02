@@ -58,7 +58,7 @@ void projecao(int w, int h){
   glLoadIdentity(); // inicializa a matriz de projeção atual
 
   if (w <= h) {
-    glOrtho(-10.0, 10.0, -10.0*h/w, 10.0*h/w, 1, 100);  // projeção paralela
+    glOrtho(-80.0, 80.0, -80.0*h/w, 80.0*h/w, 1, 100);  // projeção paralela
   }  
   else {
      glOrtho(-80.0*w/h, 80.0*w/h, -80.0, 80.0, 1, 100);  // projeção paralela
